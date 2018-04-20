@@ -36,8 +36,8 @@
       \strng{fullhash}{d0b3b851c069652d59c660086f96742f}
       \strng{authornamehash}{d0b3b851c069652d59c660086f96742f}
       \strng{authorfullhash}{d0b3b851c069652d59c660086f96742f}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1735-1995}
@@ -76,8 +76,8 @@
       \strng{fullhash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authornamehash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authorfullhash}{10a6458f278e70fb53813dd1547208ff}
-      \field{sortinit}{9}
-      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-540-79075-4}
@@ -116,8 +116,8 @@
       \strng{fullhash}{c3553e9bdf1673b3a853fa578d23298e}
       \strng{authornamehash}{c3553e9bdf1673b3a853fa578d23298e}
       \strng{authorfullhash}{c3553e9bdf1673b3a853fa578d23298e}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Der kompakte Schnellüberblick liefert potenziellen Anwendern knappe aber ausreichend ausführliche Informationen über die {RFID}-Technologie, zu Einsatzstrategien und Implementierung und liefert darüber hinaus Beispiele und Erfahrungen von Anwendern. Ein umfangreiches Literaturverzeichnis hilft bei spezielleren Fragen weiter. Umfangreicher aber in der Zielrichtung vergleichbar ist der "Dummies"-Titel von P. Sweeney ({BA} 10/06). Die umfassendste Information liefert weiterhin das Handbuch von K. Finkenzeller ({BA} 1/07, aktualisierte Auflage 2008 ist lieferbar). Auf die Anwendung in Geschäftsprozessen konzentriert sich F. Gillert ({ID} 47/06), vor allem speziellere technische Aspekte behandelt H. Fischer ({ID} 4/07). Zur Erstinformation gut brauchbar, in ausgebauten Beständen sollte zusätzlich die genannte Vergleichsliteratur angeboten werden. (2)}
@@ -164,8 +164,8 @@
       \strng{fullhash}{1b432ead97951e4249a4221cc5c8d01f}
       \strng{authornamehash}{fef7529694aae0e5475bced4fad8c70b}
       \strng{authorfullhash}{1b432ead97951e4249a4221cc5c8d01f}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS'06)}
@@ -203,8 +203,8 @@
       \strng{fullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
       \strng{authornamehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
       \strng{authorfullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
-      \field{sortinit}{2}
-      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-47354-3}
@@ -275,8 +275,8 @@
       \strng{fullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authornamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authorfullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-10168-2}
@@ -299,8 +299,8 @@
       \endverb
     \endentry
     \entry{vizinex}{online}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labeltitlesource}{title}
       \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
       \field{day}{19}
