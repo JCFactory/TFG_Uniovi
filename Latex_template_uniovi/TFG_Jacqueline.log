@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  20 APR 2018 17:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  20 APR 2018 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1641,7 +1641,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 154
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<portadaInterior.pdf, id=288, 614.295pt x 794.97pt>
+<portadaInterior.pdf, id=289, 614.295pt x 794.97pt>
 File: portadaInterior.pdf Graphic file (type pdf)
  <use portadaInterior.pdf>
 Package pdftex.def Info: portadaInterior.pdf used on input line 161.
@@ -1652,7 +1652,7 @@ File: portadaInterior.pdf Graphic file (type pdf)
 Package pdftex.def Info: portadaInterior.pdf used on input line 161.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
-<portadaInterior.pdf, id=291, page=1, 614.295pt x 794.97pt>
+<portadaInterior.pdf, id=292, page=1, 614.295pt x 794.97pt>
 File: portadaInterior.pdf Graphic file (type pdf)
 
 <use portadaInterior.pdf, page 1>
@@ -1708,7 +1708,7 @@ Jacqueline.toc
 Chapter 1.
 (./secciones/kapitel1.tex [1
 
-] <logo_uniovi.png, id=472, 200.75pt x 162.6075pt>
+] <logo_uniovi.png, id=473, 200.75pt x 162.6075pt>
 File: logo_uniovi.png Graphic file (type png)
 
 <use logo_uniovi.png>
@@ -1904,7 +1904,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12] <Imagenes/leightweight.png, id=624, 330.48468pt x 143.78719pt>
+[12] <Imagenes/leightweight.png, id=625, 330.48468pt x 143.78719pt>
 File: Imagenes/leightweight.png Graphic file (type png)
 
 <use Imagenes/leightweight.png>
@@ -2124,7 +2124,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 Package acronym Info: Label `acro:SMLE' newly defined as it shall be overridden
 
 although it is yet undefined on input line 23.
- <Imagenes/rfidtagdesign.png, id=778, 342.5297pt x 136.25906pt>
+ <Imagenes/rfidtagdesign.png, id=779, 342.5297pt x 136.25906pt>
 File: Imagenes/rfidtagdesign.png Graphic file (type png)
 
 <use Imagenes/rfidtagdesign.png>
@@ -2186,7 +2186,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29] <Imagenes/rfidreaderdesign.png, id=833, 414.79968pt x 208.52907pt>
+[29] <Imagenes/rfidreaderdesign.png, id=834, 414.79968pt x 208.52907pt>
 File: Imagenes/rfidreaderdesign.png Graphic file (type png)
 
 <use Imagenes/rfidreaderdesign.png>
@@ -2275,7 +2275,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33] <Imagenes/chipless_architecture.png, id=888, 415.5525pt x 146.04562pt>
+[33] <Imagenes/chipless_architecture.png, id=889, 415.5525pt x 146.04562pt>
 File: Imagenes/chipless_architecture.png Graphic file (type png)
 
 <use Imagenes/chipless_architecture.png>
@@ -2283,7 +2283,7 @@ Package pdftex.def Info: Imagenes/chipless_architecture.png used on input line
 87.
 (pdftex.def)             Requested size: 441.01773pt x 155.00146pt.
 
-<Imagenes/chiplesstag.png, id=893, 296.60812pt x 183.68625pt>
+<Imagenes/chiplesstag.png, id=894, 296.60812pt x 183.68625pt>
 File: Imagenes/chiplesstag.png Graphic file (type png)
 
 <use Imagenes/chiplesstag.png>
@@ -2307,7 +2307,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [34 <./Imagenes/chipless_architecture.png>]
-<Imagenes/chiplessreader.png, id=908, 414.04688pt x 197.98969pt>
+<Imagenes/chiplessreader.png, id=909, 414.04688pt x 197.98969pt>
 File: Imagenes/chiplessreader.png Graphic file (type png)
 
 <use Imagenes/chiplessreader.png>
@@ -2526,7 +2526,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 ]
 Chapter 4.
-<Imagenes/nativescript_functionality.png, id=1062, 718.18312pt x 490.08093pt>
+<Imagenes/nativescript_functionality.png, id=1063, 718.18312pt x 490.08093pt>
 File: Imagenes/nativescript_functionality.png Graphic file (type png)
 
 <use Imagenes/nativescript_functionality.png>
@@ -2537,14 +2537,14 @@ line 15.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
-<Imagenes/app_architecture.png, id=1069, 586.19pt x 775.89874pt>
+<Imagenes/app_architecture.png, id=1070, 586.19pt x 775.89874pt>
 File: Imagenes/app_architecture.png Graphic file (type png)
 
 <use Imagenes/app_architecture.png>
 Package pdftex.def Info: Imagenes/app_architecture.png used on input line 59.
 (pdftex.def)             Requested size: 441.01773pt x 583.73404pt.
 
-<Imagenes/app_functionality.png, id=1070, 615.0478pt x 431.36156pt>
+<Imagenes/app_functionality.png, id=1071, 615.0478pt x 431.36156pt>
 File: Imagenes/app_functionality.png Graphic file (type png)
 
 <use Imagenes/app_functionality.png>
@@ -2592,7 +2592,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [52 <./Imagenes/app_functionality.png>])
 File: logo_uniovi.png Graphic file (type png)
  <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png used on input line 200.
+Package pdftex.def Info: logo_uniovi.png used on input line 191.
 (pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
 
@@ -2604,7 +2604,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 [53]
 File: logo_uniovi.png Graphic file (type png)
  <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png used on input line 200.
+Package pdftex.def Info: logo_uniovi.png used on input line 191.
 (pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
 
@@ -2615,43 +2615,59 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
 
 [54
 
-]
-File: logo_uniovi.png Graphic file (type png)
- <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png used on input line 205.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[55
+] [55
 
 ]
-File: logo_uniovi.png Graphic file (type png)
- <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png used on input line 205.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[56
-
-] [57]
 
 Package biblatex Warning: No driver for entry type 'video'.
-(biblatex)                Using fallback driver on input line 205.
+(biblatex)                Using fallback driver on input line 196.
 
 
 Package biblatex Warning: No driver for entry type 'software'.
-(biblatex)                Using fallback driver on input line 205.
+(biblatex)                Using fallback driver on input line 196.
 
+File: logo_uniovi.png Graphic file (type png)
+<use logo_uniovi.png>
+Package pdftex.def Info: logo_uniovi.png used on input line 200.
+(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 33.18587pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[56]
+Appendix A.
+(./secciones/abkuerzungen.tex [57
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{UHF}) has bee
+n already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 ...o{SARS}{Severe Acute Respiratory Syndrome}
+                                                  ]pdfTeX warning (ext4): desti
+nation with the same identifier (name{IoT}) has been already used, duplicate ig
+nored
+<to be read again> 
+                   \relax 
+l.33 \acro{IoT}{Internet of Things}
+                                   
+File: logo_uniovi.png Graphic file (type png)
+ <use logo_uniovi.png>
+Package pdftex.def Info: logo_uniovi.png used on input line 50.
+(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 33.18587pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[58]) 
+AED: lastpage setting LastPage
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png used on input line 209.
@@ -2663,68 +2679,20 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58] (./secciones/abkuerzungen.tex
-File: logo_uniovi.png Graphic file (type png)
- <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png used on input line 29.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[59
-
-pdfTeX warning (ext4): destination with the same identifier (name{UHF}) has bee
-n already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.29 ...{TMUH}{Taipei Medical University Hospital}
-                                                  ]pdfTeX warning (ext4): desti
-nation with the same identifier (name{IoT}) has been already used, duplicate ig
-nored
-<to be read again> 
-                   \relax 
-l.33 \acro{IoT}{Internet of Things}
-                                   
-File: logo_uniovi.png Graphic file (type png)
- <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png used on input line 52.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[60]) 
-AED: lastpage setting LastPage
-File: logo_uniovi.png Graphic file (type png)
-<use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png used on input line 217.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[61]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 217.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
+[59]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 209.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 209.
  (./TFG_Jacqueline.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 209.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 209.
 Package rerunfilecheck Info: File `TFG_Jacqueline.out' has not changed.
-(rerunfilecheck)             Checksum: 6F3B4472EE8F301682B0DE0E32F21902;5882.
+(rerunfilecheck)             Checksum: A0DA8EFA91830A37A133E8600F808371;5874.
 
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package logreq Info: Writing requests to 'TFG_Jacqueline.run.xml'.
 \openout1 = `TFG_Jacqueline.run.xml'.
@@ -2732,35 +2700,38 @@ Package logreq Info: Writing requests to 'TFG_Jacqueline.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  29003 strings out of 492995
- 522946 string characters out of 6132704
+ 522950 string characters out of 6132704
  949075 words of memory out of 5000000
- 31890 multiletter control sequences out of 15000+600000
+ 31891 multiletter control sequences out of 15000+600000
  74038 words of font info for 67 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  45i,18n,50p,10378b,2302s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/
-texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/20
-17/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-d
-ist/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/lm/lmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public
-/lm/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx8.
-pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/tex
-live/2017/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2017/texmf-dist/
-fonts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/lm/lmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/
-lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb><
-/usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/t
-exlive/2017/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2017/
-texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf-dist/f
-onts/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
-/public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
-/lmsy8.pfb>
-Output written on TFG_Jacqueline.pdf (70 pages, 6501441 bytes).
+pdfTeX warning (dest): name{page.61} has been referenced but does not exist, 
+replaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/te
+xlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2017
+/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/local/texlive/2017/texmf-dis
+t/fonts/enc/dvips/lm/lm-rmsc.enc}</usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/lm/lmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/l
+m/lmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx8.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/l
+ocal/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></usr/local/texli
+ve/2017/texmf-dist/fonts/type1/public/lm/lmmi12.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/lm/lmmi6.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/public/lm/lmmi7.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/lm/lmmi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lm
+r10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr12.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/tex
+live/2017/texmf-dist/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2017/te
+xmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf-dist/fon
+ts/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/p
+ublic/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/l
+msy8.pfb>
+Output written on TFG_Jacqueline.pdf (68 pages, 6500173 bytes).
 PDF statistics:
- 1282 PDF objects out of 1440 (max. 8388607)
- 1141 compressed objects within 12 object streams
- 272 named destinations out of 1000 (max. 500000)
+ 1274 PDF objects out of 1440 (max. 8388607)
+ 1135 compressed objects within 12 object streams
+ 271 named destinations out of 1000 (max. 500000)
  639 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,15 @@
 [0] Config.pm:354> INFO - This is Biber 2.7
 [0] Config.pm:357> INFO - Logfile is 'TFG_Jacqueline.blg'
-[42] biber-darwin:303> INFO - === Fri Apr 20, 2018, 17:51:04
-[76] Biber.pm:359> INFO - Reading 'TFG_Jacqueline.bcf'
-[192] Biber.pm:835> INFO - Found 14 citekeys in bib section 0
-[207] Biber.pm:3670> INFO - Processing section 0
-[226] Biber.pm:3840> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[229] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
-[238] bibtex.pm:1292> INFO - Found BibTeX data source 'literatur.bib'
-[325] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[325] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[325] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en_US'
-[326] Biber.pm:3505> INFO - No sort tailoring available for locale 'en_US'
-[336] bbl.pm:608> INFO - Writing 'TFG_Jacqueline.bbl' with encoding 'UTF-8'
-[338] bbl.pm:712> INFO - Output to TFG_Jacqueline.bbl
+[42] biber-darwin:303> INFO - === Fri Apr 20, 2018, 17:56:16
+[73] Biber.pm:359> INFO - Reading 'TFG_Jacqueline.bcf'
+[216] Biber.pm:835> INFO - Found 14 citekeys in bib section 0
+[231] Biber.pm:3670> INFO - Processing section 0
+[246] Biber.pm:3840> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[249] bibtex.pm:1435> INFO - Decoding LaTeX character macros into UTF-8
+[261] bibtex.pm:1292> INFO - Found BibTeX data source 'literatur.bib'
+[349] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[349] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[350] Biber.pm:3499> INFO - Sorting list 'none/global/' of type 'entry' with scheme 'none' and locale 'en_US'
+[350] Biber.pm:3505> INFO - No sort tailoring available for locale 'en_US'
+[359] bbl.pm:608> INFO - Writing 'TFG_Jacqueline.bbl' with encoding 'UTF-8'
+[362] bbl.pm:712> INFO - Output to TFG_Jacqueline.bbl
