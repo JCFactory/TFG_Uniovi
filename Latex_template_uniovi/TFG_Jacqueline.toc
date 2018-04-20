@@ -1,0 +1,74 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\contentsline {section}{\textsc {\IeC {\'I}ndice general}}{iii}{Doc-Start}
+\contentsline {section}{\textsc {\IeC {\'I}ndice de figuras}}{vii}{chapter*.1}
+\contentsline {section}{\textsc {\IeC {\'I}ndice de Tablas}}{ix}{chapter*.2}
+\contentsline {chapter}{\numberline {1}\textbf {Introduction}}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}Use, Scope and Limitations of RFID Technology}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Motivation}{3}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Decision Making}{3}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Internal Communication}{3}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Production process}{4}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Investment possibilities}{5}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}Medication Administration System}{5}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Wisely Aware RFID Dosage}{6}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}RFID applications in hospitals: A case study}{6}{subsection.2.1.7}
+\contentsline {section}{\numberline {2.2}Aim and Scope}{9}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}RFID and the IoT}{10}{subsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Compact Approximator based Tag Searching protocol}{11}{subsubsection.2.2.1.1}
+\contentsline {subsubsection}{\numberline {2.2.1.2}Iterative Tag Search Protocol}{12}{subsubsection.2.2.1.2}
+\contentsline {subsubsection}{\numberline {2.2.1.3}Lightweight Anonymous RFID Authentication}{13}{subsubsection.2.2.1.3}
+\contentsline {subsubsection}{\numberline {2.2.1.4}Identifying state-free networked tags}{14}{subsubsection.2.2.1.4}
+\contentsline {subsection}{\numberline {2.2.2}RFID and Mobile Computing}{15}{subsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.1}Basis functions of mobile computing and RFID}{16}{subsubsection.2.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2.2}Constraints of mobile applications and RFID}{17}{subsubsection.2.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.2.3}Service-oriented architectures}{17}{subsubsection.2.2.2.3}
+\contentsline {paragraph}{\numberline {2.2.2.3.1}Domain Architecture}{18}{paragraph.2.2.2.3.1}
+\contentsline {subsubsection}{\numberline {2.2.2.4}Service-oriented proposal of architecture}{18}{subsubsection.2.2.2.4}
+\contentsline {paragraph}{\numberline {2.2.2.4.1}Classic Integration Mechanism}{19}{paragraph.2.2.2.4.1}
+\contentsline {paragraph}{\numberline {2.2.2.4.2}Modern Integration Mechanism}{19}{paragraph.2.2.2.4.2}
+\contentsline {paragraph}{\numberline {2.2.2.4.3}Capabilities of SOA, mobile applications and RFID}{20}{paragraph.2.2.2.4.3}
+\contentsline {paragraph}{\numberline {2.2.2.4.4}Examples of SOA applications}{21}{paragraph.2.2.2.4.4}
+\contentsline {section}{\numberline {2.3}Analysis of RFID applications and their use}{22}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Process Model}{23}{subsection.2.3.1}
+\contentsline {chapter}{\numberline {3}Functionality of RFID technology}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}General Information}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Components of an RFID application}{25}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}RFID tags}{25}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}RFID readers}{28}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}RFID backend systems}{30}{subsubsection.3.1.1.3}
+\contentsline {paragraph}{\numberline {3.1.1.3.1}RFID Middleware}{31}{paragraph.3.1.1.3.1}
+\contentsline {paragraph}{\numberline {3.1.1.3.2}Data storage concepts}{31}{paragraph.3.1.1.3.2}
+\contentsline {subsection}{\numberline {3.1.2}Functionality of RFID system}{32}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Chipless RFID systems}{33}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Comparison: Chip-based vs. Chipless RFID systems}{33}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Design of chipless RFID tags}{35}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}Detection, identification and localization in chipless RFID systems}{36}{subsubsection.3.1.3.3}
+\contentsline {paragraph}{\numberline {3.1.3.3.1}Detection}{36}{paragraph.3.1.3.3.1}
+\contentsline {paragraph}{\numberline {3.1.3.3.2}Identification}{37}{paragraph.3.1.3.3.2}
+\contentsline {paragraph}{\numberline {3.1.3.3.3}Localization}{37}{paragraph.3.1.3.3.3}
+\contentsline {subsection}{\numberline {3.1.4}Security and Privacy of RFID systems}{38}{subsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.4.1}Security Problems and Threats}{39}{subsubsection.3.1.4.1}
+\contentsline {subsubsection}{\numberline {3.1.4.2}Solutions and Methods against Threats}{41}{subsubsection.3.1.4.2}
+\contentsline {subsection}{\numberline {3.1.5}State of the Art}{42}{subsection.3.1.5}
+\contentsline {subsubsection}{\numberline {3.1.5.1}Dipole Company}{42}{subsubsection.3.1.5.1}
+\contentsline {subsubsection}{\numberline {3.1.5.2}Cardinal Health Inc.}{44}{subsubsection.3.1.5.2}
+\contentsline {subsubsection}{\numberline {3.1.5.3}Terso Solutions Inc.}{45}{subsubsection.3.1.5.3}
+\contentsline {subsubsection}{\numberline {3.1.5.4}Vizinex RFID}{46}{subsubsection.3.1.5.4}
+\contentsline {chapter}{\numberline {4}Development of Medication Tracking Application}{49}{chapter.4}
+\contentsline {section}{\numberline {4.1}Used platforms and technologies}{49}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Native Development with NativeScript}{49}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}NoSQL Technology: MongoDB}{49}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}Characteristics of NoSQL Databases}{49}{subsubsection.4.1.2.1}
+\contentsline {subsubsection}{\numberline {4.1.2.2}Reasons and Advantages of MongoDB}{49}{subsubsection.4.1.2.2}
+\contentsline {subsection}{\numberline {4.1.3}Impinj RFID Lector and Antenna}{50}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}General Information}{50}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}Examples}{50}{subsubsection.4.1.3.2}
+\contentsline {section}{\numberline {4.2}Application development}{50}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Challenges during development}{50}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Progress of development}{52}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}User Scenario}{52}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Software Architecture}{52}{subsubsection.4.2.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Possibilities of extension}{52}{subsection.4.2.3}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{55}{subsection.4.2.3}

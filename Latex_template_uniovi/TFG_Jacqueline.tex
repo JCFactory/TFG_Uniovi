@@ -1,0 +1,217 @@
+\documentclass[12pt,a4paper]{book}
+\usepackage[left=3cm,right=2.5cm,top=3cm,bottom=2.5cm]{geometry}
+\usepackage{eurosym}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{amsmath}              % Matheamtische Formeln
+\usepackage{amsfonts}             % Mathematische Zeichensätze
+\usepackage{amssymb}  
+\usepackage[table]{xcolor}
+\usepackage[printonlyused]{acronym}  % Abkürzungsverzeichnis [nur verwendete Abkürzugen]
+\usepackage{pdfpages}
+\usepackage{appendix}
+\usepackage{enumitem}
+%\setlist{parsep=0pt,listparindent=\parindent}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{eso-pic}
+\usepackage{caption}
+\usepackage{multirow}
+\usepackage{multirow, array} 
+\usepackage{lmodern}
+\usepackage{url}
+\usepackage{siunitx}
+\urlstyle{rm}
+\usepackage[backend=biber,
+  isbn=false,                     % ISBN nicht anzeigen, gleiches geht mit nahezu allen anderen Feldern
+  %sortlocale=de_DE,               % Sortierung der Einträge für Deutsch
+  sortlocale=en_US,              % Sortierung der Einträge für Englisch
+  autocite=inline,                % regelt Aussehen für \autocite (inline=\parancite)
+  hyperref=true,                  % Hyperlinks für Ziate
+  style=ieee                     % Zitate als Zahlen [1]
+  %style=alphabetic               % Zitate als Kürzel und Jahr [Ein05]
+  %style=authoryear                % Zitate Author und Jahr [Einstein (1905)]
+]{biblatex}                      
+\usepackage[hidelinks]{hyperref}
+\usepackage{subfigure} 
+\usepackage{listings}
+%\usepackage[justification=centering]{caption}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\makeatletter
+\graphicspath{{Imagenes/}}
+\usepackage{gensymb}
+\definecolor{rojo}{rgb}{0.8,0,0}
+\definecolor{verde1}{rgb}{0,0.8,0}
+\definecolor{verde2}{rgb}{0,0.7,0}
+\definecolor{verde3}{rgb}{0,0.6,0}
+\definecolor{verde4}{rgb}{0,0.5,0}
+\definecolor{azul1}{rgb}{0,0,0.8}
+\definecolor{azul2}{rgb}{0,0,0.7}
+\definecolor{azul3}{rgb}{0,0,0.6}
+\definecolor{azul4}{rgb}{0,0,0.5}
+
+%TÍTULO Y AUTOR
+\author{Jacqueline Franßen}
+\title{Development of a hybride mobile application with the technology of RFID for managing drugs in hospitals and pharmacies}
+
+% formato de cabeceras, con package fancyhdr
+\pagestyle{fancy}
+\fancypagestyle{bloque_inicial}{%Encabezado y pie de página del bloque inicial con resumen, notación, indices, etc.
+\fancyhead{}%limpia todos los campos que se pondrían por defecto
+\fancyfoot{}
+\cfoot{\thepage}
+\pagenumbering{roman}
+\renewcommand{\headrulewidth}{0 pt}}
+
+\fancypagestyle{doc_body}{%encabezado y pie de página del bloque del trabajo tal y como están definidos en la plantilla de la EPI
+\pagenumbering{arabic}
+\fancyhead{}
+\lhead{\begin{minipage}{1.8cm}
+		\includegraphics[width=0.8\textwidth]{logo_uniovi.png}
+	\end{minipage}
+	\begin{minipage}{8cm}
+		\scriptsize { 
+				\textbf{UNIVERSIDAD DE OVIEDO}}\\
+		\footnotesize {
+				 \textbf{Escuela Politécnica de Ingeniería de Gijón}}
+	\end{minipage}}
+\rhead{\footnotesize{\textbf{Hoja \thepage \! \! de \pageref{LastPage}}}}
+\fancyfoot{}
+\cfoot{\textbf{Jacqueline Franßen}}
+\renewcommand{\headrulewidth}{0 pt} %sin línea horizontal en el encabezado
+\renewcommand{\footrulewidth}{0.4pt}
+}
+
+%% ESPACIADOS
+\setlength{\headsep}{20pt}
+\setlength{\headheight}{30pt}
+\setlength{\footskip}{35pt}
+\setlength{\parskip}{12pt}
+\titlespacing{\chapter}{0pt}{0pt}{0pt}
+\titlespacing{\section}{0pt}{24pt}{0pt} %doble intro antes de inicio de sección, un intro después
+\renewcommand{\baselinestretch}{1.5} %interlineado
+
+%Para cambiar la etiqueta Cuadro por Tabla
+\addto\captionsspanish{%
+\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{%
+\renewcommand\listtablename{Índice de Tablas}}
+
+%Apéndices en castellano
+\addto\captionsspanish{%
+\renewcommand\appendixname{Apéndice}}
+\renewcommand{\appendixtocname}{Apéndices}
+\renewcommand{\appendixpagename}{Apéndices}
+
+%%formato del capítulo, apartados y subapartados
+\titleformat{\chapter}
+{\fontsize{28}{28}\linespread{1}\selectfont\bf}{\thechapter.}{1em}{}
+
+\titleformat{\section}
+{\fontsize{14}{14}\linespread{1}\selectfont\bf}{\thesection.-}{1em}{}
+
+\titleformat{\subsection}
+{\fontsize{12}{12}\linespread{1}\selectfont\bf}{\thesubsection.-}{1em}{}
+
+\titleformat{\subsubsection}
+{\fontsize{12}{12}\linespread{1}\selectfont\bf}{\thesubsubsection.-}{1em}{}
+
+%formato del rótulo de las figuras y las Tablas
+\DeclareCaptionLabelSeparator{compuesto}{.- }  %define el nuevo tipo de separador
+\captionsetup{labelsep = compuesto} %incluye el separador en el seup de los rótulos de figuras y Tablas
+
+%marca de agua, configuración de su tamaño y posición
+\newcommand\BackgroundPic{
+\put(70,-40){
+\parbox[b][\paperheight]{\paperwidth}{%
+\includegraphics[width=5cm,keepaspectratio]{marca_agua}%
+}}}
+
+%cuando te parta una palabra mal entre dos líneas, le indicas aquí cómo quieres que la divida
+\hyphenation{e-jem-plo}
+
+%control de líneas viudas y huerfanas
+\clubpenalty=10000
+\widowpenalty=10000
+
+\pretolerance=2000
+\tolerance=3000
+
+\emergencystretch = \maxdimen
+\hyphenpenalty = 10000
+\hbadness = 10000
+
+\addbibresource{literatur.bib}  
+
+\begin{document}
+
+\pagestyle{bloque_inicial} %utiliza cabeceras definidas en bloque_inicial
+\pagenumbering{roman}
+%Este bloque va comentado para que no te genere tantas hojas al principio cuando estés escribiendo el documento
+%incluye la portada, y los bloques de agradecimientos, resumen, acrónimos y notación (yo incluiría resumen y notación/acrónimos mínimo)
+
+\includepdf{portadaInterior}
+\cleardoublepage
+\cleardoublepage
+%a continuación el índice (general, de figuras y de Tablas)
+\addcontentsline{toc}{section}{\textsc{Índice general}}
+\tableofcontents
+\cleardoublepage
+\addcontentsline{toc}{section}{\textsc{Índice de figuras}}
+\listoffigures
+\cleardoublepage
+\addcontentsline{toc}{section}{\textsc{Índice de Tablas}}
+\listoftables
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 						CUERPO DEL TFG
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newpage{} % los capítulos empiezan en página nueva
+\pagestyle{doc_body} % para usar los encabezados y pies de página definidos para el cuerpo del documento
+\pagenumbering{arabic} 
+%\AddToShipoutPicture{\BackgroundPic}% añade la marca de agua
+
+\chapter{\textbf{Introduction}}
+The following thesis is focussed on the development of an mobile hybride application which can be run both on Android and iOS devices. The application is specialized in the use in hospitals and pharmacies. The scope of the application contains the registration, tracking as well as the management of pharmaceuticals and drugs, realized by the technology of RFID.
+
+\input{secciones/kapitel1.tex}
+\input{secciones/kapitel2.tex}
+\input{secciones/kapitel3.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\chapter{\textbf{Conclusiones generales}}
+%\thispagestyle{fancy} %para que incluya las cabeceras y los pies de págnina en la primera página del capítulo (por defecto no lo pone)
+%\label{capitulo:conclusiones}
+%\input{secciones/Conclusiones/conclusiones_generales.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%capítulo de bibliografía
+\cleardoublepage
+\addcontentsline{toc}{chapter}{Bibliografía} %para añadir la bibliografía al indice
+
+\begin{thebibliography}{99}
+\thispagestyle{fancy}
+\printbibliography
+\end{thebibliography}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\let\cleardoublepage\clearpage
+\clearpage
+
+\ClearShipoutPicture
+
+
+\appendix
+\thispagestyle{fancy} %para que incluya las cabeceras y los pies de págnina en la primera página del capítulo (por defecto no lo pone) \label{cha:appendixA}
+\input{secciones/abkuerzungen.tex}
+\end{document}

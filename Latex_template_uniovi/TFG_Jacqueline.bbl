@@ -1,0 +1,459 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{none/global/}
+    \entry{ncbi}{article}{}
+      \name{author}{2}{}{%
+        {{hash=87d9cd5f64746eaa6c3d338592fd4da9}{%
+           family={Ajami},
+           familyi={A\bibinitperiod},
+           given={Sima},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45c45931c8cd2eef815bd0c1e5e6ad39}{%
+           family={Rajabzadeh},
+           familyi={R\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{fullhash}{d0b3b851c069652d59c660086f96742f}
+      \strng{authornamehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{authorfullhash}{d0b3b851c069652d59c660086f96742f}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1735-1995}
+      \field{journaltitle}{J Res Med Sci}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Radio Frequency Identification ({RFID}) technology and patient safety}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{18}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{809\bibrangedash 813}
+      \range{pages}{5}
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872592/
+      \endverb
+    \endentry
+    \entry{henrici}{book}{}
+      \name{author}{1}{}{%
+        {{hash=10a6458f278e70fb53813dd1547208ff}{%
+           family={Henrici},
+           familyi={H\bibinitperiod},
+           given={Dirk},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{10a6458f278e70fb53813dd1547208ff}
+      \strng{fullhash}{10a6458f278e70fb53813dd1547208ff}
+      \strng{authornamehash}{10a6458f278e70fb53813dd1547208ff}
+      \strng{authorfullhash}{10a6458f278e70fb53813dd1547208ff}
+      \field{sortinit}{9}
+      \field{sortinithash}{2999ebab86052e6d71b434385f8b4ed2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-540-79075-4}
+      \field{note}{{OCLC}: 244058698}
+      \field{number}{17}
+      \field{pagetotal}{269}
+      \field{series}{Lecture notes electrical engineering}
+      \field{shorttitle}{{RFID} security and privacy}
+      \field{title}{{RFID} security and privacy: concepts, protocols, and architectures}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:files/69/Henrici - 2008 - RFID security and privacy concepts, protocols, an.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{fokus}{book}{}
+      \name{author}{2}{}{%
+        {{hash=3855f0f673ba64f8648e0ce2f17fd1fb}{%
+           family={Tamm},
+           familyi={T\bibinitperiod},
+           given={Gerrit},
+           giveni={G\bibinitperiod}}}%
+        {{hash=87247ac14dd5402c22ea5519860718be}{%
+           family={Tribowski},
+           familyi={T\bibinitperiod},
+           given={Christoph},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{fullhash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{authornamehash}{c3553e9bdf1673b3a853fa578d23298e}
+      \strng{authorfullhash}{c3553e9bdf1673b3a853fa578d23298e}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Der kompakte Schnellüberblick liefert potenziellen Anwendern knappe aber ausreichend ausführliche Informationen über die {RFID}-Technologie, zu Einsatzstrategien und Implementierung und liefert darüber hinaus Beispiele und Erfahrungen von Anwendern. Ein umfangreiches Literaturverzeichnis hilft bei spezielleren Fragen weiter. Umfangreicher aber in der Zielrichtung vergleichbar ist der "Dummies"-Titel von P. Sweeney ({BA} 10/06). Die umfassendste Information liefert weiterhin das Handbuch von K. Finkenzeller ({BA} 1/07, aktualisierte Auflage 2008 ist lieferbar). Auf die Anwendung in Geschäftsprozessen konzentriert sich F. Gillert ({ID} 47/06), vor allem speziellere technische Aspekte behandelt H. Fischer ({ID} 4/07). Zur Erstinformation gut brauchbar, in ausgebauten Beständen sollte zusätzlich die genannte Vergleichsliteratur angeboten werden. (2)}
+      \field{isbn}{978-3-642-11459-5}
+      \field{note}{{OCLC}: 845690868}
+      \field{pagetotal}{144}
+      \field{series}{Informatik im Fokus}
+      \field{title}{{RFID}}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Tamm and Tribowski - 2010 - RFID.pdf:files/87/Tamm and Tribowski - 2010 - RFID.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{casestudy}{book}{}
+      \name{author}{5}{}{%
+        {{hash=36e24605fe57b7aef7a886b2c51fa67b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Shang-Wei},
+           giveni={S\bibinithyphendelim W\bibinitperiod}}}%
+        {{hash=76fc44487967eefa4e775e69bcd0ab0f}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Wun-Hwa},
+           giveni={W\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=01e6949b01072fe0663503d9133d16e1}{%
+           family={Ong},
+           familyi={O\bibinitperiod},
+           given={Chorng-Shyong},
+           giveni={C\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=fa3e4da50b3416b1a04c39a932b2344c}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Li},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ac0d9c00f5b71d36c908f22402da523b}{%
+           family={Chuang},
+           familyi={C\bibinitperiod},
+           given={Yun-Wen},
+           giveni={Y\bibinithyphendelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{fef7529694aae0e5475bced4fad8c70b}
+      \strng{fullhash}{1b432ead97951e4249a4221cc5c8d01f}
+      \strng{authornamehash}{fef7529694aae0e5475bced4fad8c70b}
+      \strng{authorfullhash}{1b432ead97951e4249a4221cc5c8d01f}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 39th Annual Hawaii International Conference on System Sciences (HICSS'06)}
+      \field{issn}{1530-1605}
+      \field{title}{RFID Application in Hospitals: A Case Study on a Demonstration RFID Project in a Taiwan Hospital}
+      \field{volume}{8}
+      \field{year}{2006}
+      \field{pages}{184a\bibrangedash 184a}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1109/HICSS.2006.422
+      \endverb
+      \keyw{Computer aided software engineering;Costs;Government;Health and safety;Health information management;Hospitals;Manufacturing;Medical services;Radiofrequency identification;Supply chain management}
+    \endentry
+    \entry{chen}{book}{}
+      \name{author}{2}{}{%
+        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Min},
+           giveni={M\bibinitperiod}}}%
+        {{hash=d4274da32eabe2603a3d168e9889458e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Shigang},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \strng{fullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \strng{authornamehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \strng{authorfullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-47354-3}
+      \field{series}{Wireless Networks}
+      \field{title}{{RFID} Technologies for Internet of Things}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-47355-0
+      \endverb
+      \verb{file}
+      \verb Chen and Chen - 2016 - RFID Technologies for Internet of Things.pdf:files/53/Chen and Chen - 2016 - RFID Technologies for Internet of Things.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-47355-0
+      \endverb
+    \endentry
+    \entry{mobile}{book}{}
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{197da6d6c34c6b20ce45c4d4baace5a4}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-540-77551-5}
+      \field{langid}{german}
+      \field{title}{Mobile Computing und {RFID} im Facility Management}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-540-77552-2
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-540-77552-2
+      \endverb
+    \endentry
+    \entry{chipless}{book}{}
+      \name{author}{2}{}{%
+        {{hash=5c8da23692daf4eae686d250beafe8fd}{%
+           family={Rezaiesarlak},
+           familyi={R\bibinitperiod},
+           given={Reza},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6e17e16d497bc8355b1ee22260afb9f4}{%
+           family={Manteghi},
+           familyi={M\bibinitperiod},
+           given={Majid},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
+      \strng{fullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
+      \strng{authornamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
+      \strng{authorfullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-3-319-10168-2}
+      \field{langid}{english}
+      \field{title}{Chipless {RFID}}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-10169-9
+      \endverb
+      \verb{file}
+      \verb Rezaiesarlak and Manteghi - 2015 - Chipless RFID.pdf:files/51/Rezaiesarlak and Manteghi - 2015 - Chipless RFID.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-319-10169-9
+      \endverb
+    \endentry
+    \entry{vizinex}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
+      \field{day}{19}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{Medical Uses for {RFID} Products}
+      \field{titleaddon}{Vizinex {RFID}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/28/medical-uses-for-rfid-products.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
+      \endverb
+    \endentry
+    \entry{dipole}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{3}
+      \field{title}{RFID Hospital Sanidad {|} Dipole}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
+      \endverb
+    \endentry
+    \entry{cardinal_web}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{3}
+      \field{title}{Cardinal Health: Healthcare Solutions, Logistics Supplies}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Cardinal Health\: Healthcare Solutions, Logistics & Supplies:files/98/en.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.cardinalhealth.com/en.html
+      \endverb
+    \endentry
+    \entry{cardinal_video}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
+      \field{day}{15}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Considering {RFID} to Track Healthcare Inventory?}
+      \field{titleaddon}{{DAIC}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/32/considering-rfid-track-healthcare-inventory.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.dicardiology.com/videos/considering-rfid-track-healthcare-inventory
+      \endverb
+    \endentry
+    \entry{rainrfid}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
+      \field{day}{11}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{{RAIN} {RFID}}
+      \field{titleaddon}{{RAIN} {RFID}}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://rainrfid.org/
+      \endverb
+    \endentry
+    \entry{terso_video}{video}{}
+      \name{author}{1}{}{%
+        {{hash=17da911c03e22fe687e8ccefbf7b2c04}{%
+           family={{Terso Rfid}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{RFID} for Medical Field Inventory Tracking}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=-G9XNpuH8iQ
+      \endverb
+      \keyw{Consingment Inventory Management,Field Inventory Tracking,Hospital {RFID},Industrial Internet,Intelligent Hospital,Internet of Things,{IoT},Medical Device Inventory,Real Time Healthcare System,Real Time Hospital System,{RFID},{RFID} in Healthcare,{RFID} Inventory Tracking,{RFID} Medical Device,{RFID} Storage,Technology,Terso Solutions}
+    \endentry
+    \entry{nsarchitecture}{software}{}
+      \list{publisher}{1}{%
+        {NativeScript}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{shorttitle}
+      \field{day}{7}
+      \field{month}{3}
+      \field{note}{original-date: 2014-06-30T10:21:20Z}
+      \field{shorttitle}{nativescript-cli}
+      \field{title}{nativescript-cli: Command-line interface for building {NativeScript} apps}
+      \field{urlday}{8}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/35/ns-cli.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://github.com/NativeScript/nativescript-cli
+      \endverb
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
