@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  20 APR 2018 17:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  20 APR 2018 17:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2721,26 +2721,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 217.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 217.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 217.
 Package rerunfilecheck Info: File `TFG_Jacqueline.out' has not changed.
-(rerunfilecheck)             Checksum: 0FE0E87AC424CC24982C642ECF7905C2;5901.
+(rerunfilecheck)             Checksum: 6F3B4472EE8F301682B0DE0E32F21902;5882.
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package biblatex Warning: Please rerun LaTeX.
 
 Package logreq Info: Writing requests to 'TFG_Jacqueline.run.xml'.
 \openout1 = `TFG_Jacqueline.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29004 strings out of 492995
- 522954 string characters out of 6132704
- 948879 words of memory out of 5000000
- 31891 multiletter control sequences out of 15000+600000
+ 29003 strings out of 492995
+ 522946 string characters out of 6132704
+ 949075 words of memory out of 5000000
+ 31890 multiletter control sequences out of 15000+600000
  74038 words of font info for 67 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  45i,18n,50p,10378b,2302s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2763,7 +2757,7 @@ texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
 /public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
 /lmsy8.pfb>
-Output written on TFG_Jacqueline.pdf (70 pages, 6501539 bytes).
+Output written on TFG_Jacqueline.pdf (70 pages, 6501441 bytes).
 PDF statistics:
  1282 PDF objects out of 1440 (max. 8388607)
  1141 compressed objects within 12 object streams
