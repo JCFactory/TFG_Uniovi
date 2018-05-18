@@ -120,7 +120,6 @@
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Der kompakte Schnellüberblick liefert potenziellen Anwendern knappe aber ausreichend ausführliche Informationen über die {RFID}-Technologie, zu Einsatzstrategien und Implementierung und liefert darüber hinaus Beispiele und Erfahrungen von Anwendern. Ein umfangreiches Literaturverzeichnis hilft bei spezielleren Fragen weiter. Umfangreicher aber in der Zielrichtung vergleichbar ist der "Dummies"-Titel von P. Sweeney ({BA} 10/06). Die umfassendste Information liefert weiterhin das Handbuch von K. Finkenzeller ({BA} 1/07, aktualisierte Auflage 2008 ist lieferbar). Auf die Anwendung in Geschäftsprozessen konzentriert sich F. Gillert ({ID} 47/06), vor allem speziellere technische Aspekte behandelt H. Fischer ({ID} 4/07). Zur Erstinformation gut brauchbar, in ausgebauten Beständen sollte zusätzlich die genannte Vergleichsliteratur angeboten werden. (2)}
       \field{isbn}{978-3-642-11459-5}
       \field{note}{{OCLC}: 845690868}
       \field{pagetotal}{144}
@@ -252,6 +251,142 @@
       \verb http://link.springer.com/10.1007/978-3-540-77552-2
       \endverb
     \endentry
+    \entry{dipole}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{3}
+      \field{title}{RFID Hospital Sanidad {|} Dipole}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
+      \endverb
+    \endentry
+    \entry{cardinal_web}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{3}
+      \field{title}{Cardinal Health: Healthcare Solutions, Logistics Supplies}
+      \field{urlday}{27}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Cardinal Health\: Healthcare Solutions, Logistics & Supplies:files/98/en.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.cardinalhealth.com/en.html
+      \endverb
+    \endentry
+    \entry{cardinal_video}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
+      \field{day}{15}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{title}{Considering {RFID} to Track Healthcare Inventory?}
+      \field{titleaddon}{{DAIC}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/32/considering-rfid-track-healthcare-inventory.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.dicardiology.com/videos/considering-rfid-track-healthcare-inventory
+      \endverb
+    \endentry
+    \entry{rainrfid}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{02bbed3ed82f61ae046619460488516d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
+      \field{day}{11}
+      \field{langid}{american}
+      \field{month}{5}
+      \field{title}{{RAIN} {RFID}}
+      \field{titleaddon}{{RAIN} {RFID}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/163/rainrfid.org.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://rainrfid.org/
+      \endverb
+    \endentry
+    \entry{terso_video}{video}{}
+      \name{author}{1}{}{%
+        {{hash=17da911c03e22fe687e8ccefbf7b2c04}{%
+           family={{Terso Rfid}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{12}
+      \field{month}{3}
+      \field{title}{{RFID} for Medical Field Inventory Tracking}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=-G9XNpuH8iQ
+      \endverb
+    \endentry
+    \entry{vizinex}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
+      \field{day}{19}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{Medical Uses for {RFID} Products}
+      \field{titleaddon}{Vizinex {RFID}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/28/medical-uses-for-rfid-products.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
+      \endverb
+    \endentry
     \entry{chipless}{book}{}
       \name{author}{2}{}{%
         {{hash=5c8da23692daf4eae686d250beafe8fd}{%
@@ -275,8 +410,8 @@
       \strng{fullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authornamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authorfullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
-      \field{sortinit}{7}
-      \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
+      \field{sortinit}{8}
+      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-10168-2}
@@ -298,135 +433,186 @@
       \verb http://link.springer.com/10.1007/978-3-319-10169-9
       \endverb
     \endentry
-    \entry{vizinex}{online}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{2f1b0e69e7617f99664f1cd00bb9603c}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
-      \field{day}{19}
-      \field{langid}{american}
-      \field{month}{2}
-      \field{title}{Medical Uses for {RFID} Products}
-      \field{titleaddon}{Vizinex {RFID}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2010}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:files/28/medical-uses-for-rfid-products.html:text/html
-      \endverb
-      \verb{url}
-      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
-      \endverb
-    \endentry
-    \entry{dipole}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labeltitlesource}{title}
-      \field{day}{7}
-      \field{month}{3}
-      \field{title}{RFID Hospital Sanidad {|} Dipole}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
-      \endverb
-    \endentry
-    \entry{cardinal_web}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labeltitlesource}{title}
-      \field{day}{27}
-      \field{month}{3}
-      \field{title}{Cardinal Health: Healthcare Solutions, Logistics Supplies}
-      \field{urlday}{27}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Cardinal Health\: Healthcare Solutions, Logistics & Supplies:files/98/en.html:text/html
-      \endverb
-      \verb{url}
-      \verb http://www.cardinalhealth.com/en.html
-      \endverb
-    \endentry
-    \entry{cardinal_video}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
-      \field{day}{15}
-      \field{langid}{english}
-      \field{month}{4}
-      \field{title}{Considering {RFID} to Track Healthcare Inventory?}
-      \field{titleaddon}{{DAIC}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:files/32/considering-rfid-track-healthcare-inventory.html:text/html
-      \endverb
-      \verb{url}
-      \verb https://www.dicardiology.com/videos/considering-rfid-track-healthcare-inventory
-      \endverb
-    \endentry
-    \entry{rainrfid}{online}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
-      \field{day}{11}
-      \field{langid}{american}
-      \field{month}{2}
-      \field{title}{{RAIN} {RFID}}
-      \field{titleaddon}{{RAIN} {RFID}}
-      \field{urlday}{11}
-      \field{urlmonth}{2}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{url}
-      \verb https://rainrfid.org/
-      \endverb
-    \endentry
-    \entry{terso_video}{video}{}
-      \name{author}{1}{}{%
-        {{hash=17da911c03e22fe687e8ccefbf7b2c04}{%
-           family={{Terso Rfid}},
-           familyi={T\bibinitperiod}}}%
+    \entry{nosql_meier}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c85850c63c930c4211bd1baa46598989}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9d193ef606aaaf76bdda5c5a747a9f59}{%
+           family={Kaufmann},
+           familyi={K\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{fullhash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authornamehash}{e9cb0cceebc437cca15c29d94cf2455e}
+      \strng{authorfullhash}{e9cb0cceebc437cca15c29d94cf2455e}
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{{RFID} for Medical Field Inventory Tracking}
-      \field{urlday}{12}
-      \field{urlmonth}{3}
+      \field{isbn}{978-3-662-47663-5}
+      \field{langid}{german}
+      \field{series}{{eXamen}.press}
+      \field{title}{{SQL}- \& {NoSQL}-Datenbanken}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-662-47664-2
+      \endverb
+      \verb{file}
+      \verb Meier and Kaufmann - 2016 - SQL- & NoSQL-Datenbanken.pdf:files/121/Meier and Kaufmann - 2016 - SQL- & NoSQL-Datenbanken.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-3-662-47664-2
+      \endverb
+    \endentry
+    \entry{mongodb_edward}{book}{}
+      \name{author}{2}{}{%
+        {{hash=c7300a76b1674742a906f27bce020a89}{%
+           family={Edward},
+           familyi={E\bibinitperiod},
+           given={Shakuntala\bibnamedelima Gupta},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=744703592d0c02b0b7996c9165f77977}{%
+           family={Sabharwal},
+           familyi={S\bibinitperiod},
+           given={Navin},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berkeley, {CA}}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{dc762acd484d398c9bf9614073877fca}
+      \strng{fullhash}{dc762acd484d398c9bf9614073877fca}
+      \strng{authornamehash}{dc762acd484d398c9bf9614073877fca}
+      \strng{authorfullhash}{dc762acd484d398c9bf9614073877fca}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-1-4842-0648-5}
+      \field{langid}{english}
+      \field{title}{Practical {MongoDB}}
+      \field{urlday}{26}
+      \field{urlmonth}{4}
+      \field{urlyear}{2018}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-1-4842-0647-8
+      \endverb
+      \verb{file}
+      \verb Edward and Sabharwal - 2015 - Practical MongoDB.pdf:files/103/Edward and Sabharwal - 2015 - Practical MongoDB.pdf:application/pdf
+      \endverb
+      \verb{url}
+      \verb http://link.springer.com/10.1007/978-1-4842-0647-8
+      \endverb
+    \endentry
+    \entry{trends_nosql}{collection}{}
+      \name{editor}{4}{}{%
+        {{hash=a29b7dea70a4ffa096c761be700df088}{%
+           family={Rocha},
+           familyi={R\bibinitperiod},
+           given={Álvaro},
+           giveni={Á\bibinitperiod}}}%
+        {{hash=4018f98afd65b2769cc8756e07428bf9}{%
+           family={Adeli},
+           familyi={A\bibinitperiod},
+           given={Hojjat},
+           giveni={H\bibinitperiod}}}%
+        {{hash=e6523ba9da94a7e590220d25017e1625}{%
+           family={Reis},
+           familyi={R\bibinitperiod},
+           given={Luís\bibnamedelima Paulo},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=e4b198f0337377b41885b3993c951bb8}{%
+           family={Costanzo},
+           familyi={C\bibinitperiod},
+           given={Sandra},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer International Publishing}%
+      }
+      \strng{namehash}{26a8130d34a7a9ec34213862ef4bd3d1}
+      \strng{fullhash}{4b21236c25b783fb28b2ce8df8b857e5}
+      \strng{editornamehash}{26a8130d34a7a9ec34213862ef4bd3d1}
+      \strng{editorfullhash}{4b21236c25b783fb28b2ce8df8b857e5}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-3-319-77711-5}
+      \field{langid}{english}
+      \field{series}{Advances in Intelligent Systems and Computing}
+      \field{shorttitle}{Trends and Advances in Information Systems and Technologies}
+      \field{title}{Trends and Advances in Information Systems and Technologies: Volume 2}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/145/9783319777115.html:text/html
+      \endverb
+      \verb{url}
+      \verb //www.springer.com/de/book/9783319777115
+      \endverb
+    \endentry
+    \entry{matlab_mongodb}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{title}{{MongoDB} connection - {MATLAB} - {MathWorks} España}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
       \field{urlyear}{2018}
       \field{urldateera}{ce}
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=-G9XNpuH8iQ
+      \verb{file}
+      \verb MongoDB connection - MATLAB - MathWorks España:files/169/mongo.html:text/html
       \endverb
-      \keyw{Consingment Inventory Management,Field Inventory Tracking,Hospital {RFID},Industrial Internet,Intelligent Hospital,Internet of Things,{IoT},Medical Device Inventory,Real Time Healthcare System,Real Time Hospital System,{RFID},{RFID} in Healthcare,{RFID} Inventory Tracking,{RFID} Medical Device,{RFID} Storage,Technology,Terso Solutions}
+      \verb{url}
+      \verb https://es.mathworks.com/help/database/ug/mongo.html
+      \endverb
+    \endentry
+    \entry{nativescript}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Open Source framework for building truly native mobile apps with standards-based {JavaScript} and {CSS}. {NativeScript} enables developers to build native {iOS} and Android apps while sharing the application code across the platforms.}
+      \field{day}{10}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{NativeScript}}
+      \field{titleaddon}{{NativeScript}.org}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{url}
+      \verb https://www.nativescript.org/
+      \endverb
     \endentry
     \entry{nsarchitecture}{software}{}
       \list{publisher}{1}{%
@@ -451,6 +637,199 @@
       \endverb
       \verb{url}
       \verb https://github.com/NativeScript/nativescript-cli
+      \endverb
+    \endentry
+    \entry{nsplayground}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{day}{4}
+      \field{month}{5}
+      \field{title}{Play and Try {NativeScript} on Your Device – \{N\} Playground}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Play and Try NativeScript on Your Device – \{N\} Playground:files/156/play.nativescript.org.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://play.nativescript.org/
+      \endverb
+    \endentry
+    \entry{nsmarket}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Discover high quality plugins, templates and tools for your {NativeScript} app}
+      \field{day}{10}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{{NativeScript} Marketplace}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/158/market.nativescript.org.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://market.nativescript.org/
+      \endverb
+    \endentry
+    \entry{speedway}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Impinj Speedway readers are high-performance, enterprise-class fixed readers and the \#1 selling {RAIN} {RFID} readers in the world.}
+      \field{day}{11}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Speedway R420 {RAIN} {RFID} Reader {|} Impinj}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/161/speedway-r420.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.impinj.com/platform/connectivity/speedway-r420/
+      \endverb
+    \endentry
+    \entry{impinj}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Impinj es un proveedor l\&\#237;der de soluciones {RAIN} {RFID}. Organizaciones utilizan Impinj para conectar objetos a aplicaciones, habilitando el Internet de las Cosas.}
+      \field{day}{4}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{title}{Impinj {|} Soluciones {RAIN} {RFID} para Internet de las Cosas}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/153/es.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.impinj.com/es/
+      \endverb
+    \endentry
+    \entry{deroyal}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{month}{5}
+      \field{title}{{DeRoyal} Medical Products}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb DeRoyal Medical Products:files/166/default.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.deroyal.com/medicalproducts/default.aspx
+      \endverb
+    \endentry
+    \entry{introduction_matlab}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{langid}{american}
+      \field{title}{An Introduction to {MATLAB}}
+      \field{titleaddon}{{IEEE} {UFFC}}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/174/an-introduction-to-matlab.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://ieee-uffc.org/ultrasonics/software/an-introduction-to-matlab/
+      \endverb
+    \endentry
+    \entry{simulink}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{Chapter 8} - Simulink Tutorial}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb chapter8.pdfl
+      \endverb
+      \verb{url}
+      \verb https://ewh.ieee.org/r1/ct/sps/PDF/MATLAB/chapter8.pdfl
+      \endverb
+    \endentry
+    \entry{mathworks}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Learn more about {MATLAB}, Simulink, and other toolboxes and blocksets for math and analysis, data acquisition and import, signal and image processing, control design, financial modeling and analysis, and embedded targets.}
+      \field{langid}{spanish}
+      \field{title}{{MathWorks} - Información de la compañía}
+      \field{urlday}{17}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/177/aboutus.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://es.mathworks.com/company/aboutus.html
+      \endverb
+    \endentry
+    \entry{octanesdk}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{langid}{american}
+      \field{title}{Octane {SDK}}
+      \field{titleaddon}{Impinj Support Portal}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/171/202755268-Octane-SDK.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://support.impinj.com/hc/en-us/articles/202755268-Octane-SDK
+      \endverb
+    \endentry
+    \entry{huca}{online}{}
+      \field{sortinit}{2}
+      \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
+      \field{labeltitlesource}{title}
+      \field{title}{{HUCA}}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb HUCA:files/180/index.html:text/html
+      \endverb
+      \verb{url}
+      \verb http://www.hca.es/huca/web/index.asp
       \endverb
     \endentry
   \endsortlist

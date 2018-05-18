@@ -2,10 +2,10 @@
 \defcounter {refsection}{0}\relax 
 \select@language {english}
 \contentsline {section}{\textsc {Contents}}{iii}{Doc-Start}
-\contentsline {section}{\textsc {List of figures}}{vii}{chapter*.1}
-\contentsline {section}{\textsc {List of tables}}{ix}{chapter*.2}
+\contentsline {section}{\textsc {List of figures}}{ix}{chapter*.1}
+\contentsline {section}{\textsc {List of tables}}{xi}{chapter*.3}
 \contentsline {chapter}{\numberline {1}\textbf {Introduction}}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Use, Scope and Limitations of RFID Technology}{3}{chapter.2}
+\contentsline {chapter}{\numberline {2}Use and scope of RFID Technology}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Motivation}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Decision Making}{3}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Internal Communication}{3}{subsection.2.1.2}
@@ -32,43 +32,75 @@
 \contentsline {paragraph}{\numberline {2.2.2.4.4}Examples of SOA applications}{21}{paragraph.2.2.2.4.4}
 \contentsline {section}{\numberline {2.3}Analysis of RFID applications and their use}{22}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Process Model}{23}{subsection.2.3.1}
-\contentsline {chapter}{\numberline {3}Functionality of RFID technology}{25}{chapter.3}
-\contentsline {section}{\numberline {3.1}General Information}{25}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Components of an RFID application}{25}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}RFID tags}{25}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}RFID readers}{28}{subsubsection.3.1.1.2}
-\contentsline {subsubsection}{\numberline {3.1.1.3}RFID backend systems}{30}{subsubsection.3.1.1.3}
-\contentsline {paragraph}{\numberline {3.1.1.3.1}RFID Middleware}{31}{paragraph.3.1.1.3.1}
-\contentsline {paragraph}{\numberline {3.1.1.3.2}Data storage concepts}{31}{paragraph.3.1.1.3.2}
-\contentsline {subsection}{\numberline {3.1.2}Functionality of RFID system}{32}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Chipless RFID systems}{33}{subsection.3.1.3}
-\contentsline {subsubsection}{\numberline {3.1.3.1}Comparison: Chip-based vs. Chipless RFID systems}{33}{subsubsection.3.1.3.1}
-\contentsline {subsubsection}{\numberline {3.1.3.2}Design of chipless RFID tags}{35}{subsubsection.3.1.3.2}
-\contentsline {subsubsection}{\numberline {3.1.3.3}Detection, identification and localization in chipless RFID systems}{36}{subsubsection.3.1.3.3}
-\contentsline {paragraph}{\numberline {3.1.3.3.1}Detection}{36}{paragraph.3.1.3.3.1}
-\contentsline {paragraph}{\numberline {3.1.3.3.2}Identification}{37}{paragraph.3.1.3.3.2}
-\contentsline {paragraph}{\numberline {3.1.3.3.3}Localization}{37}{paragraph.3.1.3.3.3}
-\contentsline {subsection}{\numberline {3.1.4}Security and Privacy of RFID systems}{38}{subsection.3.1.4}
-\contentsline {subsubsection}{\numberline {3.1.4.1}Security Problems and Threats}{39}{subsubsection.3.1.4.1}
-\contentsline {subsubsection}{\numberline {3.1.4.2}Solutions and Methods against Threats}{41}{subsubsection.3.1.4.2}
-\contentsline {subsection}{\numberline {3.1.5}State of the Art}{42}{subsection.3.1.5}
-\contentsline {subsubsection}{\numberline {3.1.5.1}Dipole Company}{42}{subsubsection.3.1.5.1}
-\contentsline {subsubsection}{\numberline {3.1.5.2}Cardinal Health Inc.}{44}{subsubsection.3.1.5.2}
-\contentsline {subsubsection}{\numberline {3.1.5.3}Terso Solutions Inc.}{45}{subsubsection.3.1.5.3}
-\contentsline {subsubsection}{\numberline {3.1.5.4}Vizinex RFID}{46}{subsubsection.3.1.5.4}
-\contentsline {chapter}{\numberline {4}Development of Medication Tracking Application}{49}{chapter.4}
-\contentsline {section}{\numberline {4.1}Used platforms and technologies}{49}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Native Development with NativeScript}{49}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}NoSQL Technology: MongoDB}{49}{subsection.4.1.2}
-\contentsline {subsubsection}{\numberline {4.1.2.1}Characteristics of NoSQL Databases}{49}{subsubsection.4.1.2.1}
-\contentsline {subsubsection}{\numberline {4.1.2.2}Reasons and Advantages of MongoDB}{49}{subsubsection.4.1.2.2}
-\contentsline {subsection}{\numberline {4.1.3}Impinj RFID Lector and Antenna}{50}{subsection.4.1.3}
-\contentsline {subsubsection}{\numberline {4.1.3.1}General Information}{50}{subsubsection.4.1.3.1}
-\contentsline {subsubsection}{\numberline {4.1.3.2}Examples}{50}{subsubsection.4.1.3.2}
-\contentsline {section}{\numberline {4.2}Application development}{50}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Challenges during development}{50}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Progress of development}{52}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}User Scenario}{52}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}Software Architecture}{52}{subsubsection.4.2.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Possibilities of extension}{52}{subsection.4.2.3}
-\contentsline {chapter}{\numberline {A}\textbf {Abbreviations}}{57}{appendix.A}
+\contentsline {subsection}{\numberline {2.3.2}State of the Art, Examples of Companies}{24}{subsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.2.1}Dipole Company}{24}{subsubsection.2.3.2.1}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Cardinal Health Inc.}{26}{subsubsection.2.3.2.2}
+\contentsline {subsubsection}{\numberline {2.3.2.3}Terso Solutions Inc.}{27}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.4}Vizinex RFID}{28}{subsubsection.2.3.2.4}
+\contentsline {chapter}{\numberline {3}Functionality of RFID technology, NoSQL technology}{31}{chapter.3}
+\contentsline {section}{\numberline {3.1}RFID technology}{31}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Components of an RFID application}{31}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}RFID tags}{31}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}RFID readers}{34}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}RFID backend systems}{36}{subsubsection.3.1.1.3}
+\contentsline {paragraph}{\numberline {3.1.1.3.1}RFID Middleware}{37}{paragraph.3.1.1.3.1}
+\contentsline {paragraph}{\numberline {3.1.1.3.2}Data storage concepts}{37}{paragraph.3.1.1.3.2}
+\contentsline {subsection}{\numberline {3.1.2}Functionality of RFID system}{38}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Chipless RFID systems}{39}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Comparison: Chip-based vs. Chipless RFID systems}{39}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Design of chipless RFID tags}{41}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}Detection, identification and localization in chipless RFID systems}{42}{subsubsection.3.1.3.3}
+\contentsline {paragraph}{\numberline {3.1.3.3.1}Detection}{42}{paragraph.3.1.3.3.1}
+\contentsline {paragraph}{\numberline {3.1.3.3.2}Identification}{43}{paragraph.3.1.3.3.2}
+\contentsline {paragraph}{\numberline {3.1.3.3.3}Localization}{43}{paragraph.3.1.3.3.3}
+\contentsline {subsection}{\numberline {3.1.4}Security and Privacy of RFID systems}{44}{subsection.3.1.4}
+\contentsline {subsubsection}{\numberline {3.1.4.1}Security Problems and Threats}{45}{subsubsection.3.1.4.1}
+\contentsline {subsubsection}{\numberline {3.1.4.2}Solutions and Methods against Threats}{47}{subsubsection.3.1.4.2}
+\contentsline {section}{\numberline {3.2}Technology of NoSQL}{48}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Document Stores}{51}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Queries (Map and Reduce)}{51}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}CAP theorem}{52}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}ACID vs. BASE}{52}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Characteristics of NoSQL Databases}{53}{subsection.3.2.5}
+\contentsline {subsection}{\numberline {3.2.6}Excursus: BIG DATA}{53}{subsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.6.1}Velocity, Variety, Volume}{54}{subsubsection.3.2.6.1}
+\contentsline {subsubsection}{\numberline {3.2.6.2}Usage of Big Data}{55}{subsubsection.3.2.6.2}
+\contentsline {subsubsection}{\numberline {3.2.6.3}Big Data challenges}{55}{subsubsection.3.2.6.3}
+\contentsline {subsubsection}{\numberline {3.2.6.4}Big Data technologies}{56}{subsubsection.3.2.6.4}
+\contentsline {subsection}{\numberline {3.2.7}Use case of NoSQL Databases: 'Socii System'}{57}{subsection.3.2.7}
+\contentsline {subsubsection}{\numberline {3.2.7.1}Structure and flow of data analysis and visualization systems}{57}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.2}Main functionalities of 'Socii'}{58}{subsubsection.3.2.7.2}
+\contentsline {subsubsection}{\numberline {3.2.7.3}Limitations of 'Socii'}{58}{subsubsection.3.2.7.3}
+\contentsline {subsubsection}{\numberline {3.2.7.4}Future outlook of 'Socii'}{59}{subsubsection.3.2.7.4}
+\contentsline {chapter}{\numberline {4}Development of Medication Tracking Application}{61}{chapter.4}
+\contentsline {section}{\numberline {4.1}Requirements and specification book}{61}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Scope of developed system}{61}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Aim of developed system}{61}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}First concept of system}{61}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Used platforms and technologies}{63}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Native Development with NativeScript}{63}{subsection.4.2.1}
+\contentsline {paragraph}{\numberline {4.2.1.0.1}NativeScript Application Logic}{64}{paragraph.4.2.1.0.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}NativeScript Sidekick}{65}{subsubsection.4.2.1.1}
+\contentsline {subsection}{\numberline {4.2.2}NoSQL Technology: MongoDB}{66}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Limitations and possibilities of MongoDB}{67}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}MongoDB: Best Practices}{68}{subsubsection.4.2.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Impinj RFID Lector and Antenna}{69}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}General Information}{70}{subsubsection.4.2.3.1}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Examples}{70}{subsubsection.4.2.3.2}
+\contentsline {subsection}{\numberline {4.2.4}Matlab}{71}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}Mathworks}{71}{subsubsection.4.2.4.1}
+\contentsline {section}{\numberline {4.3}Application development}{72}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Progress of development}{72}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Challenges during development}{72}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}User Scenario}{73}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {4.3.2}Software Architecture}{74}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Datamodel}{77}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}\ac {LAN} Architecture}{77}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}Reading Process in Matlab}{78}{subsubsection.4.3.2.3}
+\contentsline {section}{\numberline {4.4}Tests of system}{78}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Planned tests of system}{81}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Test results}{81}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Evaluation of test results}{81}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Summary and Outlook of application}{81}{section.4.5}
+\contentsline {subsubsection}{\numberline {4.5.0.1}Extension possibilities}{83}{subsubsection.4.5.0.1}
+\contentsline {chapter}{\numberline {A}\textbf {Abbreviations}}{88}{appendix.A}

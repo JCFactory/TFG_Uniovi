@@ -1,8 +1,8 @@
 \BOOKMARK [1][-]{Doc-Start}{Contents}{}% 1
 \BOOKMARK [1][-]{chapter*.1}{List of figures}{}% 2
-\BOOKMARK [1][-]{chapter*.2}{List of tables}{}% 3
+\BOOKMARK [1][-]{chapter*.3}{List of tables}{}% 3
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
-\BOOKMARK [0][-]{chapter.2}{Use, Scope and Limitations of RFID Technology}{}% 5
+\BOOKMARK [0][-]{chapter.2}{Use and scope of RFID Technology}{}% 5
 \BOOKMARK [1][-]{section.2.1}{Motivation}{chapter.2}% 6
 \BOOKMARK [2][-]{subsection.2.1.1}{Decision Making}{section.2.1}% 7
 \BOOKMARK [2][-]{subsection.2.1.2}{Internal Communication}{section.2.1}% 8
@@ -29,43 +29,75 @@
 \BOOKMARK [4][-]{paragraph.2.2.2.4.4}{Examples of SOA applications}{subsubsection.2.2.2.4}% 29
 \BOOKMARK [1][-]{section.2.3}{Analysis of RFID applications and their use}{chapter.2}% 30
 \BOOKMARK [2][-]{subsection.2.3.1}{Process Model}{section.2.3}% 31
-\BOOKMARK [0][-]{chapter.3}{Functionality of RFID technology}{}% 32
-\BOOKMARK [1][-]{section.3.1}{General Information}{chapter.3}% 33
-\BOOKMARK [2][-]{subsection.3.1.1}{Components of an RFID application}{section.3.1}% 34
-\BOOKMARK [3][-]{subsubsection.3.1.1.1}{RFID tags}{subsection.3.1.1}% 35
-\BOOKMARK [3][-]{subsubsection.3.1.1.2}{RFID readers}{subsection.3.1.1}% 36
-\BOOKMARK [3][-]{subsubsection.3.1.1.3}{RFID backend systems}{subsection.3.1.1}% 37
-\BOOKMARK [4][-]{paragraph.3.1.1.3.1}{RFID Middleware}{subsubsection.3.1.1.3}% 38
-\BOOKMARK [4][-]{paragraph.3.1.1.3.2}{Data storage concepts}{subsubsection.3.1.1.3}% 39
-\BOOKMARK [2][-]{subsection.3.1.2}{Functionality of RFID system}{section.3.1}% 40
-\BOOKMARK [2][-]{subsection.3.1.3}{Chipless RFID systems}{section.3.1}% 41
-\BOOKMARK [3][-]{subsubsection.3.1.3.1}{Comparison: Chip-based vs. Chipless RFID systems}{subsection.3.1.3}% 42
-\BOOKMARK [3][-]{subsubsection.3.1.3.2}{Design of chipless RFID tags}{subsection.3.1.3}% 43
-\BOOKMARK [3][-]{subsubsection.3.1.3.3}{Detection, identification and localization in chipless RFID systems}{subsection.3.1.3}% 44
-\BOOKMARK [4][-]{paragraph.3.1.3.3.1}{Detection}{subsubsection.3.1.3.3}% 45
-\BOOKMARK [4][-]{paragraph.3.1.3.3.2}{Identification}{subsubsection.3.1.3.3}% 46
-\BOOKMARK [4][-]{paragraph.3.1.3.3.3}{Localization}{subsubsection.3.1.3.3}% 47
-\BOOKMARK [2][-]{subsection.3.1.4}{Security and Privacy of RFID systems}{section.3.1}% 48
-\BOOKMARK [3][-]{subsubsection.3.1.4.1}{Security Problems and Threats}{subsection.3.1.4}% 49
-\BOOKMARK [3][-]{subsubsection.3.1.4.2}{Solutions and Methods against Threats}{subsection.3.1.4}% 50
-\BOOKMARK [2][-]{subsection.3.1.5}{State of the Art}{section.3.1}% 51
-\BOOKMARK [3][-]{subsubsection.3.1.5.1}{Dipole Company}{subsection.3.1.5}% 52
-\BOOKMARK [3][-]{subsubsection.3.1.5.2}{Cardinal Health Inc.}{subsection.3.1.5}% 53
-\BOOKMARK [3][-]{subsubsection.3.1.5.3}{Terso Solutions Inc.}{subsection.3.1.5}% 54
-\BOOKMARK [3][-]{subsubsection.3.1.5.4}{Vizinex RFID}{subsection.3.1.5}% 55
-\BOOKMARK [0][-]{chapter.4}{Development of Medication Tracking Application}{}% 56
-\BOOKMARK [1][-]{section.4.1}{Used platforms and technologies}{chapter.4}% 57
-\BOOKMARK [2][-]{subsection.4.1.1}{Native Development with NativeScript}{section.4.1}% 58
-\BOOKMARK [2][-]{subsection.4.1.2}{NoSQL Technology: MongoDB}{section.4.1}% 59
-\BOOKMARK [3][-]{subsubsection.4.1.2.1}{Characteristics of NoSQL Databases}{subsection.4.1.2}% 60
-\BOOKMARK [3][-]{subsubsection.4.1.2.2}{Reasons and Advantages of MongoDB}{subsection.4.1.2}% 61
-\BOOKMARK [2][-]{subsection.4.1.3}{Impinj RFID Lector and Antenna}{section.4.1}% 62
-\BOOKMARK [3][-]{subsubsection.4.1.3.1}{General Information}{subsection.4.1.3}% 63
-\BOOKMARK [3][-]{subsubsection.4.1.3.2}{Examples}{subsection.4.1.3}% 64
-\BOOKMARK [1][-]{section.4.2}{Application development}{chapter.4}% 65
-\BOOKMARK [2][-]{subsection.4.2.1}{Challenges during development}{section.4.2}% 66
-\BOOKMARK [2][-]{subsection.4.2.2}{Progress of development}{section.4.2}% 67
-\BOOKMARK [3][-]{subsubsection.4.2.2.1}{User Scenario}{subsection.4.2.2}% 68
-\BOOKMARK [3][-]{subsubsection.4.2.2.2}{Software Architecture}{subsection.4.2.2}% 69
-\BOOKMARK [2][-]{subsection.4.2.3}{Possibilities of extension}{section.4.2}% 70
-\BOOKMARK [0][-]{appendix.A}{Abbreviations}{}% 71
+\BOOKMARK [2][-]{subsection.2.3.2}{State of the Art, Examples of Companies}{section.2.3}% 32
+\BOOKMARK [3][-]{subsubsection.2.3.2.1}{Dipole Company}{subsection.2.3.2}% 33
+\BOOKMARK [3][-]{subsubsection.2.3.2.2}{Cardinal Health Inc.}{subsection.2.3.2}% 34
+\BOOKMARK [3][-]{subsubsection.2.3.2.3}{Terso Solutions Inc.}{subsection.2.3.2}% 35
+\BOOKMARK [3][-]{subsubsection.2.3.2.4}{Vizinex RFID}{subsection.2.3.2}% 36
+\BOOKMARK [0][-]{chapter.3}{Functionality of RFID technology, NoSQL technology}{}% 37
+\BOOKMARK [1][-]{section.3.1}{RFID technology}{chapter.3}% 38
+\BOOKMARK [2][-]{subsection.3.1.1}{Components of an RFID application}{section.3.1}% 39
+\BOOKMARK [3][-]{subsubsection.3.1.1.1}{RFID tags}{subsection.3.1.1}% 40
+\BOOKMARK [3][-]{subsubsection.3.1.1.2}{RFID readers}{subsection.3.1.1}% 41
+\BOOKMARK [3][-]{subsubsection.3.1.1.3}{RFID backend systems}{subsection.3.1.1}% 42
+\BOOKMARK [4][-]{paragraph.3.1.1.3.1}{RFID Middleware}{subsubsection.3.1.1.3}% 43
+\BOOKMARK [4][-]{paragraph.3.1.1.3.2}{Data storage concepts}{subsubsection.3.1.1.3}% 44
+\BOOKMARK [2][-]{subsection.3.1.2}{Functionality of RFID system}{section.3.1}% 45
+\BOOKMARK [2][-]{subsection.3.1.3}{Chipless RFID systems}{section.3.1}% 46
+\BOOKMARK [3][-]{subsubsection.3.1.3.1}{Comparison: Chip-based vs. Chipless RFID systems}{subsection.3.1.3}% 47
+\BOOKMARK [3][-]{subsubsection.3.1.3.2}{Design of chipless RFID tags}{subsection.3.1.3}% 48
+\BOOKMARK [3][-]{subsubsection.3.1.3.3}{Detection, identification and localization in chipless RFID systems}{subsection.3.1.3}% 49
+\BOOKMARK [4][-]{paragraph.3.1.3.3.1}{Detection}{subsubsection.3.1.3.3}% 50
+\BOOKMARK [4][-]{paragraph.3.1.3.3.2}{Identification}{subsubsection.3.1.3.3}% 51
+\BOOKMARK [4][-]{paragraph.3.1.3.3.3}{Localization}{subsubsection.3.1.3.3}% 52
+\BOOKMARK [2][-]{subsection.3.1.4}{Security and Privacy of RFID systems}{section.3.1}% 53
+\BOOKMARK [3][-]{subsubsection.3.1.4.1}{Security Problems and Threats}{subsection.3.1.4}% 54
+\BOOKMARK [3][-]{subsubsection.3.1.4.2}{Solutions and Methods against Threats}{subsection.3.1.4}% 55
+\BOOKMARK [1][-]{section.3.2}{Technology of NoSQL}{chapter.3}% 56
+\BOOKMARK [2][-]{subsection.3.2.1}{Document Stores}{section.3.2}% 57
+\BOOKMARK [2][-]{subsection.3.2.2}{Queries \(Map and Reduce\)}{section.3.2}% 58
+\BOOKMARK [2][-]{subsection.3.2.3}{CAP theorem}{section.3.2}% 59
+\BOOKMARK [2][-]{subsection.3.2.4}{ACID vs. BASE}{section.3.2}% 60
+\BOOKMARK [2][-]{subsection.3.2.5}{Characteristics of NoSQL Databases}{section.3.2}% 61
+\BOOKMARK [2][-]{subsection.3.2.6}{Excursus: BIG DATA}{section.3.2}% 62
+\BOOKMARK [3][-]{subsubsection.3.2.6.1}{Velocity, Variety, Volume}{subsection.3.2.6}% 63
+\BOOKMARK [3][-]{subsubsection.3.2.6.2}{Usage of Big Data}{subsection.3.2.6}% 64
+\BOOKMARK [3][-]{subsubsection.3.2.6.3}{Big Data challenges}{subsection.3.2.6}% 65
+\BOOKMARK [3][-]{subsubsection.3.2.6.4}{Big Data technologies}{subsection.3.2.6}% 66
+\BOOKMARK [2][-]{subsection.3.2.7}{Use case of NoSQL Databases: 'Socii System'}{section.3.2}% 67
+\BOOKMARK [3][-]{subsubsection.3.2.7.1}{Structure and flow of data analysis and visualization systems}{subsection.3.2.7}% 68
+\BOOKMARK [3][-]{subsubsection.3.2.7.2}{Main functionalities of 'Socii'}{subsection.3.2.7}% 69
+\BOOKMARK [3][-]{subsubsection.3.2.7.3}{Limitations of 'Socii'}{subsection.3.2.7}% 70
+\BOOKMARK [3][-]{subsubsection.3.2.7.4}{Future outlook of 'Socii'}{subsection.3.2.7}% 71
+\BOOKMARK [0][-]{chapter.4}{Development of Medication Tracking Application}{}% 72
+\BOOKMARK [1][-]{section.4.1}{Requirements and specification book}{chapter.4}% 73
+\BOOKMARK [2][-]{subsection.4.1.1}{Scope of developed system}{section.4.1}% 74
+\BOOKMARK [2][-]{subsection.4.1.2}{Aim of developed system}{section.4.1}% 75
+\BOOKMARK [2][-]{subsection.4.1.3}{First concept of system}{section.4.1}% 76
+\BOOKMARK [1][-]{section.4.2}{Used platforms and technologies}{chapter.4}% 77
+\BOOKMARK [2][-]{subsection.4.2.1}{Native Development with NativeScript}{section.4.2}% 78
+\BOOKMARK [3][-]{paragraph.4.2.1.0.1}{NativeScript Application Logic}{subsection.4.2.1}% 79
+\BOOKMARK [3][-]{subsubsection.4.2.1.1}{NativeScript Sidekick}{subsection.4.2.1}% 80
+\BOOKMARK [2][-]{subsection.4.2.2}{NoSQL Technology: MongoDB}{section.4.2}% 81
+\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Limitations and possibilities of MongoDB}{subsection.4.2.2}% 82
+\BOOKMARK [3][-]{subsubsection.4.2.2.2}{MongoDB: Best Practices}{subsection.4.2.2}% 83
+\BOOKMARK [2][-]{subsection.4.2.3}{Impinj RFID Lector and Antenna}{section.4.2}% 84
+\BOOKMARK [3][-]{subsubsection.4.2.3.1}{General Information}{subsection.4.2.3}% 85
+\BOOKMARK [3][-]{subsubsection.4.2.3.2}{Examples}{subsection.4.2.3}% 86
+\BOOKMARK [2][-]{subsection.4.2.4}{Matlab}{section.4.2}% 87
+\BOOKMARK [3][-]{subsubsection.4.2.4.1}{Mathworks}{subsection.4.2.4}% 88
+\BOOKMARK [1][-]{section.4.3}{Application development}{chapter.4}% 89
+\BOOKMARK [2][-]{subsection.4.3.1}{Progress of development}{section.4.3}% 90
+\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Challenges during development}{subsection.4.3.1}% 91
+\BOOKMARK [3][-]{subsubsection.4.3.1.2}{User Scenario}{subsection.4.3.1}% 92
+\BOOKMARK [2][-]{subsection.4.3.2}{Software Architecture}{section.4.3}% 93
+\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Datamodel}{subsection.4.3.2}% 94
+\BOOKMARK [3][-]{subsubsection.4.3.2.2}{LAN Architecture}{subsection.4.3.2}% 95
+\BOOKMARK [3][-]{subsubsection.4.3.2.3}{Reading Process in Matlab}{subsection.4.3.2}% 96
+\BOOKMARK [1][-]{section.4.4}{Tests of system}{chapter.4}% 97
+\BOOKMARK [2][-]{subsection.4.4.1}{Planned tests of system}{section.4.4}% 98
+\BOOKMARK [2][-]{subsection.4.4.2}{Test results}{section.4.4}% 99
+\BOOKMARK [2][-]{subsection.4.4.3}{Evaluation of test results}{section.4.4}% 100
+\BOOKMARK [1][-]{section.4.5}{Summary and Outlook of application}{chapter.4}% 101
+\BOOKMARK [2][-]{subsubsection.4.5.0.1}{Extension possibilities}{section.4.5}% 102
+\BOOKMARK [0][-]{appendix.A}{Abbreviations}{}% 103
