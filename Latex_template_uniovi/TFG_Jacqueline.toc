@@ -8,7 +8,7 @@
 \contentsline {chapter}{\numberline {2}Use and scope of RFID Technology}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}Motivation}{3}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Decision Making}{3}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}Internal Communication}{3}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.2}Internal Communication}{4}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Production process}{4}{subsection.2.1.3}
 \contentsline {subsection}{\numberline {2.1.4}Investment possibilities}{5}{subsection.2.1.4}
 \contentsline {subsection}{\numberline {2.1.5}Medication Administration System}{5}{subsection.2.1.5}
@@ -40,37 +40,37 @@
 \contentsline {chapter}{\numberline {3}Functionality of RFID technology, NoSQL technology}{31}{chapter.3}
 \contentsline {section}{\numberline {3.1}RFID technology}{31}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Components of an RFID application}{31}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}RFID tags}{31}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}RFID tags}{32}{subsubsection.3.1.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.2}RFID readers}{34}{subsubsection.3.1.1.2}
-\contentsline {subsubsection}{\numberline {3.1.1.3}RFID backend systems}{36}{subsubsection.3.1.1.3}
+\contentsline {subsubsection}{\numberline {3.1.1.3}RFID backend systems}{37}{subsubsection.3.1.1.3}
 \contentsline {paragraph}{\numberline {3.1.1.3.1}RFID Middleware}{37}{paragraph.3.1.1.3.1}
 \contentsline {paragraph}{\numberline {3.1.1.3.2}Data storage concepts}{37}{paragraph.3.1.1.3.2}
 \contentsline {subsection}{\numberline {3.1.2}Functionality of RFID system}{38}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Chipless RFID systems}{39}{subsection.3.1.3}
 \contentsline {subsubsection}{\numberline {3.1.3.1}Comparison: Chip-based vs. Chipless RFID systems}{39}{subsubsection.3.1.3.1}
-\contentsline {subsubsection}{\numberline {3.1.3.2}Design of chipless RFID tags}{41}{subsubsection.3.1.3.2}
-\contentsline {subsubsection}{\numberline {3.1.3.3}Detection, identification and localization in chipless RFID systems}{42}{subsubsection.3.1.3.3}
-\contentsline {paragraph}{\numberline {3.1.3.3.1}Detection}{42}{paragraph.3.1.3.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Design of chipless RFID tags}{42}{subsubsection.3.1.3.2}
+\contentsline {subsubsection}{\numberline {3.1.3.3}Detection, identification and localization in chipless RFID systems}{43}{subsubsection.3.1.3.3}
+\contentsline {paragraph}{\numberline {3.1.3.3.1}Detection}{43}{paragraph.3.1.3.3.1}
 \contentsline {paragraph}{\numberline {3.1.3.3.2}Identification}{43}{paragraph.3.1.3.3.2}
-\contentsline {paragraph}{\numberline {3.1.3.3.3}Localization}{43}{paragraph.3.1.3.3.3}
+\contentsline {paragraph}{\numberline {3.1.3.3.3}Localization}{44}{paragraph.3.1.3.3.3}
 \contentsline {subsection}{\numberline {3.1.4}Security and Privacy of RFID systems}{44}{subsection.3.1.4}
 \contentsline {subsubsection}{\numberline {3.1.4.1}Security Problems and Threats}{45}{subsubsection.3.1.4.1}
 \contentsline {subsubsection}{\numberline {3.1.4.2}Solutions and Methods against Threats}{47}{subsubsection.3.1.4.2}
 \contentsline {section}{\numberline {3.2}Technology of NoSQL}{48}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Document Stores}{51}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Queries (Map and Reduce)}{51}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.2}Queries (Map and Reduce)}{52}{subsection.3.2.2}
 \contentsline {subsection}{\numberline {3.2.3}CAP theorem}{52}{subsection.3.2.3}
 \contentsline {subsection}{\numberline {3.2.4}ACID vs. BASE}{52}{subsection.3.2.4}
 \contentsline {subsection}{\numberline {3.2.5}Characteristics of NoSQL Databases}{53}{subsection.3.2.5}
-\contentsline {subsection}{\numberline {3.2.6}Excursus: BIG DATA}{53}{subsection.3.2.6}
-\contentsline {subsubsection}{\numberline {3.2.6.1}Velocity, Variety, Volume}{54}{subsubsection.3.2.6.1}
+\contentsline {subsection}{\numberline {3.2.6}Excursus: BIG DATA}{54}{subsection.3.2.6}
+\contentsline {subsubsection}{\numberline {3.2.6.1}Velocity, Variety, Volume}{55}{subsubsection.3.2.6.1}
 \contentsline {subsubsection}{\numberline {3.2.6.2}Usage of Big Data}{55}{subsubsection.3.2.6.2}
-\contentsline {subsubsection}{\numberline {3.2.6.3}Big Data challenges}{55}{subsubsection.3.2.6.3}
-\contentsline {subsubsection}{\numberline {3.2.6.4}Big Data technologies}{56}{subsubsection.3.2.6.4}
+\contentsline {subsubsection}{\numberline {3.2.6.3}Big Data challenges}{56}{subsubsection.3.2.6.3}
+\contentsline {subsubsection}{\numberline {3.2.6.4}Big Data technologies}{57}{subsubsection.3.2.6.4}
 \contentsline {subsection}{\numberline {3.2.7}Use case of NoSQL Databases: 'Socii System'}{57}{subsection.3.2.7}
-\contentsline {subsubsection}{\numberline {3.2.7.1}Structure and flow of data analysis and visualization systems}{57}{subsubsection.3.2.7.1}
+\contentsline {subsubsection}{\numberline {3.2.7.1}Structure and flow of data analysis and visualization systems}{58}{subsubsection.3.2.7.1}
 \contentsline {subsubsection}{\numberline {3.2.7.2}Main functionalities of 'Socii'}{58}{subsubsection.3.2.7.2}
-\contentsline {subsubsection}{\numberline {3.2.7.3}Limitations of 'Socii'}{58}{subsubsection.3.2.7.3}
+\contentsline {subsubsection}{\numberline {3.2.7.3}Limitations of 'Socii'}{59}{subsubsection.3.2.7.3}
 \contentsline {subsubsection}{\numberline {3.2.7.4}Future outlook of 'Socii'}{59}{subsubsection.3.2.7.4}
 \contentsline {chapter}{\numberline {4}Development of Medication Tracking Application}{61}{chapter.4}
 \contentsline {section}{\numberline {4.1}Requirements and specification book}{61}{section.4.1}
