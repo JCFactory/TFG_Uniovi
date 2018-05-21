@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  21 MAY 2018 10:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.12)  21 MAY 2018 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3272,9 +3272,6 @@ Package rerunfilecheck Info: File `TFG_Jacqueline.out' has not changed.
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'TFG_Jacqueline.run.xml'.
 \openout1 = `TFG_Jacqueline.run.xml'.
 
@@ -3306,7 +3303,7 @@ texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/lm/lmri12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
 /public/lm/lmsy10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm
 /lmsy8.pfb>
-Output written on TFG_Jacqueline.pdf (102 pages, 2376575 bytes).
+Output written on TFG_Jacqueline.pdf (102 pages, 2376573 bytes).
 PDF statistics:
  1916 PDF objects out of 2073 (max. 8388607)
  1725 compressed objects within 18 object streams
