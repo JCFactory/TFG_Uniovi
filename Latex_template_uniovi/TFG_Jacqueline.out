@@ -53,7 +53,7 @@
 \BOOKMARK [2][-]{subsection.3.1.4}{Security and Privacy of RFID systems}{section.3.1}% 53
 \BOOKMARK [3][-]{subsubsection.3.1.4.1}{Security Problems and Threats}{subsection.3.1.4}% 54
 \BOOKMARK [3][-]{subsubsection.3.1.4.2}{Solutions and Methods against Threats}{subsection.3.1.4}% 55
-\BOOKMARK [1][-]{section.3.2}{Technology of NoSQL}{chapter.3}% 56
+\BOOKMARK [1][-]{section.3.2}{NoSQL technology}{chapter.3}% 56
 \BOOKMARK [2][-]{subsection.3.2.1}{Document Stores}{section.3.2}% 57
 \BOOKMARK [2][-]{subsection.3.2.2}{Queries \(Map and Reduce\)}{section.3.2}% 58
 \BOOKMARK [2][-]{subsection.3.2.3}{CAP theorem}{section.3.2}% 59
@@ -69,7 +69,7 @@
 \BOOKMARK [3][-]{subsubsection.3.2.7.2}{Main functionalities of 'Socii'}{subsection.3.2.7}% 69
 \BOOKMARK [3][-]{subsubsection.3.2.7.3}{Limitations of 'Socii'}{subsection.3.2.7}% 70
 \BOOKMARK [3][-]{subsubsection.3.2.7.4}{Future outlook of 'Socii'}{subsection.3.2.7}% 71
-\BOOKMARK [0][-]{chapter.4}{Development of Medication Tracking Application}{}% 72
+\BOOKMARK [0][-]{chapter.4}{Development of RFID application for management and tracking assets and drugs}{}% 72
 \BOOKMARK [1][-]{section.4.1}{Requirements and specification book}{chapter.4}% 73
 \BOOKMARK [2][-]{subsection.4.1.1}{Scope of developed system}{section.4.1}% 74
 \BOOKMARK [2][-]{subsection.4.1.2}{Aim of developed system}{section.4.1}% 75

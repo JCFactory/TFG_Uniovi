@@ -318,7 +318,6 @@
       \field{sortinit}{7}
       \field{sortinithash}{6ac7fe70cdec8cba8f65694411ce2532}
       \field{labeltitlesource}{title}
-      \field{abstract}{The {RAIN} {RFID} Alliance is a global organization promoting the universal adoption of {RAIN} technology solutions across many different vertical markets.}
       \field{day}{11}
       \field{langid}{american}
       \field{month}{5}
@@ -582,10 +581,14 @@
       \field{sortinit}{1}
       \field{sortinithash}{27a2bc5dfb9ed0a0422134d636544b5d}
       \field{labeltitlesource}{title}
+      \field{day}{16}
+      \field{month}{5}
       \field{title}{{MongoDB} connection - {MATLAB} - {MathWorks} España}
       \field{urlday}{16}
       \field{urlmonth}{5}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb MongoDB connection - MATLAB - MathWorks España:files/169/mongo.html:text/html
@@ -707,7 +710,6 @@
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
-      \field{abstract}{Impinj es un proveedor l\&\#237;der de soluciones {RAIN} {RFID}. Organizaciones utilizan Impinj para conectar objetos a aplicaciones, habilitando el Internet de las Cosas.}
       \field{day}{4}
       \field{langid}{english}
       \field{month}{5}
@@ -749,12 +751,16 @@
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
+      \field{day}{17}
       \field{langid}{american}
+      \field{month}{5}
       \field{title}{An Introduction to {MATLAB}}
       \field{titleaddon}{{IEEE} {UFFC}}
       \field{urlday}{17}
       \field{urlmonth}{5}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb Snapshot:files/174/an-introduction-to-matlab.html:text/html
@@ -767,11 +773,15 @@
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
+      \field{day}{17}
       \field{langid}{english}
+      \field{month}{5}
       \field{title}{{Chapter 8} - Simulink Tutorial}
       \field{urlday}{17}
       \field{urlmonth}{5}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb chapter8.pdfl
@@ -784,12 +794,15 @@
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
-      \field{abstract}{Learn more about {MATLAB}, Simulink, and other toolboxes and blocksets for math and analysis, data acquisition and import, signal and image processing, control design, financial modeling and analysis, and embedded targets.}
+      \field{day}{17}
       \field{langid}{spanish}
+      \field{month}{5}
       \field{title}{{MathWorks} - Información de la compañía}
       \field{urlday}{17}
       \field{urlmonth}{5}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb Snapshot:files/177/aboutus.html:text/html
@@ -802,12 +815,16 @@
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
+      \field{day}{16}
       \field{langid}{american}
+      \field{month}{5}
       \field{title}{Octane {SDK}}
       \field{titleaddon}{Impinj Support Portal}
       \field{urlday}{16}
       \field{urlmonth}{5}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb Snapshot:files/171/202755268-Octane-SDK.html:text/html
@@ -820,10 +837,14 @@
       \field{sortinit}{2}
       \field{sortinithash}{0aa614ace9f3a40ef5a67e7f7a184048}
       \field{labeltitlesource}{title}
+      \field{day}{18}
+      \field{month}{5}
       \field{title}{{HUCA}}
       \field{urlday}{18}
       \field{urlmonth}{5}
       \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
       \verb HUCA:files/180/index.html:text/html
