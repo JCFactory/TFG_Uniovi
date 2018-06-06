@@ -1,7 +1,7 @@
 \chapter{Functionality of RFID technology, NoSQL technology}
 \label{Kap2}
 
-The second chapter is divided into two bigger parts: the functionality of RFID technology and NoSQL technology. In the first part, several characteristics of the used RFID technology and the components of a RFID system (see \ref{rfid_technology}) are depicted. Concerning the security and maintaining privacy of RFID systems, section \ref{secprivrfid} refers to some useful methods against threats in the mentioned systems. After that, in the second bigger part \ref{nosql}, some general information about NoSQL is given and compared to SQL technologies. Furthermore, the term 'Big Data' is introduced and discussed briefly in section \ref{bigdata}. Finally, an sample project which uses various NoSQL technologies will be introduced in section \ref{socii}.
+The second chapter is divided into two parts: the functionality of RFID technology and NoSQL technology. In the first part, several characteristics of the used RFID technology and the components of a RFID system (see \ref{rfid_technology}) are depicted. Concerning the security and maintaining privacy of RFID systems, section \ref{secprivrfid} refers to some useful methods against threats in the mentioned systems. After that, in the second bigger part \ref{nosql}, some general information about NoSQL is given and compared to SQL technologies. Furthermore, the term 'Big Data' is introduced and discussed briefly in section \ref{bigdata}. Finally, an sample project which uses various NoSQL technologies will be introduced in section \ref{socii}.
 
 \section{RFID technology} \label{rfid_technology}
 
@@ -28,7 +28,7 @@ The first and easiest method is called 'regular identification'. It implies that
 
 Other than the mentioned methods, Henrici describes a fourth and most secure method to identify tags which he calls 'encryption and shared key identification'. As an advantage, this identification method protects every information contained in an identifier which can be transmitted in encrypted form. The vast amount of information requires a high internal storage of the tag, like given by active tags. To arrange an encrypted transmission of the information from passive, low cost tags the identifier needs to be calculated outside the tag and then stored on the tag (directly in enciphered form). So, there would be no additional expenditure to enable encrypted and shared key identification. 
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{rfidtagdesign} 
 \caption{\label{fig:tagdesign}The design of a RFID tag \cite[p.13]{chipless}} 
@@ -55,7 +55,7 @@ Furthermore, each reader has its own electromagnetic field. Such fields are dist
 This mechanism does not work in far fields: Here, the sended frequency is backscattered \cite{henrici}.
 All in all, readers are able to query tags and to read and write tag data. But the storage of information and the information processing does not take place in readers or tags, but in the middleware or backend systems. These will be explained in the following paragraph.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{rfidreaderdesign} 
 \caption{\label{fig:readerdesign}The design of a RFID reader \cite[p.17]{chipless}} 
@@ -105,7 +105,7 @@ On the other hand, chipless RFID tags do not have any electronic circuitry in th
 
 Figure \ref{fig:chipless_architecture} represents a simplified architecture of a chipless RFID system. The main difference between this architecture and the architecture of conventional RFID systems is the communication between reader and tag. These are realized by an 'Interrogation impulse' sent by the reader and a 'Backscattered waveform' reflected by the tag. Experts talk about a \ac{FMCW} chirped radar while discussing chipless RFID systems. 
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chipless_architecture}
 \caption{\label{fig:chipless_architecture} The architecture of chipless RFID systems \cite[p.17]{chipless}} 
@@ -114,7 +114,7 @@ Figure \ref{fig:chipless_architecture} represents a simplified architecture of a
 As already mentioned, chipless RFID tags act both as scatterer and encoder. They employ static information incorporated in complex frequency domains of the tag \cite[p.18 ff.]{chipless}. Concerning their exact structure, the given figure \ref{fig:chipless_tag} explains some features of chipless tags. To start with, each chipless tag is made of an arbitrary metallic body with some narrow-band-resonant frequencies which means that these are resonant structures like mono poles, dipoles, rings half-wavelength slots or quarter-wavelength slots. 
 As mentioned above, chipless RFID tags can be constructed very easily: By using a planar metallic patch with a few quarter-wavelength slots as identifications.
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chiplesstag}
 \caption{\label{fig:chipless_tag} The design of chipless RFID tags \cite[p.19]{chipless}} 
@@ -123,7 +123,7 @@ As mentioned above, chipless RFID tags can be constructed very easily: By using 
 Not only the chipless RFID tags are important for developing a chipless system, but also the chipless readers have to be considered. As Rezaiesarlak et al. \cite[p.18 ff.]{chipless} explain, chipless RFID readers do not have any integrated logic circuitry to implement any communication protocol. This makes the detection procedure even more challenging compared with conventional UHF tags. Nevertheless, the reader should be able to extract complex natural frequencies from a scattered signal which will collide with signals from other scatterers or tags. 
 As can be seen from figure \ref{fig:chipless_reader}, the proposed \ac{UWB} (3.1-10.6 GHz) reader uses a direct-down-conversion in the receiving path to overcome the transmitter interferences. Both transmitter and receiver can have two different UWB antennas or share one antenna and one UWB circulator.   
 
-\begin{figure}[H]
+\begin{figure}
 \centering
 \includegraphics[width=\textwidth]{chiplessreader}
 \caption{\label{fig:chipless_reader} The design of chipless RFID readers \cite[p.20]{chipless}} 
