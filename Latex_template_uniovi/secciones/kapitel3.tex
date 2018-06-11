@@ -278,9 +278,19 @@ The tests are planned for June 2018, an exact date is not fixed already (effecti
 
 \subsubsection{Test scenario}
 
-drawing/image of test scenarios...HUCA 11 June 2018
+The following section describes a test scenario which is planned to be administered in HUCA. 
+To begin with, one has to imagine, that a nurse has to administer several drugs to many patients in a hospital. In the past, there where many cases, where nurses dismissed or administered medication to patients incorrectly. To prevent those errors and to improve patient's safety, the nurse can control and capture each time she is administering a drug to a patient. The system will check if the selected drug (which was detected in the patient's room) is valid and if it can be administered to the patient. For example, the nurse is walking with a transport trolley (containing several drugs) on the hallway of a certain department in the hospital. On the hallway, there are two antennas which are connected to a reader which is installed nearby. When passing these antennas, the detected drugs will be automatically stored into the MongoDB database and displayed on the mobile phone or tablet. 
+When entering the patient's room, a second antenna detects the drugs and transmits the signal to the reader which receives the information about the location of the drug ('drug X detected in room 314'). After that, if the nurse wants to administer a drug, the system checks whether it was already administered and whether it is permissible. After having administered the selected drug, the event will change to 'already administered in room X' and will be stored in the database. 
+
+\subsubsection{Functional tests}
+
+In order to test the real-time synchonization, all entries in the database were deleted and the application was refreshed (by using the pull-to-refresh plugin). After five seconds, the alert dialog which explains that there are no entries in the database and no detected drugs is displayed (tested 06 June 2018).
 
 \subsubsection{Device test}
+
+The application was tested on four devices including both tablets and smartphones. During development, mainly the iOS simulator was used to rapidly execute and synchronize the application. Since installing a prototype app on an iOS device requires several developer certificates and some configuration steps, it was easier to use the included simulator which is offered by XCode. 
+Later, when the app could be executed without throwing any errors, it was installed and tested on an iPhone 7 (256 GB and iOS 11.4, 15F79). Furthermore, it was installed on an iPad (iOS 11.4) and ran successfully. 
+Moreover, the app was tested on two Android devices: a Samsung Galaxy S3 (Model: GT-9300, Android Version 4.3, smartphone) as well as a Samsung GT-P5110 (Android Version 4.2.2, screen size: 10.1'', tablet).
 
 the following figure will be replaced by beautiful screenshots from android app
 
