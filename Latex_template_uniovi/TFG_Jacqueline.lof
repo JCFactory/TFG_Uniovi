@@ -1,6 +1,5 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
-\defcounter {refsection}{0}\relax 
-\select@language {english}
+\babel@toc {english}{}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces The system model of Lightweight Anonymous RFID Authentication \cite [p.40]{chen}\relax }}{15}{figure.caption.22}
@@ -25,5 +24,5 @@
 \contentsline {figure}{\numberline {4.9}{\ignorespaces The LAN architecture of the developed system\relax }}{86}{figure.caption.100}
 \contentsline {figure}{\numberline {4.10}{\ignorespaces Activity diagram: reading process in Matlab\relax }}{88}{figure.caption.101}
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Permission letter about application tests in HUCA\relax }}{90}{figure.caption.106}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{91}{figure.caption.107}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Test screenshots, Samsung S3 GT I9300\relax }}{92}{figure.caption.107}
 \addvspace {10\p@ }

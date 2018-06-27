@@ -284,45 +284,50 @@ When entering the patient's room, a second antenna detects the drugs and transmi
 
 \subsubsection{Functional tests}
 
-In order to test the real-time synchonization, all entries in the database were deleted and the application was refreshed (by using the pull-to-refresh plugin). After five seconds, the alert dialog which explains that there are no entries in the database and no detected drugs is displayed (tested 06 June 2018).
+In order to test the real-time synchonization, all entries in the database were deleted and the application was refreshed (by using the pull-to-refresh plugin). After five seconds, the alert dialog which explains that there are no entries in the database and no detected drugs is displayed (tested 06 June 2018). 
 
 \subsubsection{Device test}
 
 The application was tested on four devices including both tablets and smartphones. During development, mainly the iOS simulator was used to rapidly execute and synchronize the application. Since installing a prototype app on an iOS device requires several developer certificates and some configuration steps, it was easier to use the included simulator which is offered by XCode. 
 Later, when the app could be executed without throwing any errors, it was installed and tested on an iPhone 7 (256 GB and iOS 11.4, 15F79). Furthermore, it was installed on an iPad (iOS 11.4) and ran successfully. 
 Moreover, the app was tested on two Android devices: a Samsung Galaxy S3 (Model: GT-9300, Android Version 4.3, smartphone) as well as a Samsung GT-P5110 (Android Version 4.2.2, screen size: 10.1'', tablet).
-
-the following figure will be replaced by beautiful screenshots from android app
+The successful test result can be seen in figure \ref{fig:s3_screenshots}. The figure shows the test mobile phone "Samsung S3 GT I9300".
 
 \begin{figure}
 \centering
-\subfigure{\includegraphics[width=4cm, height=8cm]{s3_01}}
-\subfigure{\includegraphics[width=4cm, height=8cm]{s3_02}}
-\subfigure{\includegraphics[width=4cm, height=8cm]{s3_03}}
-\subfigure{\includegraphics[width=4cm, height=8cm]{s3_04}}
-\subfigure{\includegraphics[width=4cm, height=8cm]{s3_05}}
-\subfigure{\includegraphics[width=4cm, height=8cm]{s3_06}}
-\subfigure{\includegraphics[width=4cm, height=8cm]{s3_07}}
-\caption{\label{fig:s3_screenshots}Layout of application, Screenshot of iOS Simulator}
+\subfigure{\includegraphics[width=0.475\textwidth]{s3_01}}
+\subfigure{\includegraphics[width=0.475\textwidth]{s3_02}}
+\subfigure{\includegraphics[width=0.475\textwidth]{s3_03}}
+\subfigure{\includegraphics[width=0.475\textwidth]{s3_04}}
+\caption{\label{fig:s3_screenshots} Test screenshots, Samsung S3 GT I9300}
 \end{figure}
-
-successfull device tests: Samsung S3 GT I9300 (smartphone) see figure \ref{fig:s3_screenshots}
 
 \subsection{Test results}
 
 \subsection{Evaluation of test results}
 
+During the first tests in the HUCA on Monday, the 25 of June 2018, some small features of the application were noticed negatively. For instance, the "real-time" synchronization between the mobile device and the database. The reading process of the RFID reader and the following insertion process into the database did work without problems, but the Socket.IO connection between the mobile client and the database server has to be optimized. Moreover, the feature of pulling down the app to refresh all data turned out to be rather obstructive than useful. To solve this problem, a function which automatically reloads the app's main page has to be implemented. These two features will be optimized until the next test in the HUCA until the 04 or 05 of July.
+
 \section{Summary and Outlook of application}
 
-which are the problems when employing the system? 
-costs of RFID, size of RFID...
+The developed application can be extended in many ways. In the following section the three most important extension points will be outlined.
 
-\subsubsection{Extension possibilities}
+During testing in the HUCA, a nurse mentioned that when administering drugs to patients, she usually has to carry a medicine trolley with several containers, each for a specific patient. Actually, most of the patients in a hospital have to take more than only one drug which has to be organized in a list. In the past, the nurses had to manually check the patient related medication on a paper.
+So, in future it would be very useful to divide the application into different sections which are related to a specific patient. This also implies, to change the format of the stored data. To be precisely, each patient could be stored in the MongoDB database as a top level document and contains various subdocuments which are his drugs. Since the structure of these drug documents already exists in the developed application, it would be very easy to adopt and implement that solution.
 
-Henrici \cite[p.121 ff.]{henrici} describes four alternative channels to authenticate and authorized the right tags and to prevent attacks on RFID applications. 
-The first possibility of an alternative channel is to use written text to authenticate special operations, for instance on packaging. The master key can be printed on the interior of the product package and is proposed as key recovery mechanism.
+Furthermore, in case of a patient's room where two or more patients are accomodated, the system should distinguish between those. To fastly identify a patient and its related medication on the medicine trolley, one solution could be to let patients wear a wristband with the same passive RFID tag as the drugs. Each time, the same antenna detects a drug and the patients wristband, it checks whether the drug should be administered to the patient and either allows the administration or not.
 
-Furthermore, optical barcodes can be used together with RFID to ensure identification of items. Especially barcodes attached to each item can be used for general identification of objects. Additionally, RFID tags might be used to assign items of high value.
+Another possible scenario would be to set up user roles in the application. This means, that for example the chief physician or the head of nurses sets up a list of medication related to each patient and only this person has access to the personal data. To provide patient's safety, there should be no other nurse or stuff in the hospital who can access the patient's related medication data. After setting up the drugs and its permissions to be administered to the specific patients, this "administrator" saves all data and logs out. 
+Apart from this administrator, there will be another account, such as "nurse" or any ordinary user account. This person administers the drugs to each patients.
 
-A third possibility of using side channels is to use optical input, such as photodiodes attached to RFID tags. Each RFID tag can use flashes of light (also called optical channel) to transfer data.   
-Lastly, a physical contact channel can also be used alternatively. Compared to smartcards, this methods defends against wireless sabotage or denial of service attacks.
+%\subsubsection{Extension possibilities}
+
+%
+%Henrici \cite[p.121 ff.]{henrici} describes four alternative channels to authenticate and authorized the right tags and to prevent attacks on RFID applications. 
+%The first possibility of an alternative channel is to use written text to authenticate special operations, for instance on packaging. The master key can be printed on the interior of the product package and is proposed as key recovery mechanism.
+
+%Furthermore, optical barcodes can be used together with RFID to ensure identification of items. Especially barcodes attached to each item can be used for general identification of objects. Additionally, RFID tags might be used to assign items of high value.
+
+%A third possibility of using side channels is to use optical input, such as photodiodes attached to RFID tags. Each RFID tag can use flashes of light (also called optical channel) to transfer data.   
+%Lastly, a physical contact channel can also be used alternatively. Compared to smartcards, this methods defends against wireless sabotage or denial of service attacks.
+%
