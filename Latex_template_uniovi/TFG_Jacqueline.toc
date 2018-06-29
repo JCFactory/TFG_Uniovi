@@ -42,13 +42,13 @@
 \contentsline {subsection}{\numberline {3.2.1}Characteristics of NoSQL Databases}{34}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Excursus: BIG DATA}{37}{subsection.3.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.1}Velocity, Variety, Volume}{38}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Usage of Big Data}{39}{subsubsection.3.2.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.3}Big Data challenges}{40}{subsubsection.3.2.2.3}
-\contentsline {subsubsection}{\numberline {3.2.2.4}Big Data technologies}{41}{subsubsection.3.2.2.4}
-\contentsline {subsection}{\numberline {3.2.3}Example for using NoSQL Databases: 'Socii System'}{41}{subsection.3.2.3}
-\contentsline {subsubsection}{\numberline {3.2.3.1}Structure and flow of data analysis and visualization systems}{42}{subsubsection.3.2.3.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Usage of Big Data}{38}{subsubsection.3.2.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.3}Big Data challenges}{39}{subsubsection.3.2.2.3}
+\contentsline {subsubsection}{\numberline {3.2.2.4}Big Data technologies}{40}{subsubsection.3.2.2.4}
+\contentsline {subsection}{\numberline {3.2.3}Example for using NoSQL Databases: 'Socii System'}{40}{subsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.3.1}Structure and flow of data analysis and visualization systems}{41}{subsubsection.3.2.3.1}
 \contentsline {subsubsection}{\numberline {3.2.3.2}Main functionalities of 'Socii'}{42}{subsubsection.3.2.3.2}
-\contentsline {subsubsection}{\numberline {3.2.3.3}Limitations of 'Socii'}{43}{subsubsection.3.2.3.3}
+\contentsline {subsubsection}{\numberline {3.2.3.3}Limitations of 'Socii'}{42}{subsubsection.3.2.3.3}
 \contentsline {subsubsection}{\numberline {3.2.3.4}Future outlook of 'Socii'}{43}{subsubsection.3.2.3.4}
 \contentsline {chapter}{\numberline {4}Development of RFID application for management and tracking assets and drugs}{45}{chapter.4}
 \contentsline {section}{\numberline {4.1}Proposed solution of application}{45}{section.4.1}

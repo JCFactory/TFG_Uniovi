@@ -146,13 +146,7 @@ There are many possibilities to store data from application systems. \ac{SQL} ca
 
 To give an example, checking the integrity of data in case of a higher amount of data implicates the need of a higher processing power. Furthermore, facing large-scale development, the efficiency and performance of SQL based systems are decreasing. Moreover, the flexibility and data handling demonstrates another challenge when using SQL. Actually, in practice, the performance is often more important than the consistency, e.g. in social media.    
 
-In addition to that, many companies are missing clear concepts of architecture as well as migration strategies for the optimal application of  'post-relational databases'. To make SQL databases more flexible and to solve the above mentioned problems, Meier and Kaufmann discuss 'post-relational databases' \cite[p.187 ff.]{nosql_meier}. These databases provide on the one hand partial extensions to relational database systems, on the other hand they offer complete new concepts and methods. To give an example, Meier and Kaufmann talk about decentral or federated databases which imply that the data is distributed on different locally seperated computers \cite[p.188 ff.]{nosql_meier}.
-
-By replicating the whole data pool and fragmenting it into different smaller parts which are distributed on several computers, decentral databases raise the data volume effectively. The fragments are called 'shards' and the concept of fragmentation is called sharding or partitioning \cite[p.188 ff.]{nosql_meier}. By using decentral databases, users only have to consider the logical view of data and not the physical fragments, all operations on the database will be driven by the database system.  
-
-Alongside the decentral databases there are also introduced other 'post-relational databases', such as 'Temporal databases', 'Multi-dimensional databases', 'Object-relational databases', 'Knowledge/deductive databases' and 'Fuzzy databases'.
-
-However, there were some NoSQL database technologies coming up in the past ten years. In 2000, these databases were called 'Web-Scale-Databases' because of the need of data storage systems which should handle with the large amount of data of web services \cite[p.221 ff.]{nosql_meier}.
+In the past ten years, there were some NoSQL database technologies coming up. In 2000, these databases were called 'Web-Scale-Databases' because of the need of data storage systems which should handle with the large amount of data of web services \cite[p.221 ff.]{nosql_meier}.
 
 The term NoSQL can be understood as 'Not only SQL' which signifies extension of the existing SQL functionalities. Some data specialists prefer the context of 'no relational databases' which is controversial because of the use of graph databases which deal with relations between nodes.   
 
@@ -173,7 +167,6 @@ A \ac{DBMS} defines a software which describes, stores, queries data independent
 
 \subsection{Excursus: BIG DATA} \label{bigdata}
 
-The following section shall only act as additional contextual knowledge paragraph. 
 The term 'Big Data' has been emerged during the past 10 years. Due to the enormous data pool, e.g. in social networks or user analysis, which is not easy to manage with usual software tools, new data technologies were needed. As a solution, NoSQL technologies have been arised. Furthermore, Big Data refers to unstructured data which comes from different sources \cite{nosql_meier}. 
 
 Edward and Sabharwal define Big Data as the following: It is a '[...] term used to describe data that has massive volume, comes in a variety of structures and is generated at high velocity. This kind of data poses challenges to the tradtitional \ac{RDBMS} used for storing and processing data. Big Data is paving way for newer approaches of processing and storing data.[...]' \cite[p.1 ff.]{mongodb_edward}. Furthermore, Edward and Sabharwal refer to an explosion of data created by smartphones, social networking sites, in short words from various sources in various formats, such as video, text, speech, log files and images. The type of stored data varies by its 'sector', e.g. retail and whole sale, administrative parts of government, financial services mainly generate text or numerical data (including customer data and transaction information). 
