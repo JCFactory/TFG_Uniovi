@@ -314,7 +314,13 @@ During the first tests in the HUCA on Monday, the 25 of June 2018, some small fe
 The developed application can be extended in many ways. In the following section the three most important extension points will be outlined.
 
 During testing in the HUCA, a nurse mentioned that when administering drugs to patients, she usually has to carry a medicine trolley with several containers, each for a specific patient. Actually, most of the patients in a hospital have to take more than only one drug which has to be organized in a list. In the past, the nurses had to manually check the patient related medication on a paper.
-So, in future it would be very useful to divide the application into different sections which are related to a specific patient. This also implies, to change the format of the stored data. To be precisely, each patient could be stored in the MongoDB database as a top level document and contains various subdocuments which are his drugs. Since the structure of these drug documents already exists in the developed application, it would be very easy to adopt and implement that solution. Another possibility would be to connect the application to each electronic patient record. Consequently, each patient can be easily identified with its medication list.
+So, in future it would be very useful to divide the application into different sections which are related to a specific patient. This also implies, to change the format of the stored data. To be precisely, each patient could be stored in the MongoDB database as a top level document and contains various subdocuments which are his drugs. Since the structure of these drug documents already exists in the developed application, it would be very easy to adopt and implement that solution. Another possibility would be to connect the application to each electronic patient record, which can be seen in figure \ref{fig:newdatamodel}. Consequently, each patient can be easily identified with its medication list.
+
+\begin{figure}
+\centering
+\includegraphics[width=\textwidth]{extension_mongodatamodel} 
+\caption{\label{fig:newdatamodel}Example of extended data model, each patient entry is associated to the medication list} 
+\end{figure}
 
 Furthermore, in case of a patient's room where two or more patients are accomodated, the system should distinguish between those. To fastly identify a patient and its related medication on the medicine trolley, one solution could be to let patients wear a wristband with the same passive RFID tag as the drugs. Each time, the same antenna detects a drug and the patients wristband, it checks whether the drug should be administered to the patient and either allows the administration or not.
 

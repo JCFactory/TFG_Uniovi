@@ -38,8 +38,8 @@
       \strng{authorbibnamehash}{d0b3b851c069652d59c660086f96742f}
       \strng{authornamehash}{d0b3b851c069652d59c660086f96742f}
       \strng{authorfullhash}{d0b3b851c069652d59c660086f96742f}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{1735-1995}
@@ -83,8 +83,8 @@
       \strng{authorbibnamehash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authornamehash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authorfullhash}{10a6458f278e70fb53813dd1547208ff}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-540-79075-4}
@@ -125,8 +125,8 @@
       \strng{authorbibnamehash}{c3553e9bdf1673b3a853fa578d23298e}
       \strng{authornamehash}{c3553e9bdf1673b3a853fa578d23298e}
       \strng{authorfullhash}{c3553e9bdf1673b3a853fa578d23298e}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-642-11459-5}
@@ -190,57 +190,6 @@
       \endverb
       \keyw{Computer aided software engineering;Costs;Government;Health and safety;Health information management;Hospitals;Manufacturing;Medical services;Radiofrequency identification;Supply chain management}
     \endentry
-    \entry{chen}{book}{}
-      \name{author}{2}{}{%
-        {{hash=fb194450e9046854896c4ca5f2dc8d01}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Min},
-           giveni={M\bibinitperiod}}}%
-        {{hash=d4274da32eabe2603a3d168e9889458e}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Shigang},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cham}%
-      }
-      \list{publisher}{1}{%
-        {Springer International Publishing}%
-      }
-      \strng{namehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
-      \strng{fullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
-      \strng{bibnamehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
-      \strng{authorbibnamehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
-      \strng{authornamehash}{f710cda1c6f12d2dbb63d1bd694f5f36}
-      \strng{authorfullhash}{f710cda1c6f12d2dbb63d1bd694f5f36}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-3-319-47354-3}
-      \field{series}{Wireless Networks}
-      \field{title}{{RFID} Technologies for Internet of Things}
-      \field{urlday}{13}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.1007/978-3-319-47355-0
-      \endverb
-      \verb{file}
-      \verb Chen and Chen - 2016 - RFID Technologies for Internet of Things.pdf:files/53/Chen and Chen - 2016 - RFID Technologies for Internet of Things.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb http://link.springer.com/10.1007/978-3-319-47355-0
-      \endverb
-      \verb{url}
-      \verb http://link.springer.com/10.1007/978-3-319-47355-0
-      \endverb
-    \endentry
     \entry{mobile}{book}{}
       \list{location}{1}{%
         {Berlin, Heidelberg}%
@@ -248,8 +197,8 @@
       \list{publisher}{1}{%
         {Springer Berlin Heidelberg}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-540-77551-5}
       \field{langid}{german}
@@ -268,161 +217,6 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/978-3-540-77552-2
-      \endverb
-    \endentry
-    \entry{dipole}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labeltitlesource}{title}
-      \field{day}{7}
-      \field{month}{3}
-      \field{title}{RFID Hospital Sanidad {|} Dipole}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb RFID Hospital Sanidad | Dipole:files/31/RFID-Hospital-Sanidad.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
-      \endverb
-      \verb{url}
-      \verb http://www.dipolerfid.es/es/RFID-Hospital-Sanidad
-      \endverb
-    \endentry
-    \entry{cardinal_web}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labeltitlesource}{title}
-      \field{day}{27}
-      \field{month}{3}
-      \field{title}{Cardinal Health: Healthcare Solutions, Logistics Supplies}
-      \field{urlday}{27}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Cardinal Health\: Healthcare Solutions, Logistics & Supplies:files/98/en.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb http://www.cardinalhealth.com/en.html
-      \endverb
-      \verb{url}
-      \verb http://www.cardinalhealth.com/en.html
-      \endverb
-    \endentry
-    \entry{cardinal_video}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Healthcare reform is changing the way you provide care. With a focus on cost efficiency and quality, tracking utilization and efficient inventory management are big opportunities in your cardiovascular suite to help you manage costs and support patient safety initiatives. See how using the right tool for the right supply is key to demonstrating {ROI}. Watch a webinar on cath lab inventory tracking — Stop the Emotional Stocking! Revitalize your Cath Lab.}
-      \field{day}{15}
-      \field{langid}{english}
-      \field{month}{4}
-      \field{title}{Considering {RFID} to Track Healthcare Inventory?}
-      \field{titleaddon}{{DAIC}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2016}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:files/32/considering-rfid-track-healthcare-inventory.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.dicardiology.com/videos/considering-rfid-track-healthcare-inventory
-      \endverb
-      \verb{url}
-      \verb https://www.dicardiology.com/videos/considering-rfid-track-healthcare-inventory
-      \endverb
-    \endentry
-    \entry{rainrfid}{online}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
-      \field{labeltitlesource}{title}
-      \field{day}{11}
-      \field{langid}{american}
-      \field{month}{5}
-      \field{title}{{RAIN} {RFID}}
-      \field{titleaddon}{{RAIN} {RFID}}
-      \field{urlday}{11}
-      \field{urlmonth}{5}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:files/163/rainrfid.org.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://rainrfid.org/
-      \endverb
-      \verb{url}
-      \verb https://rainrfid.org/
-      \endverb
-    \endentry
-    \entry{terso_video}{video}{}
-      \name{author}{1}{}{%
-        {{hash=17da911c03e22fe687e8ccefbf7b2c04}{%
-           family={{Terso Rfid}},
-           familyi={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{fullhash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{bibnamehash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{authorbibnamehash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{authornamehash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \strng{authorfullhash}{17da911c03e22fe687e8ccefbf7b2c04}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{day}{12}
-      \field{month}{3}
-      \field{title}{{RFID} for Medical Field Inventory Tracking}
-      \field{urlday}{12}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2018}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.youtube.com/watch?v=-G9XNpuH8iQ
-      \endverb
-      \verb{url}
-      \verb https://www.youtube.com/watch?v=-G9XNpuH8iQ
-      \endverb
-    \endentry
-    \entry{vizinex}{online}{}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
-      \field{day}{19}
-      \field{langid}{american}
-      \field{month}{2}
-      \field{title}{Medical Uses for {RFID} Products}
-      \field{titleaddon}{Vizinex {RFID}}
-      \field{urlday}{7}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{year}{2010}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb Snapshot:files/28/medical-uses-for-rfid-products.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
-      \endverb
-      \verb{url}
-      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
       \endverb
     \endentry
     \entry{chipless}{book}{}
@@ -450,8 +244,8 @@
       \strng{authorbibnamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authornamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authorfullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-10168-2}
@@ -474,6 +268,32 @@
       \endverb
       \verb{url}
       \verb http://link.springer.com/10.1007/978-3-319-10169-9
+      \endverb
+    \endentry
+    \entry{vizinex}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
+      \field{day}{19}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{Medical Uses for {RFID} Products}
+      \field{titleaddon}{Vizinex {RFID}}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{year}{2010}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/28/medical-uses-for-rfid-products.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
+      \endverb
+      \verb{url}
+      \verb https://www.vizinexrfid.com/medical-uses-for-rfid-products/
       \endverb
     \endentry
     \entry{nosql_meier}{book}{}
@@ -501,8 +321,8 @@
       \strng{authorbibnamehash}{e9cb0cceebc437cca15c29d94cf2455e}
       \strng{authornamehash}{e9cb0cceebc437cca15c29d94cf2455e}
       \strng{authorfullhash}{e9cb0cceebc437cca15c29d94cf2455e}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-662-47663-5}
@@ -553,8 +373,8 @@
       \strng{authorbibnamehash}{dc762acd484d398c9bf9614073877fca}
       \strng{authornamehash}{dc762acd484d398c9bf9614073877fca}
       \strng{authorfullhash}{dc762acd484d398c9bf9614073877fca}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-4842-0648-5}
@@ -759,8 +579,8 @@
       \endverb
     \endentry
     \entry{speedway}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{abstract}{Impinj Speedway readers are high-performance, enterprise-class fixed readers and the \#1 selling {RAIN} {RFID} readers in the world.}
       \field{day}{11}
@@ -783,9 +603,34 @@
       \verb https://www.impinj.com/platform/connectivity/speedway-r420/
       \endverb
     \endentry
+    \entry{rainrfid}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{day}{11}
+      \field{langid}{american}
+      \field{month}{5}
+      \field{title}{{RAIN} {RFID}}
+      \field{titleaddon}{{RAIN} {RFID}}
+      \field{urlday}{11}
+      \field{urlmonth}{5}
+      \field{urlyear}{2018}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:files/163/rainrfid.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://rainrfid.org/
+      \endverb
+      \verb{url}
+      \verb https://rainrfid.org/
+      \endverb
+    \endentry
     \entry{impinj}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{day}{4}
       \field{langid}{english}
@@ -808,8 +653,8 @@
       \endverb
     \endentry
     \entry{deroyal}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{day}{11}
       \field{month}{5}
@@ -831,8 +676,8 @@
       \endverb
     \endentry
     \entry{introduction_matlab}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{day}{17}
       \field{langid}{american}
@@ -856,8 +701,8 @@
       \endverb
     \endentry
     \entry{simulink}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{day}{17}
       \field{langid}{english}
@@ -880,8 +725,8 @@
       \endverb
     \endentry
     \entry{mathworks}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{day}{17}
       \field{langid}{spanish}
@@ -904,8 +749,8 @@
       \endverb
     \endentry
     \entry{octanesdk}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{day}{16}
       \field{langid}{american}
@@ -929,8 +774,8 @@
       \endverb
     \endentry
     \entry{huca}{online}{}
-      \field{sortinit}{2}
-      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labeltitlesource}{title}
       \field{day}{18}
       \field{month}{5}
