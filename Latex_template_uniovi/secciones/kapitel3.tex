@@ -1,7 +1,7 @@
 \chapter{Development of RFID application for management and tracking assets and drugs}
 \label{Kap3}
 
-The third and last chapter of this Bachelor Thesis gives information about the development process of the RFID tracking application. In the following, the system's requirements \ref{requirements} will be described as well as the first drafts will be given \ref{firstconcept}. Additionally, all used platforms and technologies are mentioned in section \ref{platforms}. Then, the specific development process \ref{app_development} is depicted which demonstrates the software's architecture introducing some diagrams. Lastly, several planned tests as well as their test results are discussed in section \ref{tests}.
+The third and last chapter of this Bachelor Thesis gives information about the development process of a RFID tracking application. In the following, the system's requirements \ref{requirements} will be described as well as the first drafts will be shown \ref{firstconcept}. Additionally, all used platforms and technologies are mentioned in section \ref{platforms}. Then, the specific development process \ref{app_development} is depicted which demonstrates the software's architecture introducing some diagrams. Lastly, several planned tests as well as their test results are discussed in section \ref{tests}.
 
 \section{Proposed solution of application}\label{requirements}
 
@@ -9,7 +9,7 @@ The third and last chapter of this Bachelor Thesis gives information about the d
 
 The aim of the proposed system is to improve logistics and the management of drugs in hospitals. Considering the risk of errors or mistakes that might occur when administering drugs to patients, the developed mobile application can prevent these situations. Furthermore, when patients are in a critical situation, the system offers the possibility to respond faster to emergencies as well as to improve patients' monitoring. Finally, the placement and usage of medical assets can be pursued and controlled better. 
 
-The above mentioned reasons lead to the necessity of disposable, low cost sensors which might be tagged to patients, drugs and medical assets. Moreover, there has to be established a network between the mobile devices as well as the reader and the synchronizing software. 
+The above mentioned reasons lead to the necessity of disposable, low cost RFID tags which might be tagged to patients, drugs and medical assets. Moreover, there has to be established a network between the mobile devices, the RFID reader and the synchronizing software. 
 
 \subsection{Scope of developed application}
 
@@ -20,7 +20,7 @@ The above mentioned reasons lead to the necessity of disposable, low cost sensor
 \end{figure}
 
 In the past, the existing RFID systems for management and logistics in hospitals were mostly based on 13.56 MHz short-range, inductive RFID tags.
-Figure \ref{fig:existing_apps} gives an example of an existing RFID solution for management in hospitals. This caused several advantages as well as disadvantages. On the one hand, as an advantage, using 13.56 MHz short-range, inductive RFID tags is a mature technology which is reliable. Further, the past solutions imply low-cost RFID tags which are easy to use. 
+Figure \ref{fig:existing_apps} gives an example of an existing RFID solution for management in hospitals. The given system has several advantages as well as disadvantages. On the one hand, as an advantage, using 13.56 MHz short-range, inductive RFID tags is a mature technology which is reliable. Further, the past solutions imply low-cost RFID tags which are easy to use. 
 On the other hand, the disadvantages of the mentioned solutions are their complex infrastructure and the short-range. 
 
 Therefore, the present bachelor thesis introduces the use of 868 MHz frequency band while using a similar RFID architecture as the ones already tested and deployed. As an advantage of using 868 MHz frequency band, the proposed solution implies a longer range, wider coverage and the required hardware can be simplified. Further, the proposed solution of this bachelor thesis provides a mobile application for users which can be run on tablets and smartphones. 
@@ -40,17 +40,17 @@ On the same computer is running Matlab which is connected with the RFID reader. 
 \caption{\label{fig:first_draft}The first draft of the developed system} 
 \end{figure}
 
-This first concept was changed due to the 'MongoDB' plugin, which offers Matlab \cite{matlab_mongodb}. This is much easier than exporting all received data from Matlab in *.CSV format and then including it into MongoDB as *.CSV data. Furthermore, it supports developing a very fast and real-time application which enables a higher data integrity because of the direct connection to the database (see also figure \ref{fig:app_architecture}.  
+This first concept was changed due to the use of the 'MongoDB' plugin, which offers Matlab \cite{matlab_mongodb}. This is much easier than exporting all received data from Matlab in *.CSV format and then including it into MongoDB as *.CSV data. Furthermore, it supports developing a very fast and real-time application which enables a higher data integrity because of the direct connection to the database (see also figure \ref{fig:app_architecture}.  
 
 %talking about platforms in general, to get a common understanding 
 \section{Used platforms and technologies} \label{platforms}
 
-This chapter focusses on explaining the used technologies and frameworks for developping the mobile RFID application. In the following, the framework 'Nativescript' which can be used for native mobile development will be explained. After that, a further section will discuss the technology of NoSQL and will compare it to SQL database technology. This section will also depict MongoDB, a document store. Finally, the Impinj RFID reader will be presented. In the last section \pageref{app_development} of this chapter the challenges as well as the user scenarios will be shown. 
+This section focusses on explaining the used technologies and frameworks for developping the mobile RFID application. In the following, the framework 'Nativescript' which can be used for native mobile development will be explained. After that, a further section will discuss the technology of NoSQL and will compare it to SQL database technology. This section will also depict MongoDB, a document store. Finally, the Impinj RFID reader will be presented. In the last section \pageref{app_development} of this chapter the challenges as well as the user scenarios will be shown. 
 
 \subsection{Native Development with NativeScript} 
 
-There exist several ways to create a mobile application. But the challenge is to develop a consistent solution for the existing systems, like e.g. Android or iOS.
-To face the challenge of developing a hybride solution which can be run both on Android and iOS devices, Nativescript has been established as an open-source project from Telerik in the last years \cite{nativescript}. 
+There exist several ways to create a mobile application, like for example with Android Studio or iOS. But the challenge is to develop a hybride solution for both systems at the same time.
+To face that challenge, Nativescript has been established as an open-source project from Telerik in the last years \cite{nativescript}. 
 
 The free and open source technology enables developers to easily build cross-platform native apps with either Javascript, Nativescript or by using Angular \cite{nativescript}. 
 Regarding its design philosophy, Nativescript was designed to be approachable to developers from various backgrounds \cite{nativescript}. Moreover, it was designed to be both performant and giving access to native APIs, such as Android or iOS.
@@ -63,7 +63,7 @@ Figure \ref{fig:nsarchitecture} gives an impression of the general architecture 
 \caption{\label{fig:nsarchitecture}The architecture of NativeScript Applications, adopted from \cite{nsarchitecture}} 
 \end{figure}
 
-NativeScript applications can also be developed, built and run on the 'NativeScript Playground' \cite{nsplayground} which enables independent development. Moreover, NativeScript Playground is easier to handle because the development machine does not have to be prepared. Generally, by offering a user-friendly surface, NativSscript Playground is appropriate for beginners who start developing native mobile application.
+NativeScript applications can also be developed, built and run on the 'NativeScript Playground' \cite{nsplayground} which enables independent development. Moreover, NativeScript Playground is easier to handle because the development machine (especially the OS specific intallation steps) does not have to be prepared. Generally, by offering a user-friendly surface, NativeScript Playground is appropriate for beginners who start developing native mobile applications.
 
 \paragraph{NativeScript Application Logic}
 
@@ -73,7 +73,7 @@ NativeScript applications can also be developed, built and run on the 'NativeScr
 \caption{\label{fig:mvvm}The MVVM application logic, adopted from \cite{nativescript}} 
 \end{figure}
 
-Nativescript has a \ac{MVVM} application logic (see figure \ref{fig:mvvm}). In contrast to the popular \ac{MVC} application model, Nativescript offers two-way data binding by using the 'Viewmodel' \cite{nativescript}. In every NativeScript application, the model defines and represents data. After that, the data are bound to the view which represents them in a XML file. The 'ViewModel' contains the application logic and exposes all data to the view. 
+NativeScript has a \ac{MVVM} application logic (see figure \ref{fig:mvvm}). In contrast to the popular \ac{MVC} application model, NativeScript offers two-way data binding by using the 'Viewmodel' \cite{nativescript}. In every NativeScript application, the model defines and represents data. After that, the data are bound to the view which represents them in a XML file. The 'ViewModel' contains the application logic and exposes all data to the view. 
 
 Between Model and View, data can either be bound as one-way (default setting, the target property updates when a change in the source property occurs) or two-way data binding (all changes in the directions target-source and source-target will be transmitted). To enable the two-way data binding (see figure \ref{fig:mvvm}), the NativeScript Observable Module has to be implemented. 
 
