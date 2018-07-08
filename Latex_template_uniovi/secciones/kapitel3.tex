@@ -1,7 +1,7 @@
 \chapter{Development of RFID application for management and tracking assets and drugs}
 \label{Kap3}
 
-The third and last chapter of this Bachelor Thesis gives information about the development process of a RFID tracking application. In the following, the system's requirements \ref{requirements} will be described as well as the first drafts will be shown \ref{firstconcept}. Additionally, all used platforms and technologies are mentioned in section \ref{platforms}. Then, the specific development process \ref{app_development} is depicted which demonstrates the software's architecture introducing some diagrams. Lastly, several planned tests as well as their test results are discussed in section \ref{tests}.
+The fourth and last chapter of this Bachelor Thesis gives information about the development process of a RFID tracking application. In the following, the system's requirements \ref{requirements} are described. Additionally, all used platforms and technologies are mentioned in section \ref{platforms}. Then, the specific development process \ref{app_development} is depicted which demonstrates the software's architecture introducing some diagrams. Lastly, several planned tests as well as their test results are discussed in section \ref{tests}.
 
 \section{Proposed solution of application}\label{requirements}
 
@@ -45,11 +45,11 @@ This first concept was changed due to the use of the 'MongoDB' plugin, which off
 %talking about platforms in general, to get a common understanding 
 \section{Used platforms and technologies} \label{platforms}
 
-This section focusses on explaining the used technologies and frameworks for developping the mobile RFID application. In the following, the framework 'Nativescript' which can be used for native mobile development will be explained. After that, a further section will discuss the technology of NoSQL and will compare it to SQL database technology. This section will also depict MongoDB, a document store. Finally, the Impinj RFID reader will be presented. In the last section \pageref{app_development} of this chapter the challenges as well as the user scenarios will be shown. 
+This section focusses on explaining the used technologies and frameworks for developping the mobile RFID application. In the following, the framework 'Nativescript' which can be used for native mobile development will be explained. After that, section \ref{mongodb} discusses MongoDB, a document store. Finally, the Speedway Revolution RFID reader is presented. In the last section \ref{app_development} of this chapter the challenges as well as the user scenarios are shown. 
 
 \subsection{Native Development with NativeScript} 
 
-There exist several ways to create a mobile application, like for example with Android Studio or iOS. But the challenge is to develop a hybride solution for both systems at the same time.
+There exist several ways to create a mobile application, like for example with Android Studio or iOS. But the challenge is to develop a hybrid solution for both systems at the same time.
 To face that challenge, Nativescript has been established as an open-source project from Telerik in the last years \cite{nativescript}. 
 
 The free and open source technology enables developers to easily build cross-platform native apps with either Javascript, Nativescript or by using Angular \cite{nativescript}. 
@@ -63,9 +63,9 @@ Figure \ref{fig:nsarchitecture} gives an impression of the general architecture 
 \caption{\label{fig:nsarchitecture}The architecture of NativeScript Applications, adopted from \cite{nsarchitecture}} 
 \end{figure}
 
-NativeScript applications can also be developed, built and run on the 'NativeScript Playground' \cite{nsplayground} which enables independent development. Moreover, NativeScript Playground is easier to handle because the development machine (especially the OS specific intallation steps) does not have to be prepared. Generally, by offering a user-friendly surface, NativeScript Playground is appropriate for beginners who start developing native mobile applications.
+NativeScript applications can also be developed, built and run on the 'NativeScript Playground' \cite{nsplayground} which enables independent development. Moreover, NativeScript Playground is easier to handle because the application is executed in the Cloud. Generally, by offering a user-friendly surface, NativeScript Playground is appropriate for beginners who start developing native mobile applications.
 
-\paragraph{NativeScript Application Logic}
+\subsubsection{NativeScript Application Logic}
 
 \begin{figure}
 \centering
@@ -77,7 +77,7 @@ NativeScript has a \ac{MVVM} application logic (see figure \ref{fig:mvvm}). In c
 
 The data between model and view can either be synchronized as one-way (default setting, the target property updates when a change in the source property occurs) or two-way data binding (all changes in the directions target-source and source-target will be transmitted). To enable the two-way data binding (see figure \ref{fig:mvvm}), the NativeScript Observable Module has to be implemented. 
 
-In the NativeScript Documentation \cite{nativescript} the model files are defined as 'Code Behind' because they have the same name as the view file and are written in Javascript or Typescript. By adding attributes to any XML element in the view file, methods can be implemented in the related model file (in Javascript or TypeScript). 
+According to the NativeScript Documentation \cite{nativescript}, the model files are called 'Code Behind' because they have the same name as the view file and are written in Javascript or Typescript. By adding attributes to any XML element in the view file, methods can be implemented in the related model file (in Javascript or TypeScript). 
 
 \subsubsection{NativeScript Sidekick}\label{Native}
 
@@ -86,7 +86,7 @@ To search for plugins and to manage these, developers can use the Nativescript M
 
 \subsection{NoSQL Technology: MongoDB}\label{mongodb}
 
-As mentioned in section Document Store \pageref{documentstore}, this type of NoSQL database provides high availability, scalability and partitioning options \cite[p.25 ff.]{mongodb_edward}. Nevertheless, there are some disavantages when using MongoDB or any other document stores: For instance, both consistency and transactions are not supported. 
+As mentioned in section Document Store \chapterref{Kap2}, this type of NoSQL database provides high availability, scalability and partitioning options \cite[p.25 ff.]{mongodb_edward}. Nevertheless, there are some disavantages when using MongoDB or any other document stores: For instance, both consistency and transactions are not supported. 
 
 In contrast to relational databases, MongoDB does not consist of tables and rows, but of collections containing documents which make it both flexible and scalable \cite[p.25 ff.]{mongodb_edward}. Collections can be compared to tables in SQL, but are schemaless. Instead of having one unique schema within the same collection, every document can have its own set of fields, and common fields can store different values across documents.  
 
@@ -132,25 +132,9 @@ Respecting sharding, it is important to select a good shard key. Moreover, Edwar
 
 Finally, Edward and Sabharwal introduce 'monitoring' which means that every MongoDB system should be proactively monitored to detect unusual behaviours \cite[p.240 ff.]{mongodb_edward}. To put this into practice, MongoDB's free hosted monitoring service, MongoDB Cloud Manager (which contains a dashboard view of the entire cluster metrics, can be used. Besides, MongoDB itself provides 'mongostat' and 'mongotop' to gain insight into the performance of the database instance (e.g. operation counters, active working sets etc. are shown). 
 
-\subsection{Impinj RFID Lector and Antenna}
+\subsection{Speedway Revolution RFID reader}
 
-The developed system was tested and run on a Speedway R420 RAIN RFID READER \cite{speedway} with four antenna ports (extendable to 32 antennas with an Impinj Antenna Hub \cite{speedway}) and a flexible read range (short and long-range reads are supported). According to the manufacturer's web page \cite{speedway}, the Speedway R420 RAIN RFID READER can be connected to Impinj Autopilot technology which automatically optimizes the reader's operation for its environment. Furthermore, there can be downloaded the appropriate software from the Impinj web page \cite{speedway}.
-In the following section, there will be given some information about Impinj, RAIN RFID as well as some example use cases. 
-
-\subsubsection{General Information}
-
-To start with, RAIN RFID will be presented. RAIN RFID is a global alliance promoting universal adoption of UHF RFID technology \cite{rainrfid}. It can be compared to NFC Forum, WiFi Alliance or Bluetooth SIG. Moreover, RAIN RFID uses a GS1 UHF Gen2 Protocol which is ISO-standardized (18000-63). According to the alliance, the term RAIN shall represent the node between UHF RFID and the cloud where RFID-based data can be stored, managed and shared. Several RAIN RFID uses reader to read and write a tagged item, manage data and take action.
-
-Impinj (also known as NASDAQ:PI) enables wireless connection of multiple everyday items, such as apparel, medical supplies, automobile parts, luggage etc. The Impinj platform uses RAIN RFID to deliver timely information about all items to the digital world (application systems) \cite{impinj}.
-
-\subsubsection{Examples}
-
-Impinj mentions some example use cases when implementing the Speedway R420 RAIN RFID READER: Inventory Management, Asset Tracking and enhanced shopper experience. 
-The DeRoyal Industries, Inc. which was founded 1973 is a medical device facturer \cite{deroyal}. With the aim of improving clinical quality and economic health of customers, DeRoyal provides surgical devices, unitized delivery systems, orthopedic supports and bracing wound care dressings.
-
-One of their software solutions is the system 'DeRoyal Continuum Safe' \cite{deroyal}. By using the Impinj platform and RAIN RFID, DeRoyal Continuum Safe automatically captures and tracks data from medical supplies in the operating room, emergency department and catherterization lab. The solution includes packaging which is tagged with RAIN RFID tags. According to DeRoyal, the system provides many advantages, such as reducing the time staff spends managing supplies so that they can focus more on patient care. 
-
-Besides, DeRoyal Continuum Safe improves billing accuracy for supplies used during procedures. After that, the likelihood of infections is reduced by ensuring the availability of necessary supplies. Lastly, DeRoyal achieved to provide a data-driven supply chain management \cite{deroyal}. 
+The developed system was tested and run on a Speedway R420 RAIN RFID READER \cite{speedway} with four antenna ports (extendable to 32 antennas with an Impinj Antenna Hub \cite{speedway}). According to the manufacturer's web page \cite{speedway}, the Speedway R420 RAIN RFID READER can be connected to Impinj Autopilot technology which automatically optimizes the reader's operation for its environment. A test software can be downloaded from the Impinj web page  \cite{speedway}.
 
 \subsection{Matlab}
 
@@ -158,12 +142,6 @@ According to Dr. Knuth's 'Art of Computer Programming', Matlab is an interpreted
 
 Matlab provides important terminology, like e.g. variables (which contain three fundamental types: characters, real numbers, complex numbers), arguments, commands, command line, scripts, functions as well as comment \cite[lesson 1]{introduction_matlab}. 
 One of the most common features of Matlab is its 'Debugger' \cite[lesson 8]{introduction_matlab} which is very useful for detecting unobvious errors.
-
-Simulink is an add-on product to Matlab which enables an interactive, graphical environment for modeling, simulating, analyzing of dynamic systems \cite[p.313 ff.]{simulink}. Further, it enables rapid constructions of virtual prototypes to explore design concepts at any level of detail with minimal effort \cite[p.313 ff.]{simulink}. For modeling, Simulink provides a GUI for building models as block diagrams so that users are able to produce a 'up-and-running' model. Finally, Simulink is integrated with Matlab and data can be easily shared between the programs.
-
-\subsubsection{Mathworks}
-
-Mathworks is the leader of software development of mathematic calculation, especially for engineers and scientists \cite{mathworks}. Found in 1984, Mathworks is employing more than 3500 employees in 15 countries. Mathworks' headquarters is Natick, Massachusetts, U.S. All Mathworks products are used in various sectors, e.g. automation, airspace, communication, electronics, industrial automization etc. Its main purposes are modeling and simulation which are realized through Matlab and Simulink.
 
 \section{Application development} \label{app_development}
 
@@ -173,12 +151,12 @@ The development process can be divided into four steps which will be described i
 
 To begin with, during the very first weeks one work package was learning how to create a NativeScript application from scratch. This phase included making experience with the common NativeScript templates, views and framework logic as well as the data binding and data handling.
 
-As a second work package, the challenge of how to connect the NativeScript application to the backend (MongoDB) was faced. As a first solution, the connection to the MongoDB server was implemented using HTTP request/response. But in practice, this solution offered the problem that only one client could access the database. But in reality, there might be at least two devices (used by a nurse or doctor) which have to be connected to the database. For that reason, a socket connection (using the Socket.IO library) was established. With this technology, it was possible to connect multiple clients to the server instance and to synchronize all data in real-time.
+As a second work package, the challenge of how to connect the NativeScript application to the backend (MongoDB) was faced. As a first solution, the connection to the MongoDB server was implemented using HTTP request/response. But in reality, there might be at least two devices (used by a nurse or doctor) which have to be connected to the database. For that reason, a socket connection (using the Socket.IO library) was established. With this technology, it was possible to connect multiple clients to the server instance and to synchronize all data in real-time.
 
-After that, the third work package introduced the handling of Matlab, its connection to MongoDB and to the Impinj RFID reader. In order to connect to the RFID reader, the Impinj Octane SDK was implemented. By using the Impinj Octane SDK, it was possible to configure several functions for each antenna of the reader. This enables a precise identification of each antenna as well as the precise location of each detected item or drug. To give an example, antenna 1 could be set as hallway or floor whereas antenna 2 stands for patient's room. 
+After that, the third work package introduced the handling of Matlab, its connection to MongoDB and to the Impinj RFID reader. In order to connect to the RFID reader, the Impinj Octane SDK was used. Thus, it was possible to configure several parameters for each antenna of the reader. This enables a precise identification of each antenna as well as the precise location of each detected item or drug. To give an example, antenna 1 could be set as hallway or floor whereas antenna 2 stands for patient's room. 
 Concerning the connection between RFID reader and MongoDB, there exists a MongoDB plugin for Matlab. This provides several methods to connect to a MongoDB server and to retrieve and change the data from a specific database. Concluding these two implemented functionalities, Matlab serves both as a detection and information medium.
 
-The last large work package refers to the challenge of establishing a stable connection between all components (RFID reader, MongoDB database, NativeScript application and mobile devices). Therefore, two networks had to be created. The first network (LAN) connects the development laptop (MacOS) where both the NativeScript application and MongoDB database are running to the Windows PC where Matlab is running. Due to the use of .NET libraries in Impinj Octane SDK, Matlab had to be installed on a Windows PC. Another solution would be to run Windows on a VM on the MacOS developer machine, but unfortunately the RAM as well as disk space restricted the functionality of the VM. The second network that was installed was a private WLAN which connected all mobile devices (smartphones and tablets) with the MacOS developer machine. This connection enables receiving and transfering all data from the MongoDB database into the mobile app. To be precisely, the WLAN provides a secure connection to all mobile devices by using a \ac{WPA2}.
+The last large work package refers to the challenge of establishing a stable connection between all components (RFID reader, MongoDB database, NativeScript application and mobile devices). Therefore, two networks had to be created. The first network (LAN) connects the development laptop (MacOS), where both the NativeScript application and MongoDB database are running, to the Windows PC, where Matlab is running. Due to the use of .NET libraries in Impinj Octane SDK, Matlab had to be installed on a Windows PC. Another solution would be to run Windows on a VM on the MacOS developer machine, but unfortunately the RAM as well as disk space restricted the functionality of the VM. The second network that was installed was a private WLAN which connected all mobile devices (smartphones and tablets) with the MacOS developer machine. This connection enables receiving and transfering all data from the MongoDB database into the mobile app. To be precisely, the WLAN provides a secure connection to all mobile devices by using a \ac{WPA2}.
 
 \subsubsection{Challenges during development} \label{challenge}
 

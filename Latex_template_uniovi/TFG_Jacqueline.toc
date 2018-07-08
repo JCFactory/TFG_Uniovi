@@ -24,63 +24,60 @@
 \contentsline {paragraph}{\numberline {2.2.1.4.2}Modern Integration Mechanism}{15}{paragraph.2.2.1.4.2}
 \contentsline {paragraph}{\numberline {2.2.1.4.3}Capabilities of SOA, mobile applications and RFID}{16}{paragraph.2.2.1.4.3}
 \contentsline {paragraph}{\numberline {2.2.1.4.4}Examples of SOA applications}{16}{paragraph.2.2.1.4.4}
-\contentsline {subsection}{\numberline {2.2.2}Analysis of RFID applications and their use}{18}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.2}Analysis of RFID applications and their use}{17}{subsection.2.2.2}
 \contentsline {subsubsection}{\numberline {2.2.2.1}Process Model}{19}{subsubsection.2.2.2.1}
 \contentsline {chapter}{\numberline {3}Functionality of RFID technology, NoSQL technology}{21}{chapter.3}
 \contentsline {section}{\numberline {3.1}RFID technology}{21}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Components of an RFID application}{21}{subsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.1}RFID tags}{22}{subsubsection.3.1.1.1}
 \contentsline {subsubsection}{\numberline {3.1.1.2}RFID readers}{25}{subsubsection.3.1.1.2}
-\contentsline {subsubsection}{\numberline {3.1.1.3}RFID backend systems}{27}{subsubsection.3.1.1.3}
+\contentsline {subsubsection}{\numberline {3.1.1.3}RFID backend systems}{26}{subsubsection.3.1.1.3}
 \contentsline {paragraph}{\numberline {3.1.1.3.1}RFID Middleware}{27}{paragraph.3.1.1.3.1}
 \contentsline {paragraph}{\numberline {3.1.1.3.2}Data storage concepts}{28}{paragraph.3.1.1.3.2}
 \contentsline {subsection}{\numberline {3.1.2}Functionality of RFID system}{29}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}Security and Privacy of RFID systems}{30}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.3}Security and Privacy of RFID systems}{29}{subsection.3.1.3}
 \contentsline {subsubsection}{\numberline {3.1.3.1}Security Problems and Threats}{30}{subsubsection.3.1.3.1}
 \contentsline {subsubsection}{\numberline {3.1.3.2}Solutions and Methods against Threats}{32}{subsubsection.3.1.3.2}
 \contentsline {section}{\numberline {3.2}NoSQL technology}{34}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Characteristics of NoSQL Databases}{34}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Excursus: BIG DATA}{37}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Velocity, Variety, Volume}{38}{subsubsection.3.2.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Excursus: BIG DATA}{36}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Velocity, Variety, Volume}{37}{subsubsection.3.2.2.1}
 \contentsline {subsubsection}{\numberline {3.2.2.2}Usage of Big Data}{38}{subsubsection.3.2.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.3}Big Data challenges}{39}{subsubsection.3.2.2.3}
 \contentsline {subsubsection}{\numberline {3.2.2.4}Big Data technologies}{40}{subsubsection.3.2.2.4}
 \contentsline {subsection}{\numberline {3.2.3}Example for using NoSQL Databases: 'Socii System'}{40}{subsection.3.2.3}
 \contentsline {subsubsection}{\numberline {3.2.3.1}Structure and flow of data analysis and visualization systems}{41}{subsubsection.3.2.3.1}
-\contentsline {subsubsection}{\numberline {3.2.3.2}Main functionalities of 'Socii'}{42}{subsubsection.3.2.3.2}
+\contentsline {subsubsection}{\numberline {3.2.3.2}Main functionalities of 'Socii'}{41}{subsubsection.3.2.3.2}
 \contentsline {subsubsection}{\numberline {3.2.3.3}Limitations of 'Socii'}{42}{subsubsection.3.2.3.3}
-\contentsline {subsubsection}{\numberline {3.2.3.4}Future outlook of 'Socii'}{43}{subsubsection.3.2.3.4}
-\contentsline {chapter}{\numberline {4}Development of RFID application for management and tracking assets and drugs}{45}{chapter.4}
-\contentsline {section}{\numberline {4.1}Proposed solution of application}{45}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Aim of developed application}{45}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Scope of developed application}{46}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}First concept of application}{47}{subsection.4.1.3}
-\contentsline {section}{\numberline {4.2}Used platforms and technologies}{49}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Native Development with NativeScript}{49}{subsection.4.2.1}
-\contentsline {paragraph}{\numberline {4.2.1.0.1}NativeScript Application Logic}{50}{paragraph.4.2.1.0.1}
-\contentsline {subsubsection}{\numberline {4.2.1.1}NativeScript Sidekick}{51}{subsubsection.4.2.1.1}
-\contentsline {subsection}{\numberline {4.2.2}NoSQL Technology: MongoDB}{52}{subsection.4.2.2}
-\contentsline {subsubsection}{\numberline {4.2.2.1}Limitations and possibilities of MongoDB}{53}{subsubsection.4.2.2.1}
-\contentsline {subsubsection}{\numberline {4.2.2.2}MongoDB: Best Practices}{55}{subsubsection.4.2.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Impinj RFID Lector and Antenna}{56}{subsection.4.2.3}
-\contentsline {subsubsection}{\numberline {4.2.3.1}General Information}{56}{subsubsection.4.2.3.1}
-\contentsline {subsubsection}{\numberline {4.2.3.2}Examples}{57}{subsubsection.4.2.3.2}
-\contentsline {subsection}{\numberline {4.2.4}Matlab}{57}{subsection.4.2.4}
-\contentsline {subsubsection}{\numberline {4.2.4.1}Mathworks}{58}{subsubsection.4.2.4.1}
-\contentsline {section}{\numberline {4.3}Application development}{58}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Progress of development}{58}{subsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.1.1}Challenges during development}{60}{subsubsection.4.3.1.1}
-\contentsline {subsubsection}{\numberline {4.3.1.2}User Scenario}{61}{subsubsection.4.3.1.2}
-\contentsline {subsection}{\numberline {4.3.2}Software Architecture}{62}{subsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.2.1}Datamodel}{63}{subsubsection.4.3.2.1}
-\contentsline {subsubsection}{\numberline {4.3.2.2}\ac {LAN} Architecture}{65}{subsubsection.4.3.2.2}
-\contentsline {subsubsection}{\numberline {4.3.2.3}Reading Process in Matlab}{65}{subsubsection.4.3.2.3}
-\contentsline {section}{\numberline {4.4}Tests of system}{67}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Planned tests of system}{69}{subsection.4.4.1}
-\contentsline {subsubsection}{\numberline {4.4.1.1}Test scenario}{69}{subsubsection.4.4.1.1}
-\contentsline {subsubsection}{\numberline {4.4.1.2}Functional tests}{69}{subsubsection.4.4.1.2}
-\contentsline {subsubsection}{\numberline {4.4.1.3}Device test}{71}{subsubsection.4.4.1.3}
-\contentsline {subsection}{\numberline {4.4.2}Test results}{71}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}Evaluation of test results}{71}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Summary and Outlook of application}{71}{section.4.5}
-\contentsline {chapter}{\numberline {A}\textbf {Abbreviations}}{78}{appendix.A}
+\contentsline {subsubsection}{\numberline {3.2.3.4}Future outlook of 'Socii'}{42}{subsubsection.3.2.3.4}
+\contentsline {chapter}{\numberline {4}Development of RFID application for management and tracking assets and drugs}{43}{chapter.4}
+\contentsline {section}{\numberline {4.1}Proposed solution of application}{43}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Aim of developed application}{43}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Scope of developed application}{45}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}First concept of application}{45}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Used platforms and technologies}{46}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Native Development with NativeScript}{46}{subsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.1.1}NativeScript Application Logic}{49}{subsubsection.4.2.1.1}
+\contentsline {subsubsection}{\numberline {4.2.1.2}NativeScript Sidekick}{50}{subsubsection.4.2.1.2}
+\contentsline {subsection}{\numberline {4.2.2}NoSQL Technology: MongoDB}{50}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Limitations and possibilities of MongoDB}{51}{subsubsection.4.2.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2.2}MongoDB: Best Practices}{53}{subsubsection.4.2.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Speedway Revolution RFID reader}{54}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Matlab}{54}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}Application development}{55}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Progress of development}{55}{subsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1.1}Challenges during development}{56}{subsubsection.4.3.1.1}
+\contentsline {subsubsection}{\numberline {4.3.1.2}User Scenario}{57}{subsubsection.4.3.1.2}
+\contentsline {subsection}{\numberline {4.3.2}Software Architecture}{59}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Datamodel}{60}{subsubsection.4.3.2.1}
+\contentsline {subsubsection}{\numberline {4.3.2.2}\ac {LAN} Architecture}{60}{subsubsection.4.3.2.2}
+\contentsline {subsubsection}{\numberline {4.3.2.3}Reading Process in Matlab}{62}{subsubsection.4.3.2.3}
+\contentsline {section}{\numberline {4.4}Tests of system}{62}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Planned tests of system}{65}{subsection.4.4.1}
+\contentsline {subsubsection}{\numberline {4.4.1.1}Test scenario}{65}{subsubsection.4.4.1.1}
+\contentsline {subsubsection}{\numberline {4.4.1.2}Functional tests}{67}{subsubsection.4.4.1.2}
+\contentsline {subsubsection}{\numberline {4.4.1.3}Device test}{67}{subsubsection.4.4.1.3}
+\contentsline {subsection}{\numberline {4.4.2}Test results}{69}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Evaluation of test results}{69}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Summary and Outlook of application}{69}{section.4.5}
+\contentsline {chapter}{\numberline {A}\textbf {Abbreviations}}{76}{appendix.A}
