@@ -10,16 +10,16 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The first draft of the developed system\relax }}{47}{figure.caption.53}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces The architecture of NativeScript Applications, adopted from \cite {nsarchitecture}\relax }}{48}{figure.caption.55}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces The MVVM application logic, adopted from \cite {nativescript}\relax }}{49}{figure.caption.56}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces User scenario of RFID application\relax }}{58}{figure.caption.69}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{59}{figure.caption.71}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Start page of application}}}{59}{figure.caption.71}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{59}{figure.caption.71}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Information about administered drug to patient}}}{59}{figure.caption.71}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{61}{figure.caption.72}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Applied data model\relax }}{62}{figure.caption.73}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces The LAN architecture of the developed system\relax }}{63}{figure.caption.74}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Activity diagram: reading process in Matlab\relax }}{64}{figure.caption.75}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Permission letter about application tests in HUCA\relax }}{66}{figure.caption.80}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Test screenshots, Samsung S3 GT I9300\relax }}{68}{figure.caption.81}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Example of extended data model, each patient entry is associated to the medication list\relax }}{70}{figure.caption.82}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces User scenario of RFID application\relax }}{58}{figure.caption.67}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{59}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Start page of application}}}{59}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{59}{figure.caption.69}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Information about administered drug to patient}}}{59}{figure.caption.69}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{60}{figure.caption.70}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Applied data model\relax }}{61}{figure.caption.71}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The LAN architecture of the developed system\relax }}{63}{figure.caption.72}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Activity diagram: reading process in Matlab\relax }}{64}{figure.caption.73}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Permission letter about application tests in HUCA\relax }}{66}{figure.caption.78}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Test screenshots, Samsung S3 GT I9300\relax }}{68}{figure.caption.79}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Example of extended data model, each patient entry is associated to the medication list\relax }}{70}{figure.caption.80}
 \addvspace {10\p@ }
