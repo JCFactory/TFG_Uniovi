@@ -96,54 +96,13 @@ To cope with the constraints and challenges during the development of a mobile R
 
 The first design principle is called 'Orientation of Interfaces' which means that the service interfaces abstract implementation from the user's view. What is more, each service has a stable interface which is technically and functionally defined by its metadata. The second design principle of SOA is 'Interoperability' which can be assured by implementing technical and functional standards. This enables the interoperability of a services and its usage in different contexts. The third design principle is called 'Autonomy and Modularity' which signifies that SOA restructures the applications architecture into autonomous subsystems (domains and services). The aim is to increase cohesion in one system and to minimize the linkage between its subsystems. The fourth design principle of SOA is 'Orientation of needs'. This implies that all services should be oriented towards business objects and process activities in order to provide an approximately granular, functional definable output. 
 
-\paragraph{Domain Architecture}
-
-The Domain Architecture is a conceptional foundation of SOA. It reveals duplicates in an existing application architecture. Moreover, it is a fundamental decision foundation for service characteristics. Last but not least, it gives a list of possible service candidates which support systematic integration, development and usage of services.
-
-\subsubsection{Service-oriented proposal of architecture}
-
-In the previous section, the general characteristics of SOA have been discussed. But in which context SOA applications are regularily used? And how is SOA realized? To give answers to these questions, next the purpose and integration procedure of SOA applications will be explained. 
-First of all, the conditions and prerequisites for an economic realization of diverse solutions based on mobile computing and RFID are simple and flexible integration into existing system architectures \cite[p.133 ff.]{mobile}. The classical integration of mobile terminal devices involves different middleware components and functions which can have different varieties of architecture (with advantages and disadvantages). 
-
 Modern application systems are multilayered, for example 3-tier/n-tier-architectures. The three tiers include the client (implemented software-components), middleware (necessary components to connect client and backend) and backend (business data and functions) tier. The term 'mobile middleware' refers to the extension of the classical client-server architecture with the aim of improved scalability and administration.
-
-Not only a mobile middleware is needed for an appropriate integration into SOA, but also a RFID middleware is needed. The following paragraph will mention some functional requirements to this specific middleware. First of all, transformation functions are needed to convert RFID raw data into useful business process data. This includes filtering of errors as well as harmonizing the data formats of different device manufacturers. Secondly, there are configuration functions needed for monitoring and controlling the RFID infrastructure. As follows, a configuration function is able to identify readers, manage configuration data, monitor device functionality and ensure security.  
-
-\paragraph{Classic Integration Mechanism}
-
-As a third type of integration, concerning mobile computing and RFID, the integration of embedded devices should be considered. Basically, there are three different tiers: Field tier, Automation tier and Management tier. The first tier, Field tier includes the physical connection of sensors, actuators and control units. The second tier, Automation tier, consists of control units which undertake automatic monitoring and processing functions, like for instance the control of temperature. The communication units connect the control units, programming units and the management tier. 
-
-The third tier, called Management tier, subsists of monitor and control systems and visualizes them to the operator. Additionally, the Management tier delivers software responsive over proprietary interfaces and can be seen as data handling unit. 
-To conclude, the Automation tier can be seen as the communication unit and middleware between Field tier and Management tier. Further, Automation and Management tier can connect to third-party-applications via data interface units.
- 
-\paragraph{Modern Integration Mechanism}
-
-The last paragraph dealed with integration mechanisms on the real old way. Recently, there are newer technologies and possibilities to realize an integration, such as web services and the emerging communication protocol \ac{SOAP}. In context of web technologies and services, there comes up the term \ac{ESB} \cite[p.141 ff.]{mobile} which provides a standardized interface and communication layer. An ESB is a consistent integration architecture which defines standards as well as central services and provides them for software development, publication and usage. 
-
-Regarding the integration of mobile applications, the ESB \cite[p.143]{mobile}, there are differentiated two types of integration scenarios: a) the mobile client calls directly the provided services from application domains or b) the client keeps communicating with the services via its mobile middleware. If the client wants to call a service directly, he has to implement its \ac{API}. Besides, for service call or invocation, the standardized interface technology has to be used.
-
-In the matter of integration of RFID systems and embedded devices, the middleware of RFID systems uses the provided services of the application domains, provided by the ESB. In addition to that, mobile applications can be integrated both online and offline \cite[p.146 ff.]{mobile}. Hanhart is using the term 'online' in context of saying that the mobile device runs the user interface. 
-
-This indicates that the mobile middleware prepares contents of application (for prompt). After that, the application accesses the backend or invoked app through a service which uses the application's functionality via services. In contrast to that, Hanhart uses the expression 'offline' in order to say that the application is running on the client. Here, the mobile application acts as an invoked application and synchronizes its data through the mobile middleware with the backend. The central management of process states (on the client) and synchronization with services are realized through the middleware directly.
 
 \paragraph{Capabilities of SOA, mobile applications and RFID}
 
 To explain the capabilities of the above discussed technologies and architecture, Hanhart brings up 'Reuse', 'Isolation of Domains' and 'Easy implementation'. Reuse is generated by consistent functionalities of interfaces. Isolation of domains is produced by separation of concerns and core data concepts. Easy implementation refers to cross-domain workflows or taskflows. Concerning possible usage scenarios, Hanhart mentions some examples \cite[p.207 ff.]{mobile}, like event-driven process management which includes the automatic capture of events. Or, if it comes to the control of several processes and activities in a company, these activities can be executed by using mobile phones or tablets. Additionally, they will record the encountered states.
 
 Concerning the 'ecosystem' and exchanges in it, Hanhart talks about some upcoming challenges \cite[p.212 ff.]{mobile}, like the realization of mobile solutions. It is important to consider the high costs of hardware and software. In addition to that, the complexity of integration of solutions and backend systems has to be assumed very well. Lastly, there should be staff who configures and operates the mobile devices.  
-
-\paragraph{Examples of SOA applications}
-
-Hanhart mentions several use cases of mobile applications and RFID. In order to depict two of his examples, the following paragraph will explain firstly the case study: 'Fraport AG' \cite[p.39 ff.]{mobile} and secondly a \ac{WfMS} \cite[p.204 ff.]{mobile}. To start with, Fraport AG is a company which is simulataneously owner and operator of Frankfurt airport. By including the RFID technology and mobile devices, several solutions have been realized in processes for mobile support of staff and in use of real-time data. The scope contained the maintainance of fire dampers and mobile support of loadmasters during loading respectively unloading and mobile capture of booking of goods input and goods issue in stock. 
-
-The second example Hanhart notices, is a WfMS \cite[p.204 ff.]{mobile} which is able to control processes, e.g. in companies. To realize a WfMS, the workflow client needs to be installed on the mobile device. Following, RFID systems and embedded devices are able to report events to WfMS and can trigger or control processes on the workflow integration layer.
-     
-To give an outlook of the possible extensions of mobile applications and RFID, Hanhart explains some fundamental concepts \cite[p.208 ff.]{mobile}. The first concept is called 'Emotion-Silent Process' and is based on sensors, actuators, artificial intelligence which includes the learning from given data and derive several activities. In the given usage scenario (which refers to a hospital or retirement home), sensors firstly detect the movement of a elder person.
-
-After the detection step, the sensors information are connected to further data (e.g. time) with the help of pattern detection algorithms. Finally, the aim of the 'Emotion-Silent Process' is to detect and prevent emergency situations by sending an alarm to responsible persons (like physicians or nurses). Furthermore, the process is called 'Emotion-Silent Process' because of the 'silent' protection of people which should obtain the independance of these people.
-
-A second usage scenario which is noticed, is called 'Velocity-Outtasking and Application Outsourcing'. Based on the spread of web services in cross-company cooperations either external access to single tasks and functions ('outsourcing') or to whole applications ('application outsourcing') can be accelerated. 
-The term 'Outtalking' is used to talk about web services of external providers which can be incorporated to the own service repository and are centrally available for further usage. In contrast to that, 'Application Outsourcing' refers to externally obtained applications (from \ac{ASP}) which can be integrated through the company-internal ESB into the system landscape.
 
 \subsection{Analysis of RFID applications and their use}
 

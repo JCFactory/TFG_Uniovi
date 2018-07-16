@@ -244,8 +244,8 @@
       \strng{authorbibnamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authornamehash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
       \strng{authorfullhash}{ccc5fa67e25ca25dcb8bc1589d7d0c40}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-319-10168-2}
@@ -271,8 +271,8 @@
       \endverb
     \endentry
     \entry{vizinex}{online}{}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labeltitlesource}{title}
       \field{abstract}{Over the last ten years, {RFID} product design has come a long way. Things that ten years ago seemed futuristic are now in daily use, especially in the medical field, where progress in the {RFID} product design made advancements in the medical applications possible.}
       \field{day}{19}
@@ -321,8 +321,8 @@
       \strng{authorbibnamehash}{e9cb0cceebc437cca15c29d94cf2455e}
       \strng{authornamehash}{e9cb0cceebc437cca15c29d94cf2455e}
       \strng{authorfullhash}{e9cb0cceebc437cca15c29d94cf2455e}
-      \field{sortinit}{8}
-      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-662-47663-5}
@@ -373,8 +373,8 @@
       \strng{authorbibnamehash}{dc762acd484d398c9bf9614073877fca}
       \strng{authornamehash}{dc762acd484d398c9bf9614073877fca}
       \strng{authorfullhash}{dc762acd484d398c9bf9614073877fca}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{8}
+      \field{sortinithash}{07edf88d4ea82509b9c4b4d13f41c452}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-1-4842-0648-5}
@@ -431,8 +431,8 @@
       \strng{editorbibnamehash}{4b21236c25b783fb28b2ce8df8b857e5}
       \strng{editornamehash}{26a8130d34a7a9ec34213862ef4bd3d1}
       \strng{editorfullhash}{4b21236c25b783fb28b2ce8df8b857e5}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-319-77711-5}
