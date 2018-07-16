@@ -1,81 +1,80 @@
 \BOOKMARK [1][-]{Doc-Start}{Contents}{}% 1
 \BOOKMARK [1][-]{chapter*.1}{List of figures}{}% 2
-\BOOKMARK [1][-]{chapter*.3}{List of tables}{}% 3
-\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 4
-\BOOKMARK [0][-]{chapter.2}{Use and scope of RFID Technology}{}% 5
-\BOOKMARK [1][-]{section.2.1}{Motivation}{chapter.2}% 6
-\BOOKMARK [2][-]{subsection.2.1.1}{Decision Making}{section.2.1}% 7
-\BOOKMARK [2][-]{subsection.2.1.2}{Internal Communication}{section.2.1}% 8
-\BOOKMARK [2][-]{subsection.2.1.3}{Production process}{section.2.1}% 9
-\BOOKMARK [2][-]{subsection.2.1.4}{Investment possibilities}{section.2.1}% 10
-\BOOKMARK [2][-]{subsection.2.1.5}{Medication Administration System}{section.2.1}% 11
-\BOOKMARK [2][-]{subsection.2.1.6}{Wisely Aware RFID Dosage}{section.2.1}% 12
-\BOOKMARK [2][-]{subsection.2.1.7}{RFID applications in hospitals: A case study}{section.2.1}% 13
-\BOOKMARK [1][-]{section.2.2}{Aim and Scope}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.2.1}{RFID and Mobile Computing}{section.2.2}% 15
-\BOOKMARK [3][-]{subsubsection.2.2.1.1}{Basis functions of mobile computing and RFID}{subsection.2.2.1}% 16
-\BOOKMARK [3][-]{subsubsection.2.2.1.2}{Constraints of mobile applications and RFID}{subsection.2.2.1}% 17
-\BOOKMARK [3][-]{subsubsection.2.2.1.3}{Service-oriented architectures}{subsection.2.2.1}% 18
-\BOOKMARK [4][-]{paragraph.2.2.1.3.1}{Domain Architecture}{subsubsection.2.2.1.3}% 19
-\BOOKMARK [3][-]{subsubsection.2.2.1.4}{Service-oriented proposal of architecture}{subsection.2.2.1}% 20
-\BOOKMARK [4][-]{paragraph.2.2.1.4.1}{Classic Integration Mechanism}{subsubsection.2.2.1.4}% 21
-\BOOKMARK [4][-]{paragraph.2.2.1.4.2}{Modern Integration Mechanism}{subsubsection.2.2.1.4}% 22
-\BOOKMARK [4][-]{paragraph.2.2.1.4.3}{Capabilities of SOA, mobile applications and RFID}{subsubsection.2.2.1.4}% 23
-\BOOKMARK [4][-]{paragraph.2.2.1.4.4}{Examples of SOA applications}{subsubsection.2.2.1.4}% 24
-\BOOKMARK [2][-]{subsection.2.2.2}{Analysis of RFID applications and their use}{section.2.2}% 25
-\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Process Model}{subsection.2.2.2}% 26
-\BOOKMARK [0][-]{chapter.3}{Functionality of RFID technology, NoSQL technology}{}% 27
-\BOOKMARK [1][-]{section.3.1}{RFID technology}{chapter.3}% 28
-\BOOKMARK [2][-]{subsection.3.1.1}{Components of an RFID application}{section.3.1}% 29
-\BOOKMARK [3][-]{subsubsection.3.1.1.1}{RFID tags}{subsection.3.1.1}% 30
-\BOOKMARK [3][-]{subsubsection.3.1.1.2}{RFID readers}{subsection.3.1.1}% 31
-\BOOKMARK [3][-]{subsubsection.3.1.1.3}{RFID backend systems}{subsection.3.1.1}% 32
-\BOOKMARK [4][-]{paragraph.3.1.1.3.1}{RFID Middleware}{subsubsection.3.1.1.3}% 33
-\BOOKMARK [4][-]{paragraph.3.1.1.3.2}{Data storage concepts}{subsubsection.3.1.1.3}% 34
-\BOOKMARK [2][-]{subsection.3.1.2}{Functionality of RFID system}{section.3.1}% 35
-\BOOKMARK [2][-]{subsection.3.1.3}{Security and Privacy of RFID systems}{section.3.1}% 36
-\BOOKMARK [3][-]{subsubsection.3.1.3.1}{Security Problems and Threats}{subsection.3.1.3}% 37
-\BOOKMARK [3][-]{subsubsection.3.1.3.2}{Solutions and Methods against Threats}{subsection.3.1.3}% 38
-\BOOKMARK [1][-]{section.3.2}{NoSQL technology}{chapter.3}% 39
-\BOOKMARK [2][-]{subsection.3.2.1}{Characteristics of NoSQL Databases}{section.3.2}% 40
-\BOOKMARK [2][-]{subsection.3.2.2}{Excursus: BIG DATA}{section.3.2}% 41
-\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Velocity, Variety, Volume}{subsection.3.2.2}% 42
-\BOOKMARK [3][-]{subsubsection.3.2.2.2}{Usage of Big Data}{subsection.3.2.2}% 43
-\BOOKMARK [3][-]{subsubsection.3.2.2.3}{Big Data challenges}{subsection.3.2.2}% 44
-\BOOKMARK [3][-]{subsubsection.3.2.2.4}{Big Data technologies}{subsection.3.2.2}% 45
-\BOOKMARK [2][-]{subsection.3.2.3}{Example for using NoSQL Databases: 'Socii System'}{section.3.2}% 46
-\BOOKMARK [3][-]{subsubsection.3.2.3.1}{Structure and flow of data analysis and visualization systems}{subsection.3.2.3}% 47
-\BOOKMARK [3][-]{subsubsection.3.2.3.2}{Main functionalities of 'Socii'}{subsection.3.2.3}% 48
-\BOOKMARK [3][-]{subsubsection.3.2.3.3}{Limitations of 'Socii'}{subsection.3.2.3}% 49
-\BOOKMARK [3][-]{subsubsection.3.2.3.4}{Future outlook of 'Socii'}{subsection.3.2.3}% 50
-\BOOKMARK [0][-]{chapter.4}{Development of RFID application for management and tracking assets and drugs}{}% 51
-\BOOKMARK [1][-]{section.4.1}{Proposed solution of application}{chapter.4}% 52
-\BOOKMARK [2][-]{subsection.4.1.1}{Aim of developed application}{section.4.1}% 53
-\BOOKMARK [2][-]{subsection.4.1.2}{Scope of developed application}{section.4.1}% 54
-\BOOKMARK [2][-]{subsection.4.1.3}{First concept of application}{section.4.1}% 55
-\BOOKMARK [1][-]{section.4.2}{Used platforms and technologies}{chapter.4}% 56
-\BOOKMARK [2][-]{subsection.4.2.1}{Native Development with NativeScript}{section.4.2}% 57
-\BOOKMARK [3][-]{subsubsection.4.2.1.1}{NativeScript Application Logic}{subsection.4.2.1}% 58
-\BOOKMARK [3][-]{subsubsection.4.2.1.2}{NativeScript Sidekick}{subsection.4.2.1}% 59
-\BOOKMARK [2][-]{subsection.4.2.2}{NoSQL Technology: MongoDB}{section.4.2}% 60
-\BOOKMARK [3][-]{subsubsection.4.2.2.1}{Limitations and possibilities of MongoDB}{subsection.4.2.2}% 61
-\BOOKMARK [3][-]{subsubsection.4.2.2.2}{MongoDB: Best Practices}{subsection.4.2.2}% 62
-\BOOKMARK [2][-]{subsection.4.2.3}{Speedway Revolution RFID reader}{section.4.2}% 63
-\BOOKMARK [2][-]{subsection.4.2.4}{Matlab}{section.4.2}% 64
-\BOOKMARK [1][-]{section.4.3}{Application development}{chapter.4}% 65
-\BOOKMARK [2][-]{subsection.4.3.1}{Progress of development}{section.4.3}% 66
-\BOOKMARK [3][-]{subsubsection.4.3.1.1}{Challenges during development}{subsection.4.3.1}% 67
-\BOOKMARK [3][-]{subsubsection.4.3.1.2}{User Scenario}{subsection.4.3.1}% 68
-\BOOKMARK [2][-]{subsection.4.3.2}{Software Architecture}{section.4.3}% 69
-\BOOKMARK [3][-]{subsubsection.4.3.2.1}{Datamodel}{subsection.4.3.2}% 70
-\BOOKMARK [3][-]{subsubsection.4.3.2.2}{LAN Architecture}{subsection.4.3.2}% 71
-\BOOKMARK [3][-]{subsubsection.4.3.2.3}{Reading Process in Matlab}{subsection.4.3.2}% 72
-\BOOKMARK [1][-]{section.4.4}{Tests of system}{chapter.4}% 73
-\BOOKMARK [2][-]{subsection.4.4.1}{Planned tests of system}{section.4.4}% 74
-\BOOKMARK [3][-]{subsubsection.4.4.1.1}{Test scenario}{subsection.4.4.1}% 75
-\BOOKMARK [3][-]{subsubsection.4.4.1.2}{Functional tests}{subsection.4.4.1}% 76
-\BOOKMARK [3][-]{subsubsection.4.4.1.3}{Device test}{subsection.4.4.1}% 77
-\BOOKMARK [2][-]{subsection.4.4.2}{Test results}{section.4.4}% 78
-\BOOKMARK [2][-]{subsection.4.4.3}{Evaluation of test results}{section.4.4}% 79
-\BOOKMARK [1][-]{section.4.5}{Summary and Outlook of application}{chapter.4}% 80
-\BOOKMARK [0][-]{appendix.A}{Abbreviations}{}% 81
+\BOOKMARK [0][-]{chapter*.4}{Abbreviations}{}% 3
+\BOOKMARK [0][-]{chapter*.5}{Introduction}{}% 4
+\BOOKMARK [0][-]{chapter.1}{Use and scope of RFID Technology}{}% 5
+\BOOKMARK [1][-]{section.1.1}{Motivation}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.1.1}{Decision Making}{section.1.1}% 7
+\BOOKMARK [2][-]{subsection.1.1.2}{Internal Communication}{section.1.1}% 8
+\BOOKMARK [2][-]{subsection.1.1.3}{Production process}{section.1.1}% 9
+\BOOKMARK [2][-]{subsection.1.1.4}{Investment possibilities}{section.1.1}% 10
+\BOOKMARK [2][-]{subsection.1.1.5}{Medication Administration System}{section.1.1}% 11
+\BOOKMARK [2][-]{subsection.1.1.6}{Wisely Aware RFID Dosage}{section.1.1}% 12
+\BOOKMARK [2][-]{subsection.1.1.7}{RFID applications in hospitals: A case study}{section.1.1}% 13
+\BOOKMARK [1][-]{section.1.2}{Aim and Scope}{chapter.1}% 14
+\BOOKMARK [2][-]{subsection.1.2.1}{RFID and Mobile Computing}{section.1.2}% 15
+\BOOKMARK [3][-]{subsubsection.1.2.1.1}{Basis functions of mobile computing and RFID}{subsection.1.2.1}% 16
+\BOOKMARK [3][-]{subsubsection.1.2.1.2}{Constraints of mobile applications and RFID}{subsection.1.2.1}% 17
+\BOOKMARK [3][-]{subsubsection.1.2.1.3}{Service-oriented architectures}{subsection.1.2.1}% 18
+\BOOKMARK [4][-]{paragraph.1.2.1.3.1}{Domain Architecture}{subsubsection.1.2.1.3}% 19
+\BOOKMARK [3][-]{subsubsection.1.2.1.4}{Service-oriented proposal of architecture}{subsection.1.2.1}% 20
+\BOOKMARK [4][-]{paragraph.1.2.1.4.1}{Classic Integration Mechanism}{subsubsection.1.2.1.4}% 21
+\BOOKMARK [4][-]{paragraph.1.2.1.4.2}{Modern Integration Mechanism}{subsubsection.1.2.1.4}% 22
+\BOOKMARK [4][-]{paragraph.1.2.1.4.3}{Capabilities of SOA, mobile applications and RFID}{subsubsection.1.2.1.4}% 23
+\BOOKMARK [4][-]{paragraph.1.2.1.4.4}{Examples of SOA applications}{subsubsection.1.2.1.4}% 24
+\BOOKMARK [2][-]{subsection.1.2.2}{Analysis of RFID applications and their use}{section.1.2}% 25
+\BOOKMARK [3][-]{subsubsection.1.2.2.1}{Process Model}{subsection.1.2.2}% 26
+\BOOKMARK [0][-]{chapter.2}{Functionality of RFID technology, NoSQL technology}{}% 27
+\BOOKMARK [1][-]{section.2.1}{RFID technology}{chapter.2}% 28
+\BOOKMARK [2][-]{subsection.2.1.1}{Components of an RFID application}{section.2.1}% 29
+\BOOKMARK [3][-]{subsubsection.2.1.1.1}{RFID tags}{subsection.2.1.1}% 30
+\BOOKMARK [3][-]{subsubsection.2.1.1.2}{RFID readers}{subsection.2.1.1}% 31
+\BOOKMARK [3][-]{subsubsection.2.1.1.3}{RFID backend systems}{subsection.2.1.1}% 32
+\BOOKMARK [4][-]{paragraph.2.1.1.3.1}{RFID Middleware}{subsubsection.2.1.1.3}% 33
+\BOOKMARK [4][-]{paragraph.2.1.1.3.2}{Data storage concepts}{subsubsection.2.1.1.3}% 34
+\BOOKMARK [2][-]{subsection.2.1.2}{Functionality of RFID system}{section.2.1}% 35
+\BOOKMARK [2][-]{subsection.2.1.3}{Security and Privacy of RFID systems}{section.2.1}% 36
+\BOOKMARK [3][-]{subsubsection.2.1.3.1}{Security Problems and Threats}{subsection.2.1.3}% 37
+\BOOKMARK [3][-]{subsubsection.2.1.3.2}{Solutions and Methods against Threats}{subsection.2.1.3}% 38
+\BOOKMARK [1][-]{section.2.2}{NoSQL technology}{chapter.2}% 39
+\BOOKMARK [2][-]{subsection.2.2.1}{Characteristics of NoSQL Databases}{section.2.2}% 40
+\BOOKMARK [2][-]{subsection.2.2.2}{Excursus: BIG DATA}{section.2.2}% 41
+\BOOKMARK [3][-]{subsubsection.2.2.2.1}{Velocity, Variety, Volume}{subsection.2.2.2}% 42
+\BOOKMARK [3][-]{subsubsection.2.2.2.2}{Usage of Big Data}{subsection.2.2.2}% 43
+\BOOKMARK [3][-]{subsubsection.2.2.2.3}{Big Data challenges}{subsection.2.2.2}% 44
+\BOOKMARK [3][-]{subsubsection.2.2.2.4}{Big Data technologies}{subsection.2.2.2}% 45
+\BOOKMARK [2][-]{subsection.2.2.3}{Example for using NoSQL Databases: 'Socii System'}{section.2.2}% 46
+\BOOKMARK [3][-]{subsubsection.2.2.3.1}{Structure and flow of data analysis and visualization systems}{subsection.2.2.3}% 47
+\BOOKMARK [3][-]{subsubsection.2.2.3.2}{Main functionalities of 'Socii'}{subsection.2.2.3}% 48
+\BOOKMARK [3][-]{subsubsection.2.2.3.3}{Limitations of 'Socii'}{subsection.2.2.3}% 49
+\BOOKMARK [3][-]{subsubsection.2.2.3.4}{Future outlook of 'Socii'}{subsection.2.2.3}% 50
+\BOOKMARK [0][-]{chapter.3}{Development of RFID application for management and tracking assets and drugs}{}% 51
+\BOOKMARK [1][-]{section.3.1}{Proposed solution of application}{chapter.3}% 52
+\BOOKMARK [2][-]{subsection.3.1.1}{Aim of developed application}{section.3.1}% 53
+\BOOKMARK [2][-]{subsection.3.1.2}{Scope of developed application}{section.3.1}% 54
+\BOOKMARK [2][-]{subsection.3.1.3}{First concept of application}{section.3.1}% 55
+\BOOKMARK [1][-]{section.3.2}{Used platforms and technologies}{chapter.3}% 56
+\BOOKMARK [2][-]{subsection.3.2.1}{Native Development with NativeScript}{section.3.2}% 57
+\BOOKMARK [3][-]{subsubsection.3.2.1.1}{NativeScript Application Logic}{subsection.3.2.1}% 58
+\BOOKMARK [3][-]{subsubsection.3.2.1.2}{NativeScript Sidekick}{subsection.3.2.1}% 59
+\BOOKMARK [2][-]{subsection.3.2.2}{NoSQL Technology: MongoDB}{section.3.2}% 60
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{Limitations and possibilities of MongoDB}{subsection.3.2.2}% 61
+\BOOKMARK [3][-]{subsubsection.3.2.2.2}{MongoDB: Best Practices}{subsection.3.2.2}% 62
+\BOOKMARK [2][-]{subsection.3.2.3}{Speedway Revolution RFID reader}{section.3.2}% 63
+\BOOKMARK [2][-]{subsection.3.2.4}{Matlab}{section.3.2}% 64
+\BOOKMARK [1][-]{section.3.3}{Application development}{chapter.3}% 65
+\BOOKMARK [2][-]{subsection.3.3.1}{Progress of development}{section.3.3}% 66
+\BOOKMARK [3][-]{subsubsection.3.3.1.1}{Challenges during development}{subsection.3.3.1}% 67
+\BOOKMARK [3][-]{subsubsection.3.3.1.2}{User Scenario}{subsection.3.3.1}% 68
+\BOOKMARK [2][-]{subsection.3.3.2}{Software Architecture}{section.3.3}% 69
+\BOOKMARK [3][-]{subsubsection.3.3.2.1}{Datamodel}{subsection.3.3.2}% 70
+\BOOKMARK [3][-]{subsubsection.3.3.2.2}{LAN Architecture}{subsection.3.3.2}% 71
+\BOOKMARK [3][-]{subsubsection.3.3.2.3}{Reading Process in Matlab}{subsection.3.3.2}% 72
+\BOOKMARK [1][-]{section.3.4}{Tests of system}{chapter.3}% 73
+\BOOKMARK [2][-]{subsection.3.4.1}{Planned tests of system}{section.3.4}% 74
+\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Test scenario}{subsection.3.4.1}% 75
+\BOOKMARK [3][-]{subsubsection.3.4.1.2}{Functional tests}{subsection.3.4.1}% 76
+\BOOKMARK [3][-]{subsubsection.3.4.1.3}{Device test}{subsection.3.4.1}% 77
+\BOOKMARK [2][-]{subsection.3.4.2}{Test results}{section.3.4}% 78
+\BOOKMARK [2][-]{subsection.3.4.3}{Evaluation of test results}{section.3.4}% 79
+\BOOKMARK [1][-]{section.3.5}{Summary and Outlook of application}{chapter.3}% 80

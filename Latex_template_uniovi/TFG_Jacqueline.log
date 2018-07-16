@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.26)  8 JUL 2018 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.6.26)  16 JUL 2018 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1402,7 +1402,7 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 157
 (/usr/local/texlive/2018/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-<portadaInterior.pdf, id=329, 614.295pt x 794.97pt>
+<portadaInterior.pdf, id=325, 614.295pt x 794.97pt>
 File: portadaInterior.pdf Graphic file (type pdf)
 <use portadaInterior.pdf>
 Package pdftex.def Info: portadaInterior.pdf  used on input line 164.
@@ -1411,7 +1411,7 @@ File: portadaInterior.pdf Graphic file (type pdf)
 <use portadaInterior.pdf>
 Package pdftex.def Info: portadaInterior.pdf  used on input line 164.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<portadaInterior.pdf, id=332, page=1, 614.295pt x 794.97pt>
+<portadaInterior.pdf, id=328, page=1, 614.295pt x 794.97pt>
 File: portadaInterior.pdf Graphic file (type pdf)
 <use portadaInterior.pdf, page 1>
 Package pdftex.def Info: portadaInterior.pdf , page1 used on input line 164.
@@ -1437,10 +1437,14 @@ Package pdftex.def Info: portadaInterior.pdf , page1 used on input line 164.
  <./portadaInterior.pdf>] [2
 
 {/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./TFG_
-Jacqueline.toc [3
+Jacqueline.toc
+Underfull \vbox (badness 6078) has occurred while \output is active []
+
+ [3
 
 
-] [4]
+]
+[4]
 Underfull \vbox (badness 3078) has occurred while \output is active []
 
  [5]
@@ -1461,21 +1465,56 @@ although it is yet undefined on input line 73.
 
 ] [10
 
-] (./TFG_Jacqueline.lot)
-\tf@lot=\write8
-\openout8 = `TFG_Jacqueline.lot'.
-
+]
 \c@mydef=\count446
- [11
+ (./secciones/abkuerzungen.tex
+[1
 
 ]
-Chapter 1.
+<logo_uniovi.png, id=549, 200.75pt x 162.6075pt>
+File: logo_uniovi.png Graphic file (type png)
+<use logo_uniovi.png>
+Package pdftex.def Info: logo_uniovi.png  used on input line 74.
+(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 33.18587pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2 <./logo_uniovi.png>])
+File: logo_uniovi.png Graphic file (type png)
+<use logo_uniovi.png>
+Package pdftex.def Info: logo_uniovi.png  used on input line 186.
+(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 33.18587pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+File: logo_uniovi.png Graphic file (type png)
+<use logo_uniovi.png>
+Package pdftex.def Info: logo_uniovi.png  used on input line 186.
+(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 33.18587pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[4
+
+]
 Package acronym Info: Label `acro:ITC' newly defined as it shall be overridden
-although it is yet undefined on input line 189.
-(./secciones/kapitel1.tex [1
+although it is yet undefined on input line 192.
+ (./secciones/kapitel1.tex [5
 
 ]
-<logo_uniovi.png, id=541, 200.75pt x 162.6075pt>
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 1.
@@ -1487,10 +1526,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2
+[6
 
- <./logo_uniovi.png>]
-Chapter 2.
+]
+Chapter 1.
 Package acronym Info: Label `acro:RFID' newly defined as it shall be overridden
 
 although it is yet undefined on input line 4.
@@ -1500,7 +1539,7 @@ although it is yet undefined on input line 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+ [7]
 Package acronym Info: Label `acro:HIS' newly defined as it shall be overridden
 although it is yet undefined on input line 25.
 Package acronym Info: Label `acro:RIS' newly defined as it shall be overridden
@@ -1521,7 +1560,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4]
+[8]
 Package acronym Info: Label `acro:WARD' newly defined as it shall be overridden
 
 although it is yet undefined on input line 33.
@@ -1542,7 +1581,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[5]
+[9]
 Package acronym Info: Label `acro:LBMS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 38.
@@ -1568,7 +1607,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[6]
+[10]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -1582,7 +1621,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7]
+[11]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -1596,7 +1635,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8]
+[12]
 Package acronym Info: Label `acro:ERP' newly defined as it shall be overridden
 although it is yet undefined on input line 58.
 
@@ -1613,9 +1652,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9]
+[13]
 
-LaTeX Warning: Reference `inventory' on page 10 undefined on input line 69.
+LaTeX Warning: Reference `inventory' on page 14 undefined on input line 69.
 
 Package acronym Info: Label `acro:SOA' newly defined as it shall be overridden
 although it is yet undefined on input line 74.
@@ -1633,7 +1672,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[10]
+[14]
 Package acronym Info: Label `acro:WLAN' newly defined as it shall be overridden
 
 although it is yet undefined on input line 79.
@@ -1653,7 +1692,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[11]
+[15]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 96.
@@ -1665,7 +1704,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[12]
+[16]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 108.
@@ -1677,7 +1716,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[13]
+[17]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 119.
@@ -1689,7 +1728,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14]
+[18]
 Package acronym Info: Label `acro:SOAP' newly defined as it shall be overridden
 
 although it is yet undefined on input line 121.
@@ -1708,7 +1747,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15]
+[19]
 Package acronym Info: Label `acro:WfMS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 137.
@@ -1726,7 +1765,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[16]
+[20]
 Package acronym Info: Label `acro:ASP' newly defined as it shall be overridden
 although it is yet undefined on input line 146.
 
@@ -1743,7 +1782,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[17]
+[21]
 Package acronym Info: Label `acro:SME' newly defined as it shall be overridden
 although it is yet undefined on input line 158.
 
@@ -1760,7 +1799,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[18]
+[22]
 Underfull \vbox (badness 1281) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -1774,7 +1813,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[19]) (./secciones/kapitel2.tex
+[23]) (./secciones/kapitel2.tex
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 1.
@@ -1786,13 +1825,13 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[20]
-Chapter 3.
+[24]
+Chapter 2.
 Package acronym Info: Label `acro:LOS' newly defined as it shall be overridden
 although it is yet undefined on input line 8.
 Package acronym Info: Label `acro:IT' newly defined as it shall be overridden
 although it is yet undefined on input line 12.
-[21
+[25
 
 ]
 File: logo_uniovi.png Graphic file (type png)
@@ -1806,7 +1845,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[22]
+[26]
 Package acronym Info: Label `acro:EPC' newly defined as it shall be overridden
 although it is yet undefined on input line 22.
 Package acronym Info: Label `acro:WORM' newly defined as it shall be overridden
@@ -1829,16 +1868,12 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[23]
-<Imagenes/rfidtagdesign.png, id=812, 342.5297pt x 136.25906pt>
+[27]
+<Imagenes/rfidtagdesign.png, id=856, 342.5297pt x 136.25906pt>
 File: Imagenes/rfidtagdesign.png Graphic file (type png)
 <use Imagenes/rfidtagdesign.png>
 Package pdftex.def Info: Imagenes/rfidtagdesign.png  used on input line 31.
 (pdftex.def)             Requested size: 441.01773pt x 175.45055pt.
-
-
-LaTeX Warning: Reference `chipless' on page 24 undefined on input line 35.
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1853,7 +1888,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[24 <./Imagenes/rfidtagdesign.png>]
+[28 <./Imagenes/rfidtagdesign.png>]
 Package acronym Info: Label `acro:PC' newly defined as it shall be overridden
 although it is yet undefined on input line 44.
 Package acronym Info: Label `acro:LF' newly defined as it shall be overridden
@@ -1874,8 +1909,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[25]
-<Imagenes/rfidreaderdesign.png, id=846, 414.79968pt x 208.52907pt>
+[29]
+<Imagenes/rfidreaderdesign.png, id=888, 414.79968pt x 208.52907pt>
 File: Imagenes/rfidreaderdesign.png Graphic file (type png)
 <use Imagenes/rfidreaderdesign.png>
 Package pdftex.def Info: Imagenes/rfidreaderdesign.png  used on input line 58.
@@ -1894,7 +1929,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[26]
+[30]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 72.
@@ -1906,7 +1941,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[27 <./Imagenes/rfidreaderdesign.png>]
+[31 <./Imagenes/rfidreaderdesign.png>]
 Package acronym Info: Label `acro:CEP' newly defined as it shall be overridden
 although it is yet undefined on input line 79.
 Package acronym Info: Label `acro:SSL' newly defined as it shall be overridden
@@ -1927,7 +1962,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[28]
+[32]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 96.
@@ -1939,9 +1974,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[29]
+[33]
 
-LaTeX Warning: Reference `tags' on page 30 undefined on input line 103.
+LaTeX Warning: Reference `tags' on page 34 undefined on input line 103.
 
 Package acronym Info: Label `acro:FDA' newly defined as it shall be overridden
 although it is yet undefined on input line 104.
@@ -1959,7 +1994,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[30]
+[34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -1973,7 +2008,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[31]
+[35]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -1987,7 +2022,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[32]
+[36]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -2001,7 +2036,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[33]
+[37]
 Package acronym Info: Label `acro:SQL' newly defined as it shall be overridden
 although it is yet undefined on input line 143.
 
@@ -2018,7 +2053,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[34]
+[38]
 Package acronym Info: Label `acro:XML' newly defined as it shall be overridden
 although it is yet undefined on input line 153.
 Package acronym Info: Label `acro:JSON' newly defined as it shall be overridden
@@ -2038,7 +2073,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[35]
+[39]
 Package acronym Info: Label `acro:DBMS' newly defined as it shall be overridden
 
 although it is yet undefined on input line 164.
@@ -2056,7 +2091,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[36]
+[40]
 Package acronym Info: Label `acro:RDBMS' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 170.
@@ -2071,7 +2106,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[37]
+[41]
 Package acronym Info: Label `acro:OSN' newly defined as it shall be overridden
 although it is yet undefined on input line 186.
 
@@ -2088,7 +2123,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[38]
+[42]
 Package acronym Info: Label `acro:NAS' newly defined as it shall be overridden
 although it is yet undefined on input line 202.
 Package acronym Info: Label `acro:SAN' newly defined as it shall be overridden
@@ -2104,7 +2139,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[39]
+[43]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 215.
@@ -2116,7 +2151,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[40]
+[44]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 228.
@@ -2128,7 +2163,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[41]) (./secciones/kapitel3.tex
+[45]) (./secciones/kapitel3.tex
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 1.
@@ -2140,9 +2175,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[42]
-Chapter 4.
-<Imagenes/existing_apps.png, id=1046, 548.7702pt x 414.348pt>
+[46]
+Chapter 3.
+<Imagenes/existing_apps.png, id=1075, 548.7702pt x 414.348pt>
 File: Imagenes/existing_apps.png Graphic file (type png)
 <use Imagenes/existing_apps.png>
 Package pdftex.def Info: Imagenes/existing_apps.png  used on input line 18.
@@ -2150,7 +2185,7 @@ Package pdftex.def Info: Imagenes/existing_apps.png  used on input line 18.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43
+ [47
 
 ]
 File: logo_uniovi.png Graphic file (type png)
@@ -2164,7 +2199,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[44 <./Imagenes/existing_apps.png>]
+[48 <./Imagenes/existing_apps.png>]
 Package acronym Info: Label `acro:RF' newly defined as it shall be overridden
 although it is yet undefined on input line 28.
 
@@ -2181,15 +2216,15 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[45]
-<Imagenes/first_draft.png, id=1069, 740.7675pt x 947.54pt>
+[49]
+<Imagenes/first_draft.png, id=1096, 740.7675pt x 947.54pt>
 File: Imagenes/first_draft.png Graphic file (type png)
 <use Imagenes/first_draft.png>
 Package pdftex.def Info: Imagenes/first_draft.png  used on input line 39.
 (pdftex.def)             Requested size: 441.01773pt x 564.1186pt.
 
 
-LaTeX Warning: Reference `fig:app_architecture' on page 46 undefined on input l
+LaTeX Warning: Reference `fig:app_architecture' on page 50 undefined on input l
 ine 43.
 
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 58.
@@ -2214,7 +2249,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[46]
+[50]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 59.
@@ -2226,13 +2261,13 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[47 <./Imagenes/first_draft.png>]
-<Imagenes/ns-architecture.png, id=1091, 916.42375pt x 627.34375pt>
+[51 <./Imagenes/first_draft.png>]
+<Imagenes/ns-architecture.png, id=1118, 916.42375pt x 627.34375pt>
 File: Imagenes/ns-architecture.png Graphic file (type png)
 <use Imagenes/ns-architecture.png>
 Package pdftex.def Info: Imagenes/ns-architecture.png  used on input line 62.
 (pdftex.def)             Requested size: 441.01773pt x 301.90651pt.
-<Imagenes/mvvm_ns.png, id=1095, 474.77374pt x 290.08376pt>
+<Imagenes/mvvm_ns.png, id=1122, 474.77374pt x 290.08376pt>
 File: Imagenes/mvvm_ns.png Graphic file (type png)
 <use Imagenes/mvvm_ns.png>
 Package pdftex.def Info: Imagenes/mvvm_ns.png  used on input line 72.
@@ -2251,7 +2286,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[48 <./Imagenes/ns-architecture.png>]
+[52 <./Imagenes/ns-architecture.png>]
 Package acronym Info: Label `acro:MVVM' newly defined as it shall be overridden
 
 although it is yet undefined on input line 76.
@@ -2271,7 +2306,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[49 <./Imagenes/mvvm_ns.png>]
+[53 <./Imagenes/mvvm_ns.png>]
 Package acronym Info: Label `acro:BSON' newly defined as it shall be overridden
 
 although it is yet undefined on input line 93.
@@ -2286,7 +2321,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[50]
+[54]
 Package acronym Info: Label `acro:VM' newly defined as it shall be overridden
 although it is yet undefined on input line 106.
 Package acronym Info: Label `acro:FIFO' newly defined as it shall be overridden
@@ -2303,7 +2338,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[51]
+[55]
 Package acronym Info: Label `acro:GB' newly defined as it shall be overridden
 although it is yet undefined on input line 112.
 
@@ -2320,7 +2355,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[52]
+[56]
 Package acronym Info: Label `acro:CPU' newly defined as it shall be overridden
 although it is yet undefined on input line 123.
 Package acronym Info: Label `acro:RAM' newly defined as it shall be overridden
@@ -2341,7 +2376,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[53]
+[57]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 143.
@@ -2353,7 +2388,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[54]
+[58]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -2367,7 +2402,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[55]
+[59]
 Package acronym Info: Label `acro:WPA2' newly defined as it shall be overridden
 
 although it is yet undefined on input line 159.
@@ -2385,8 +2420,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[56]
-<Imagenes/app_scenario.png, id=1217, 655.44875pt x 447.6725pt>
+[60]
+<Imagenes/app_scenario.png, id=1232, 655.44875pt x 447.6725pt>
 File: Imagenes/app_scenario.png Graphic file (type png)
 <use Imagenes/app_scenario.png>
 Package pdftex.def Info: Imagenes/app_scenario.png  used on input line 178.
@@ -2407,7 +2442,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[57]
+[61]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
@@ -2421,24 +2456,24 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[58 <./Imagenes/app_scenario.png>]
-<Imagenes/Mainview.png, id=1233, 302.12875pt x 604.2575pt>
+[62 <./Imagenes/app_scenario.png>]
+<Imagenes/Mainview.png, id=1247, 302.12875pt x 604.2575pt>
 File: Imagenes/Mainview.png Graphic file (type png)
 <use Imagenes/Mainview.png>
 Package pdftex.def Info: Imagenes/Mainview.png  used on input line 186.
 (pdftex.def)             Requested size: 113.80972pt x 227.61945pt.
-<Imagenes/Detailview.png, id=1234, 304.13625pt x 606.265pt>
+<Imagenes/Detailview.png, id=1248, 304.13625pt x 606.265pt>
 File: Imagenes/Detailview.png Graphic file (type png)
 <use Imagenes/Detailview.png>
 Package pdftex.def Info: Imagenes/Detailview.png  used on input line 187.
 (pdftex.def)             Requested size: 113.80948pt x 227.62634pt.
-<Imagenes/administeredView.png, id=1235, 300.12125pt x 606.265pt>
+<Imagenes/administeredView.png, id=1249, 300.12125pt x 606.265pt>
 File: Imagenes/administeredView.png Graphic file (type png)
 <use Imagenes/administeredView.png>
 Package pdftex.def Info: Imagenes/administeredView.png  used on input line 188.
 
 (pdftex.def)             Requested size: 113.80913pt x 227.62634pt.
-<Imagenes/app_architecture.png, id=1237, 609.27625pt x 835.12pt>
+<Imagenes/app_architecture.png, id=1251, 609.27625pt x 835.12pt>
 File: Imagenes/app_architecture.png Graphic file (type png)
 <use Imagenes/app_architecture.png>
 Package pdftex.def Info: Imagenes/app_architecture.png  used on input line 198.
@@ -2455,7 +2490,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[59 <./Imagenes/Mainview.png> <./Imagenes/Detailview.png> <./Imagenes/administe
+[63 <./Imagenes/Mainview.png> <./Imagenes/Detailview.png> <./Imagenes/administe
 redView.png>]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
@@ -2468,8 +2503,8 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[60 <./Imagenes/app_architecture.png>]
-<Imagenes/Mongo_DataModel.png, id=1257, 514.92375pt x 395.4775pt>
+[64 <./Imagenes/app_architecture.png>]
+<Imagenes/Mongo_DataModel.png, id=1273, 514.92375pt x 395.4775pt>
 File: Imagenes/Mongo_DataModel.png Graphic file (type png)
 <use Imagenes/Mongo_DataModel.png>
 Package pdftex.def Info: Imagenes/Mongo_DataModel.png  used on input line 208.
@@ -2485,14 +2520,14 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[61 <./Imagenes/Mongo_DataModel.png>]
-<Imagenes/hub_architecture.png, id=1267, 691.58376pt x 706.64pt>
+[65 <./Imagenes/Mongo_DataModel.png>]
+<Imagenes/hub_architecture.png, id=1283, 691.58376pt x 706.64pt>
 File: Imagenes/hub_architecture.png Graphic file (type png)
 <use Imagenes/hub_architecture.png>
 Package pdftex.def Info: Imagenes/hub_architecture.png  used on input line 224.
 
 (pdftex.def)             Requested size: 441.01773pt x 450.63069pt.
-<Imagenes/reading_matlab.png, id=1272, 658.46pt x 887.315pt>
+<Imagenes/reading_matlab.png, id=1288, 658.46pt x 887.315pt>
 File: Imagenes/reading_matlab.png Graphic file (type png)
 <use Imagenes/reading_matlab.png>
 Package pdftex.def Info: Imagenes/reading_matlab.png  used on input line 236.
@@ -2519,7 +2554,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[62]
+[66]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 245.
@@ -2531,7 +2566,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[63 <./Imagenes/hub_architecture.png>]
+[67 <./Imagenes/hub_architecture.png>]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 245.
@@ -2543,11 +2578,11 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[64 <./Imagenes/reading_matlab.png>]
+[68 <./Imagenes/reading_matlab.png>]
 Package acronym Info: Label `acro:SESPA' newly defined as it shall be overridde
 n
 although it is yet undefined on input line 245.
-<Imagenes/permission_HUCA.jpg, id=1306, 1854.93pt x 2802.47pt>
+<Imagenes/permission_HUCA.jpg, id=1318, 1854.93pt x 2802.47pt>
 File: Imagenes/permission_HUCA.jpg Graphic file (type jpg)
 <use Imagenes/permission_HUCA.jpg>
 Package pdftex.def Info: Imagenes/permission_HUCA.jpg  used on input line 252.
@@ -2570,7 +2605,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[65]
+[69]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 264.
@@ -2582,23 +2617,23 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[66 <./Imagenes/permission_HUCA.jpg>]
-<Imagenes/s3_01.png, id=1320, 722.7pt x 1284.8pt>
+[70 <./Imagenes/permission_HUCA.jpg>]
+<Imagenes/s3_01.png, id=1332, 722.7pt x 1284.8pt>
 File: Imagenes/s3_01.png Graphic file (type png)
 <use Imagenes/s3_01.png>
 Package pdftex.def Info: Imagenes/s3_01.png  used on input line 277.
 (pdftex.def)             Requested size: 209.4861pt x 372.40602pt.
-<Imagenes/s3_02.png, id=1321, 722.7pt x 1284.8pt>
+<Imagenes/s3_02.png, id=1333, 722.7pt x 1284.8pt>
 File: Imagenes/s3_02.png Graphic file (type png)
 <use Imagenes/s3_02.png>
 Package pdftex.def Info: Imagenes/s3_02.png  used on input line 278.
 (pdftex.def)             Requested size: 209.4861pt x 372.40602pt.
-<Imagenes/s3_03.png, id=1322, 722.7pt x 1284.8pt>
+<Imagenes/s3_03.png, id=1334, 722.7pt x 1284.8pt>
 File: Imagenes/s3_03.png Graphic file (type png)
 <use Imagenes/s3_03.png>
 Package pdftex.def Info: Imagenes/s3_03.png  used on input line 279.
 (pdftex.def)             Requested size: 209.4861pt x 372.40602pt.
-<Imagenes/s3_04.png, id=1323, 722.7pt x 1284.8pt>
+<Imagenes/s3_04.png, id=1335, 722.7pt x 1284.8pt>
 File: Imagenes/s3_04.png Graphic file (type png)
 <use Imagenes/s3_04.png>
 Package pdftex.def Info: Imagenes/s3_04.png  used on input line 280.
@@ -2617,7 +2652,7 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[67]
+[71]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 289.
@@ -2629,9 +2664,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[68 <./Imagenes/s3_01.png> <./Imagenes/s3_02.png> <./Imagenes/s3_03.png> <./Ima
+[72 <./Imagenes/s3_01.png> <./Imagenes/s3_02.png> <./Imagenes/s3_03.png> <./Ima
 genes/s3_04.png>]
-<Imagenes/extension_mongodatamodel.png, id=1341, 730.73pt x 607.26875pt>
+<Imagenes/extension_mongodatamodel.png, id=1351, 730.73pt x 607.26875pt>
 File: Imagenes/extension_mongodatamodel.png Graphic file (type png)
 <use Imagenes/extension_mongodatamodel.png>
 Package pdftex.def Info: Imagenes/extension_mongodatamodel.png  used on input l
@@ -2642,7 +2677,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png  used on input line 194.
+Package pdftex.def Info: logo_uniovi.png  used on input line 199.
 (pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
 
@@ -2651,10 +2686,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[69]
+[73]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png  used on input line 194.
+Package pdftex.def Info: logo_uniovi.png  used on input line 199.
 (pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
 
@@ -2663,53 +2698,10 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[70 <./Imagenes/extension_mongodatamodel.png>]
-File: logo_uniovi.png Graphic file (type png)
-<use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png  used on input line 196.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[71]
-File: logo_uniovi.png Graphic file (type png)
-<use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png  used on input line 196.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[72
-
-] [73
-
-]
-
-Package biblatex Warning: No driver for entry type 'software'.
-(biblatex)                Using fallback driver on input line 201.
-
+[74 <./Imagenes/extension_mongodatamodel.png>]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
 Package pdftex.def Info: logo_uniovi.png  used on input line 201.
-(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
-
-Package Fancyhdr Warning: \headheight is too small (30.0pt): 
- Make it at least 33.18587pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[74]
-File: logo_uniovi.png Graphic file (type png)
-<use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png  used on input line 205.
 (pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
 
@@ -2719,14 +2711,9 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [75]
-Appendix A.
-(./secciones/abkuerzungen.tex [76
-
-
-]
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png  used on input line 74.
+Package pdftex.def Info: logo_uniovi.png  used on input line 201.
 (pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
 
@@ -2735,11 +2722,18 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[77]) 
-AED: lastpage setting LastPage
+[76
+
+] [77
+
+]
+
+Package biblatex Warning: No driver for entry type 'software'.
+(biblatex)                Using fallback driver on input line 206.
+
 File: logo_uniovi.png Graphic file (type png)
 <use logo_uniovi.png>
-Package pdftex.def Info: logo_uniovi.png  used on input line 214.
+Package pdftex.def Info: logo_uniovi.png  used on input line 206.
 (pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
 Package Fancyhdr Warning: \headheight is too small (30.0pt): 
@@ -2748,14 +2742,33 @@ Package Fancyhdr Warning: \headheight is too small (30.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [78]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 214.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 214.
- (./TFG_Jacqueline.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 214.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 214.
-Package rerunfilecheck Info: File `TFG_Jacqueline.out' has not changed.
-(rerunfilecheck)             Checksum: D13DFA6A4293AF72A07D7B42A02964FD;6629.
+File: logo_uniovi.png Graphic file (type png)
+<use logo_uniovi.png>
+Package pdftex.def Info: logo_uniovi.png  used on input line 210.
+(pdftex.def)             Requested size: 40.97218pt x 33.18587pt.
 
+
+Package Fancyhdr Warning: \headheight is too small (30.0pt): 
+ Make it at least 33.18587pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[79] 
+AED: lastpage setting LastPage
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
+(./TFG_Jacqueline.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
+
+
+Package rerunfilecheck Warning: File `TFG_Jacqueline.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `TFG_Jacqueline.out':
+(rerunfilecheck)             Before: A1EFE6B33599552AD7E6FF4E3A45BE9E;6579
+(rerunfilecheck)             After:  959E572DD75A3901CFBD3E4A830522E4;6579.
 
 LaTeX Warning: There were undefined references.
 
@@ -2764,10 +2777,10 @@ Package logreq Info: Writing requests to 'TFG_Jacqueline.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30218 strings out of 492649
- 554537 string characters out of 6129622
- 979790 words of memory out of 5000000
- 33373 multiletter control sequences out of 15000+600000
+ 30206 strings out of 492649
+ 554282 string characters out of 6129622
+ 978658 words of memory out of 5000000
+ 33365 multiletter control sequences out of 15000+600000
  582485 words of font info for 55 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  44i,18n,51p,10378b,2465s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2784,10 +2797,10 @@ exmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2018/texmf-dist/f
 onts/type1/public/lm/lmri12.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1
 /public/lm/lmsy10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm
 /lmsy8.pfb>
-Output written on TFG_Jacqueline.pdf (89 pages, 2903308 bytes).
+Output written on TFG_Jacqueline.pdf (89 pages, 2903952 bytes).
 PDF statistics:
- 1538 PDF objects out of 1728 (max. 8388607)
- 1373 compressed objects within 14 object streams
- 337 named destinations out of 1000 (max. 500000)
- 774 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1533 PDF objects out of 1728 (max. 8388607)
+ 1368 compressed objects within 14 object streams
+ 336 named destinations out of 1000 (max. 500000)
+ 766 words of extra memory for PDF output out of 10000 (max. 10000000)
 
