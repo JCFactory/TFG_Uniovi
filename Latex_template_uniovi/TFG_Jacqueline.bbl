@@ -19,50 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{ncbi}{article}{}
-      \name{author}{2}{}{%
-        {{hash=87d9cd5f64746eaa6c3d338592fd4da9}{%
-           family={Ajami},
-           familyi={A\bibinitperiod},
-           given={Sima},
-           giveni={S\bibinitperiod}}}%
-        {{hash=45c45931c8cd2eef815bd0c1e5e6ad39}{%
-           family={Rajabzadeh},
-           familyi={R\bibinitperiod},
-           given={Ahmad},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{d0b3b851c069652d59c660086f96742f}
-      \strng{fullhash}{d0b3b851c069652d59c660086f96742f}
-      \strng{bibnamehash}{d0b3b851c069652d59c660086f96742f}
-      \strng{authorbibnamehash}{d0b3b851c069652d59c660086f96742f}
-      \strng{authornamehash}{d0b3b851c069652d59c660086f96742f}
-      \strng{authorfullhash}{d0b3b851c069652d59c660086f96742f}
-      \field{sortinit}{5}
-      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1735-1995}
-      \field{journaltitle}{J Res Med Sci}
-      \field{month}{9}
-      \field{number}{9}
-      \field{title}{Radio Frequency Identification ({RFID}) technology and patient safety}
-      \field{urlday}{12}
-      \field{urlmonth}{3}
-      \field{urlyear}{2018}
-      \field{volume}{18}
-      \field{year}{2013}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{809\bibrangedash 813}
-      \range{pages}{5}
-      \verb{urlraw}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872592/
-      \endverb
-      \verb{url}
-      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872592/
-      \endverb
-    \endentry
     \entry{henrici}{book}{}
       \name{author}{1}{}{%
         {{hash=10a6458f278e70fb53813dd1547208ff}{%
@@ -83,8 +39,8 @@
       \strng{authorbibnamehash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authornamehash}{10a6458f278e70fb53813dd1547208ff}
       \strng{authorfullhash}{10a6458f278e70fb53813dd1547208ff}
-      \field{sortinit}{6}
-      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{isbn}{978-3-540-79075-4}
@@ -125,8 +81,8 @@
       \strng{authorbibnamehash}{c3553e9bdf1673b3a853fa578d23298e}
       \strng{authornamehash}{c3553e9bdf1673b3a853fa578d23298e}
       \strng{authorfullhash}{c3553e9bdf1673b3a853fa578d23298e}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{6}
+      \field{sortinithash}{57e57fb8451e7fcfa45d1e069f6d3136}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{isbn}{978-3-642-11459-5}
@@ -138,6 +94,50 @@
       \field{dateera}{ce}
       \verb{file}
       \verb Tamm and Tribowski - 2010 - RFID.pdf:files/87/Tamm and Tribowski - 2010 - RFID.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{ncbi}{article}{}
+      \name{author}{2}{}{%
+        {{hash=87d9cd5f64746eaa6c3d338592fd4da9}{%
+           family={Ajami},
+           familyi={A\bibinitperiod},
+           given={Sima},
+           giveni={S\bibinitperiod}}}%
+        {{hash=45c45931c8cd2eef815bd0c1e5e6ad39}{%
+           family={Rajabzadeh},
+           familyi={R\bibinitperiod},
+           given={Ahmad},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{fullhash}{d0b3b851c069652d59c660086f96742f}
+      \strng{bibnamehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{authorbibnamehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{authornamehash}{d0b3b851c069652d59c660086f96742f}
+      \strng{authorfullhash}{d0b3b851c069652d59c660086f96742f}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1735-1995}
+      \field{journaltitle}{J Res Med Sci}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Radio Frequency Identification ({RFID}) technology and patient safety}
+      \field{urlday}{12}
+      \field{urlmonth}{3}
+      \field{urlyear}{2018}
+      \field{volume}{18}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{809\bibrangedash 813}
+      \range{pages}{5}
+      \verb{urlraw}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872592/
+      \endverb
+      \verb{url}
+      \verb https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3872592/
       \endverb
     \endentry
     \entry{casestudy}{book}{}
