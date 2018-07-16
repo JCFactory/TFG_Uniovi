@@ -1,15 +1,15 @@
 [0] Config.pm:302> INFO - This is Biber 2.11
 [1] Config.pm:305> INFO - Logfile is 'TFG_Jacqueline.blg'
-[109] biber-darwin:313> INFO - === lun jul 16, 2018, 18:01:15
+[111] biber-darwin:313> INFO - === lun jul 16, 2018, 19:15:44
 [176] Biber.pm:371> INFO - Reading 'TFG_Jacqueline.bcf'
-[438] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
-[471] Biber.pm:3976> INFO - Processing section 0
-[501] Biber.pm:4136> INFO - Looking for bibtex format file 'literatur.bib' for section 0
-[510] bibtex.pm:1500> INFO - LaTeX decoding ...
-[656] bibtex.pm:1316> INFO - Found BibTeX data source 'literatur.bib'
-[908] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[909] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[909] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en_US'
-[909] Biber.pm:3810> INFO - No sort tailoring available for locale 'en_US'
-[950] bbl.pm:617> INFO - Writing 'TFG_Jacqueline.bbl' with encoding 'UTF-8'
-[966] bbl.pm:720> INFO - Output to TFG_Jacqueline.bbl
+[440] Biber.pm:857> INFO - Found 19 citekeys in bib section 0
+[479] Biber.pm:3976> INFO - Processing section 0
+[510] Biber.pm:4136> INFO - Looking for bibtex format file 'literatur.bib' for section 0
+[517] bibtex.pm:1500> INFO - LaTeX decoding ...
+[664] bibtex.pm:1316> INFO - Found BibTeX data source 'literatur.bib'
+[923] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[923] UCollate.pm:68> INFO - Overriding locale 'en_US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[924] Biber.pm:3804> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en_US'
+[924] Biber.pm:3810> INFO - No sort tailoring available for locale 'en_US'
+[967] bbl.pm:617> INFO - Writing 'TFG_Jacqueline.bbl' with encoding 'UTF-8'
+[986] bbl.pm:720> INFO - Output to TFG_Jacqueline.bbl

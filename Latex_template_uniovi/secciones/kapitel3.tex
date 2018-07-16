@@ -43,7 +43,7 @@ This first concept was changed due to the use of the 'MongoDB' plugin, which off
 %talking about platforms in general, to get a common understanding 
 \section{Used platforms and technologies} \label{platforms}
 
-This section focusses on explaining the used technologies and frameworks for developping the mobile RFID application. Next, the framework 'NativeScript' which can be used for native mobile development will be explained. After that, section \ref{mongodb} discusses MongoDB, a document store. Finally, the Speedway Revolution RFID reader is presented. In the last section \ref{app_development} of this chapter the challenges as well as the user scenarios are shown. 
+This section focuses on explaining the used technologies and frameworks for developping the mobile RFID application. Next, the framework 'NativeScript' which can be used for native mobile development will be explained. After that, section \ref{mongodb} discusses MongoDB, a document store. Finally, the Speedway Revolution RFID reader is presented. In the last section \ref{app_development} of this chapter the challenges as well as the user scenarios are shown. 
 
 \subsection{Native Development with NativeScript} 
 
@@ -84,7 +84,7 @@ To search for plugins and to manage these, developers can use the Nativescript M
 
 \subsection{NoSQL Technology: MongoDB}\label{mongodb}
 
-As mentioned in section Document Store \c ref{Kap2}, this type of NoSQL database provides high availability, scalability and partitioning options \cite[p.25 ff.]{mongodb_edward}. Nevertheless, there are some disavantages when using MongoDB or any other document stores: For instance, both consistency and transactions are not supported. 
+NoSQL databases provide high availability, scalability and partitioning options \cite[p.25 ff.]{mongodb_edward}. Nevertheless, there are some disavantages when using MongoDB or any other document stores: For instance, both consistency and transactions are not supported. 
 
 In contrast to relational databases, MongoDB does not consist of tables and rows, but of collections containing documents which make it both flexible and scalable \cite[p.25 ff.]{mongodb_edward}. Collections can be compared to tables in SQL, but are schemaless. Instead of having one unique schema within the same collection, every document can have its own set of fields, and common fields can store different values across documents.  
 
@@ -99,11 +99,11 @@ Sharding means that data will be split across multiple machines which are enable
 
 \subsection{Speedway Revolution RFID reader}
 
-The developed system was tested and run on a Speedway R420 RAIN RFID READER \cite{speedway} with four antenna ports (extendable to 32 antennas with an Impinj Antenna Hub \cite{speedway}). According to the manufacturer's web page \cite{speedway}, the Speedway R420 RAIN RFID READER can be connected to Impinj Autopilot technology which automatically optimizes the reader's operation for its environment. A test software can be downloaded from the Impinj web page  \cite{speedway}.
+Concerning the implementation of the system, a Speedway R420 RAIN RFID READER \cite{speedway} with four antenna ports (extendable to 32 antennas with an Impinj Antenna Hub \cite{speedway}) was used. According to the manufacturer's web page \cite{speedway}, the Speedway R420 RAIN RFID READER can be connected to Impinj Autopilot technology which automatically optimizes the reader's operation for its environment. A test software can be downloaded from the Impinj web page  \cite{speedway}.
 
 \subsection{Matlab}
 
-According to Dr. Knuth's 'Art of Computer Programming', Matlab is an interpreted language, usually used without an compilation step \cite[lesson 1]{introduction_matlab}. Actually, the Matlab code is converted into machine code by an interpreter as the program is executed. Together with Java, Matlab counts to the high-level languages which on the one hand enables a faster code development but on the other hand limits the speed of execution. Matlab provides a large number of functions for common complicated operations in scientific computing (including engineering and analysis) and technical calculation.
+Matlab is an interpreted language, usually used without an compilation step \cite[lesson 1]{introduction_matlab}. Actually, Matlab code is converted into machine code by an interpreter as the program is executed. Together with Java, Matlab counts to the high-level languages which on the one hand enables a faster code development but on the other hand limits the speed of execution. Matlab provides a large number of functions for common complicated operations in scientific computing (including engineering and analysis) and technical calculation.
 
 Matlab provides important terminology, like e.g. variables (which contain three fundamental types: characters, real numbers, complex numbers), arguments, commands, command line, scripts, functions as well as comment \cite[lesson 1]{introduction_matlab}. 
 One of the most common features of Matlab is its 'Debugger' \cite[lesson 8]{introduction_matlab} which is very useful for detecting unobvious errors.
@@ -114,19 +114,19 @@ One of the most common features of Matlab is its 'Debugger' \cite[lesson 8]{intr
 
 The development process can be divided into four steps which will be described in the next section. 
 
-To begin with, during the very first weeks one work package was learning how to create a NativeScript application from scratch. This phase included making experience with the common NativeScript templates, views and framework logic as well as the data binding and data handling.
+To begin with, initial tasks were devoted to learn how to create a NativeScript application from scratch. This phase included getting familiarized with the common NativeScript templates, views and framework logic as well as the data binding and data handling.
 
-As a second work package, the challenge of how to connect the NativeScript application to the backend (MongoDB) was faced. As a first solution, the connection to the MongoDB server was implemented using HTTP request/response. But in reality, there might be at least two devices (used by a nurse or doctor) which have to be connected to the database. For that reason, a socket connection (using the Socket.IO library) was established. With this technology, it was possible to connect multiple clients to the server instance and to synchronize all data in real-time.
+As a second task, the challenge of how to connect the NativeScript application to the backend (MongoDB) was faced. As a first solution, the connection to the MongoDB server was implemented using HTTP request/response. But in reality, there might be at least two devices (used by a nurse or doctor) which have to be connected to the database. For that reason, a socket connection (using the Socket.IO library) was established. With this technology, it was possible to connect multiple clients to the server instance and to synchronize all data in real-time.
 
-After that, the third work package introduced the handling of Matlab, its connection to MongoDB and to the Impinj RFID reader. In order to connect to the RFID reader, the Impinj Octane SDK was used. Thus, it was possible to configure several parameters for each antenna of the reader. This enables a precise identification of each antenna as well as the precise location of each detected item or drug. To give an example, antenna 1 could be set as hallway or floor whereas antenna 2 stands for patient's room. 
+After that, the third task was the handling of Matlab, its connection to MongoDB and to the Impinj RFID reader. In order to connect to the RFID reader, the Impinj Octane SDK was used. Thus, it was possible to configure several parameters for each antenna of the reader. This enables a precise identification of each antenna as well as the precise location of each detected item or drug. To give an example, antenna 1 placed in the hallway, whereas antenna 2 could be installed on the patient's room. 
 Concerning the connection between RFID reader and MongoDB, there is a MongoDB plugin for Matlab. This provides several methods to connect to a MongoDB server and to retrieve and change the data from a specific database. Concluding these two implemented functionalities, Matlab serves both as a detection and information medium.
 
-The last large work package refers to the challenge of establishing a stable connection between all components (RFID reader, MongoDB database, NativeScript application and mobile devices). Therefore, two networks had to be created. The first network (LAN) connects the development laptop (MacOS), where both the NativeScript application and MongoDB database are running, to the Windows PC, where Matlab is running. Due to the use of .NET libraries in Impinj Octane SDK, Matlab had to be installed on a Windows PC. Another solution would be to run Windows on a VM on the MacOS developer machine (MacBook Pro Spring 2015, operating system: macOS High Sierra 10.13.5, RAM: 8 GB, Internal Storage: 128 GB), but unfortunately the RAM as well as disk space restricted the functionality of the VM. The second network that was installed was a private WLAN which connected all mobile devices (smartphones and tablets) with the MacOS developer machine. This connection enables receiving and transfering all data from the MongoDB database into the mobile app. To be precisely, the WLAN provides a secure connection to all mobile devices by using a \ac{WPA2}.
+The last large task refers to the challenge of establishing a stable connection between all components (RFID reader, MongoDB database, NativeScript application and mobile devices). Therefore, two networks had to be created. The first network (LAN) connects the development laptop (MacOS), where both the NativeScript application and MongoDB database are running, to the Windows PC, where Matlab is running. Due to the use of .NET libraries in Impinj Octane SDK, Matlab had to be installed on a Windows PC. Another solution would be to run Windows on a VM on the MacOS developer machine (MacBook Pro Spring 2015, operating system: macOS High Sierra 10.13.5, RAM: 8 GB, Internal Storage: 128 GB), but unfortunately the RAM as well as disk space restricted the functionality of the VM. The second network that was installed was a private WLAN which connected all mobile devices (smartphones and tablets) with the MacOS developer machine. This connection enables receiving and transfering all data from the MongoDB database into the mobile app. To be precisely, the WLAN provides a secure connection to all mobile devices by using a \ac{WPA2}.
 
 \subsubsection{Challenges during development} \label{challenge}
 
-During the development, many difficulties and challenges had been faced. The following section focusses on some problems during development.
-To start with, the setup of the development environment of a NativeScript application was complicating because for example on Windows computers there cannot be installed XCode. So, the only solution to develop and run the application both on Android and iOS devices was to use a MacOS computer or to execute the application on Nativescript Sidekick (using its cloud build service).  
+During the development, many difficulties and challenges were faced. The following section focuses on some problems during development.
+To start with, the setup of the development environment of a NativeScript application was complex because for example on Windows computers XCode cannot be installed. So, the only solution to develop and run the application both on Android and iOS devices was to use a MacOS computer or to execute the application on Nativescript Sidekick (using its cloud build service).  
 
 Another challenge was the real-time synchronization of the mobile application with MongoDB server was difficult. Firstly, a HTTP request/response was implemented to connect the mobile device with the RFID reader and the database. Furthermore, refreshing the page was not automated. Thus, another solution had to be considered. Finally, a Socket.IO connection was implemented between both server and client. Socket.IO enables automatic two-way data synchronization and cannot be compared to HTTP Request/Response. By opening a Socket connection between the server and all clients, it was possible to run the application on various mobile devices without any complication. 
 
@@ -134,9 +134,10 @@ After that, another complication was the connection between MongoDB, Matlab and 
 
 \subsubsection{User Scenario}
 
-Figure \ref{fig:appfunctionality} gives an example of a user scenario. The figure shows two treatment rooms in a hospital, both equipped with a RFID antenna. In the hallway, there are two additional antennas which are connected to the RFID reader. When passing one room, the nurse or doctor will roll a trolley with the needed drugs (all marked with a RFID tag). If the trolley is near to the RFID antenna \#4, it will send the current drug information to the RFID reader which synchronizes them with the computer and the tablet or smartphone. When entering a treatment room, RFID antenna \#3 or \#2 receive the tag's information and synchronize them similarly as before.
+Figure \ref{fig:appfunctionality} gives an example of a user scenario. The figure shows two hospitalization rooms in a hospital, both equipped with a RFID antenna. Two additional antennas were placed outside the rooms in the hallway, also connected to the RFID reader. Nurses or doctors will roll a trolley with the drugs and medications (all marked with a RFID tag) that have to be adminstered to the patients. If the trolley is near to a RFID antenna, information about RFID tags detected is sent to the RFID reader, which updates the information stored in the computer and the
+tablet or smartphone.
 
-At the bottom of the figure, there can be seen a intranet/internet connection. This means, that the system can be both set up in the local intranet (which enables a higher privacy and security) as well as in the internet. In the end, each RFID antenna can signify a different action, e.g. antenna \#4 = 'medication will be administered', antenna \#3 and \#2 = 'medication is dosed to patient X', \#1 = 'medication has been dosed successfully'.
+At the bottom of the figure, it can be seen a intranet/internet connection. This means that the system can be both set up in the local intranet (which enables a higher privacy and security) as well as in the internet. In the end, each RFID antenna can have associated a different event or action, e.g. antenna \#4 = 'medication will be administered', antenna \#3 and \#2 = 'medication is dosed to patient X', \#1 = 'medication has been dosed successfully'.
 
 \begin{figure}
 \centering
@@ -144,11 +145,11 @@ At the bottom of the figure, there can be seen a intranet/internet connection. T
 \caption{\label{fig:appfunctionality}User scenario of RFID application} 
 \end{figure}
 
-Figure \ref{fig:app_screenshot} shows three screenshots of the developed application. The left picture shows the start screen containing a list of all drugs which were detected by the RFID reader and are stored in the database. The screenshot in the middle shows the screen after selecting one drug of the start page. It gives further information of the selected item. Each drug is stored with an 'ID' (which is the same as the RFID tag number). The 'Countrycode' attribute refers to the country-specific number of each drug. For example, in Germany 'Aspirin' has a specific unique code which is called \ac{PZN}, and contains a 7- or 8-place number (e.g. 04114918). The 'Location' attribute describes the exact location of a drug and refers to the location system in the stock (e.g. in pharmacies). The information 'Timestamp' refers to the last time a drug was detected. The value on the right side of 'Timestamp' is the default value for storing timestamps in MongoDB. If another date format is required, this can be easily defined in the MongoDB schema definition. The last information about the selected drug, named 'Event', represents the information about a drug being detected by one of the antennas or administered to a patient. If the nurse or doctor selects the button 'Administer to patient', the system checks, if the selected drug is permitted to be administered to the patient in the room or not. If it is permitted, the information about the administered drug will be stored in the database and the content of the 'Event' changes to 'Administered to patient in room XX'.
+Figure \ref{fig:app_screenshot} shows three screenshots of the developed application. The left picture shows the initial window containing a list of all drugs which were detected by the RFID reader and are stored in the database. The screenshot in the middle shows the screen after selecting one drug of the start page. It gives further information of the selected item. Each drug is stored with an 'ID' (which is the same as the RFID tag number). The 'Countrycode' attribute refers to the country-specific number of each drug. For example, in Germany 'Aspirin' has a specific unique code which is called \ac{PZN}, and contains a 7- or 8-place number (e.g. 04114918). The 'Location' attribute describes the exact location of a drug and refers to the location system in the stock (e.g. in pharmacies). The information 'Timestamp' refers to the last time a drug was detected. The value on the right side of 'Timestamp' is the default value for storing timestamps in MongoDB. If another date format is required, this can be easily defined in the MongoDB schema definition. The last information about the selected drug, named 'Event', represents the information about a drug being detected by one of the antennas or administered to a patient. If the nurse or doctor selects the button 'Administer to patient', the system checks, if the selected drug is permitted to be administered to the patient in the room or not. If it is permitted, the information about the administered drug will be stored in the database and the content of the 'Event' changes to 'Administered to patient in room XX'.
 
 \begin{figure}
 \centering
-\subfigure[Start page of application]{\includegraphics[width=4cm, height=8cm]{Mainview}}
+\subfigure[Initial page of application]{\includegraphics[width=4cm, height=8cm]{Mainview}}
 \subfigure[Item information page]{\includegraphics[width=4cm, height=8cm]{Detailview}}
 \subfigure[Information about administered drug to patient]{\includegraphics[width=4cm, height=8cm]{administeredView}}
 \caption{\label{fig:app_screenshot}Layout of application, Screenshot of iOS Simulator}
@@ -156,7 +157,7 @@ Figure \ref{fig:app_screenshot} shows three screenshots of the developed applica
 
 \subsection{Software Architecture} \label{section_architecture}
 
-The following section focusses on the system's architecture which can be seen on figure \ref{fig:apparchitecture}. In the top right corner, the drugs and patients which can be tagged with a RFID tag are displayed. When approximating an antenna of a RFID reader, information about medication (e.g. stock availability ect.) are transmitted. At the same time, the RFID reader registers the detected tag and captures its information using Matlab. Matlab synchronizes the transmitted information with the MongoDB database. When receiving current drug information, the server instance sends the data through a Socket.IO connection to the client (smartphone or tablet). Synchronously, all data is transmitted and displayed on the mobile device.
+The following section focuses on the system's architecture which can be seen on figure \ref{fig:apparchitecture}. In the top right corner, the drugs and patients which can be tagged with a RFID tag are displayed. When approaching an antenna, information about medication (e.g. stock availability ect.) is transmitted. At the same time, the RFID reader registers the detected tag and captures its information using Matlab. Matlab synchronizes the transmitted information with the MongoDB database. When receiving current drug information, the server instance sends the data through a Socket.IO connection to the client (smartphone or tablet). Synchronously, all data is transmitted and displayed on the mobile device.
 
 \begin{figure}
 \centering
@@ -192,7 +193,7 @@ The purpose of the second local network between laptop and mobile devices is to 
 
 \subsubsection{Reading Process in Matlab}
 
-The following section focusses on the reading process which is implemented in Matlab. Matlab uses the Impinj Octane SDK \cite{octanesdk} which easily connects the RFID reader to Matlab. The usual reading process in Matlab can be seen in figure \ref{fig:reading_matlab}. In the top left corner of figure \ref{fig:reading_matlab}, after starting the Matlab code, a setup method triggers the initialize method. 
+The following section focuses on the reading process which is implemented in Matlab. Matlab uses the Impinj Octane SDK \cite{octanesdk} which easily connects the RFID reader to Matlab. The usual reading process in Matlab can be seen in figure \ref{fig:reading_matlab}. In the top left corner of figure \ref{fig:reading_matlab}, after starting the Matlab code, a setup method triggers the initialize method. 
 
 After initializing, Matlab starts reading tags during a predefined time (t). Every time a RFID tag is read, the method eventhandlerChanged() is executed. EventhandlerChanged() notices the changes in the detected tags and triggers a new action 'store data'. After that, analogous to the first concept of the system (see section \ref{firstconcept}), the *.mat data is converted into *.csv data and as such exported. In the most current version of the system, the two last actions (conversion and export) are brought together and data is directly transfered into the MongoDB database. 
 
@@ -204,13 +205,14 @@ After initializing, Matlab starts reading tags during a predefined time (t). Eve
 
 \section{Tests of system}\label{tests}
 
-\ac{HUCA} which is situated in Oviedo, was created in 13 December 1989 and depends on the 'Servicio de Salud del Principado de Asturias' \cite{huca}. Since 28 February 1990, HUCA has the character of an University Hospital due to the cooperation with the university of Oviedo as well as 'Insalud' and Principado de Asturias, established in 'la Orden'. 
-HUCA provides 944 beds, 25 operating suites, 238 rooms for external surgical as well as two gamma cameras (\ac{SPECT}/\ac{TC}) \cite{huca}. Altogether, HUCA is divided into 43 medical subjects, such as alergology, clinical analysis, clinical biochemistry, surgery, Nephrology, Neurology, Rehabilitation, prevention of work-related risks, radiodiagnostics etc. 
+\ac{HUCA} located in Oviedo, depends on the 'Servicio de Salud del Principado de Asturias' \cite{huca}. Since 28 February 1990, HUCA has been accredited as University Hospital University Hospital due to the cooperation with the university of Oviedo.
+
+HUCA provides 944 beds, 25 operating suites, 238 rooms for external surgical as well as two gamma cameras (\ac{SPECT}/\ac{TC}) \cite{huca}. Altogether, HUCA is divided into 43 medical services, such as alergology, clinical analysis, clinical biochemistry, general surgery, Nephrology, Neurology, Rehabilitation, prevention of work-related risks, radiodiagnostics etc. 
 
 Besides, HUCA forms a part of the 'unit of national reference for work-related illnesses of the respiratory system'. Together with the 'Hospital Monte Naranco', 'hospital del Área Sanitaria IV' and with reference to \ac{SESPA} 'Servicio de Salud del Principado de Asturias' and finally the 'Instituto Nacional de Silicosis', HUCA promotes research on the subject of respiratory disease and its preventions measures.
 
-Figure \ref{fig:permission} shows the permission letter, signed by the director Gloria Herías Correal of HUCA on 8 May 2018 in Oviedo.
-The tests are planned for June 2018, an exact date is not fixed already (effective 18 May 2018). 
+Figure \ref{fig:permission} shows the permission letter, signed by the director Gloria Herías Corral of HUCA on 8 May 2018 in Oviedo.
+Tests were conducted in June 2018.
 
 \begin{figure}
 \centering
@@ -222,8 +224,8 @@ The tests are planned for June 2018, an exact date is not fixed already (effecti
 
 \subsubsection{Test scenario}
 
-The following section describes a test scenario which is planned to be administered in HUCA. 
-To begin with, given the situation of a nurse which has to administer several drugs to many patients in a hospital. In the past, there where many cases, where nurses dismissed or administered medication to patients incorrectly. To prevent those errors and to improve patient's safety, the nurse can control and capture each time she is administering a drug to a patient. The system will check if the selected drug (which was detected in the patient's room) is valid and if it can be administered to the patient. For example, the nurse is walking with a transport trolley (containing several drugs) on the hallway of a department in the hospital. On the hallway, there are two antennas which are connected to a reader installed nearby. When passing these antennas, the detected drugs will be automatically stored into the MongoDB database and displayed on the mobile phone or tablet. 
+The following section describes a test scenario. 
+The system is devoted to be used in a context where a nurse has to administer several drugs to many patients in a hospital. With the proposed system, the nurse can control and capture each time she is administering a drug to a patient. The system will check if the selected drug (which was detected in the patient's room) is valid and if it can be administered to the patient. For example, the nurse is walking with a trolley (containing several drugs) on the hallway of a department in the hospital. On the hallway, there are two antennas which are connected to a reader installed nearby. When passing close to antennas, the detected drugs will be automatically stored into the MongoDB database and displayed on the mobile phone or tablet. 
 When entering the patient's room, a second antenna detects the drugs and transmits the signal to the reader which receives the information about the location of the drug ('drug X detected in room 314'). After that, if the nurse wants to administer a drug, the system checks whether it was already administered and whether it is permissible. After having administered the selected drug, the event will change to 'already administered in room X' and will be stored in the database. 
 
 \subsubsection{Functional tests}
@@ -239,10 +241,10 @@ The successful test results can be seen in figure \ref{fig:s3_screenshots}. The 
 
 \begin{figure}
 \centering
-\subfigure{\includegraphics[width=0.475\textwidth]{s3_01}}
-\subfigure{\includegraphics[width=0.475\textwidth]{s3_02}}
-\subfigure{\includegraphics[width=0.475\textwidth]{s3_03}}
-\subfigure{\includegraphics[width=0.475\textwidth]{s3_04}}
+\subfigure{\includegraphics[width=6cm, height=10cm]{s3_01}}
+\subfigure{\includegraphics[width=6cm, height=10cm]{s3_02}}
+\subfigure{\includegraphics[width=6cm, height=10cm]{s3_03}}
+\subfigure{\includegraphics[width=6cm, height=10cm]{s3_04}}
 \caption{\label{fig:s3_screenshots} Test screenshots, Samsung S3 GT I9300}
 \end{figure}
 
@@ -250,11 +252,23 @@ The successful test results can be seen in figure \ref{fig:s3_screenshots}. The 
 
 \subsection{Evaluation of test results}
 
-During the first tests in the HUCA on Monday, the 25 of June 2018, some small features of the application were noticed negatively. For instance, the "real-time" synchronization between the mobile device and the database. The reading process of the RFID reader and the following insertion process into the database did work without problems, but the Socket.IO connection between the mobile client and the database server has to be optimized. Moreover, the feature of pulling down the app to refresh all data turned out to be rather obstructive than useful. To solve this problem, a function which automatically reloads the app's main page has to be implemented. These two features will be optimized until the next test in the HUCA until the 04 or 05 of July.
+During the first tests in the HUCA on Monday, on 25/06/2018, some small features of the application were noticed negatively. For instance, the "real-time" synchronization between the mobile device and the database. The reading process of the RFID reader and the following insertion process into the database did work without problems, but the Socket.IO connection between the mobile client and the database server has to be optimized. Moreover, the feature of pulling down the app to refresh all data turned out to be rather obstructive than useful. To solve this problem, a function which automatically reloads the app's main page has to be implemented. These two features have been successfully fixed in the latest version of the application.
 
-\section{Summary and Outlook of application}
+\section{Conclusions and further work}
 
-The developed application can be extended in many ways. Next the three most important extension points will be outlined.
+\subsection{Conclusions}
+
+As mentioned at the beginning of this chapter \ref{requirements}, the aim of this Bachelor Thesis is to improve logistics and the management of drugs in hospitals. By implementing a hybrid mobile application and connecting it to a MongoDB database, a very scalable as well as easy to use solution is purposed.
+By implementing a real-time Socket.IO connection between clients and the database server medical staff can check the location and availability of drugs.
+The given system offers a secure, approved solution to control the correct administration of drugs to each patient by checking the permission on the server-side. If a drug has been administrated successfully to a patient, it is not possible to repeat the administration. 
+Moreover, using a 868 MHz frequency band drugs located on the same floor can be detected. To use the system, drugs need to be tagged with a RFID tag. 
+In addition to that, the proposed solution replaces the paper-based administration of drugs to patients and prevents a duplicate administration of drugs or other errors.
+Furthermore, the developed system has been established independently from any existing hospital information systems. Therefore, there is no preparation needed for the deployment in any department of hospitals.
+To conclude, the given system can also be deployed in other contexts, like for example in schools or universities in order to check the attendance of students in exams (e.g. each student has a unique student's card which is tagged with a RFID tag).
+
+\subsection{Further work}
+
+The developed application can be extended in many ways, that will be described next.
 
 During testing in the HUCA, a nurse mentioned that when administering drugs to patients, she usually has to carry a medicine trolley with several containers, each for a specific patient. Actually, most of the patients in a hospital have to take more than only one drug which has to be organized in a list. In the past, the nurses had to manually check the patient related medication on a paper.
 So, in future it would be very useful to divide the application into different sections which are related to a specific patient. This also implies, to change the format of the stored data. To be precisely, each patient could be stored in the MongoDB database as a top level document and contains various subdocuments which are his drugs. Since the structure of these drug documents already exists in the developed application, it would be very easy to adopt and implement that solution. Another possibility would be to connect the application to each electronic patient record, which can be seen in figure \ref{fig:newdatamodel}. Consequently, each patient can be easily identified with its medication list.

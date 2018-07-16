@@ -11,12 +11,12 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces The MVVM application logic, adopted from \cite {nativescript}\relax }}{41}{figure.caption.51}
 \contentsline {figure}{\numberline {3.5}{\ignorespaces User scenario of RFID application\relax }}{47}{figure.caption.56}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Layout of application, Screenshot of iOS Simulator\relax }}{48}{figure.caption.58}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Start page of application}}}{48}{figure.caption.58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Initial page of application}}}{48}{figure.caption.58}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Item information page}}}{48}{figure.caption.58}
 \contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Information about administered drug to patient}}}{48}{figure.caption.58}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces The developed system architecture of the mobile RFID application\relax }}{49}{figure.caption.59}
 \contentsline {figure}{\numberline {3.8}{\ignorespaces Applied data model\relax }}{50}{figure.caption.60}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces The LAN architecture of the developed system\relax }}{52}{figure.caption.61}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The LAN architecture of the developed system\relax }}{51}{figure.caption.61}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces Activity diagram: reading process in Matlab\relax }}{53}{figure.caption.62}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces Permission letter about application tests in HUCA\relax }}{55}{figure.caption.67}
 \contentsline {figure}{\numberline {3.12}{\ignorespaces Test screenshots, Samsung S3 GT I9300\relax }}{57}{figure.caption.68}
