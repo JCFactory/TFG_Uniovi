@@ -63,15 +63,11 @@ All in all, readers are able to query tags and to read and write tag data. But t
 
 As Henrici \cite{henrici} mentions, the backend can be divided into two parts: Middleware and applications. Both of them run on the same computer within the same network which is important for the permanent connection to RFID readers and all existing tags. The advantages of a middleware in this use are that no adaption of appications is needed, an open and neutral interface for other applications is provided. Besides, as the middleware is used to aggregate and filter data, the tags only have to identify objects. As a result, modularity of the system is maintained.
 
-\paragraph{RFID Middleware}
-
 The RFID middleware can be defined as follows: '[...] the software component for preparation and deployment of RFID data which enables the integration of RFID readers and further infrastructure into the operational application systems [...]' \cite[p.20 ff.]{fokus}. According to this definition, there have to be considered three fundamental functions of the middleware: Reassessment, Aggregation and Tranformation. 
 
 To start with, during the reassessment, all received data from the antennas can be redundant or flawed. This redundancy is caused by different antennas detecting the same RFID transponder at a time or because one RFID transponder has been detected multiple times during one time frame. Flawed means that transponders were not detected in the intended field or they were detected incorrectly. In second place, aggregation defines the process of summaring all contextual information into one single RFID information ('together into one'). In third place, the term 'transformation' is used by syntactic and semantic means. 
 
 To come to a conclusion, the RFID middleware improves the management of readers by abstracting from technical details. Furthermore, it provides a scalable solution which reduces the unneeded complexity which is transmitted to the users \cite[p.20 ff.]{fokus}.   
-
-\paragraph{Data storage concepts}
 
 Concerning the data management of RFID systems, Tamm and Tribowski suggest three general concepts of storing tag-specific data: 'Data-on-Tag', hybride forms and 'Data-on-Network' \cite[p.22 ff.]{fokus}. 'Data-on-Tag' is a highly recommended method because of the decentral data storage. It improves the user's privacy accessing object-referred information. Moreover, the 'Data-on-Tag' strategy is useful if only relevant and necessary information are contemporarily needed. In addition to that, if the system is not available, the processes can be executed with the tag's information.
 Furthermore, 'Data-on-Tag' brings many advantages with it like for instance a raised reliability of the entire system because the processes are decoupled from central system components. 
