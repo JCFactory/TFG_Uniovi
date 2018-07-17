@@ -69,4 +69,4 @@
 \contentsline {section}{\numberline {4.1}Conclusions}{59}{section.4.1}
 \contentsline {section}{\numberline {4.2}Further work}{60}{section.4.2}
 \contentsline {chapter}{\numberline {A}Estimate of costs}{66}{appendix.A}
-\contentsline {chapter}{\numberline {B}Gantt Chart}{67}{appendix.B}
+\contentsline {chapter}{\numberline {B}Gantt chart}{67}{appendix.B}
